@@ -1,0 +1,70 @@
+name: Refresh metrics table
+
+# Weekly precompute of the whole-universe metrics table that powers fincalc-mcp's
+# instant screen_funds. Runs the private build code (fincalc-mcp) on GitHub's clean
+# IP — mfapi fetches are ~0.3s here vs ~6-10s locally behind corporate TLS — and
+# publishes only the derived metrics data back to this public repo (served via CDN).
+
+on:
+  schedule:
+    - cron: "0 2 * * 0"        # every Sunday 02:00 UTC
+  workflow_dispatch:            # manual trigger (with an optional test limit)
+    inputs:
+      limit:
+        description: "Cap funds (0 = all). Set a small number for a quick test run."
+        required: false
+        default: "0"
+
+permissions:
+  contents: write               # commit metrics.min.json.gz back to this repo
+
+concurrency:                    # never let two refreshes overlap
+  group: refresh-metrics
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180        # full universe ~1-1.5 hr; hard cap well under the 6h limit
+    steps:
+      - name: Checkout fincalc-data (this repo)
+        uses: actions/checkout@v4
+
+      - name: Checkout private build code (fincalc-mcp, read-only deploy key)
+        uses: actions/checkout@v4
+        with:
+          repository: abhijain864/fincalc-mcp
+          ssh-key: ${{ secrets.MCP_DEPLOY_KEY }}
+          path: fincalc-mcp
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v5
+
+      - name: Build metrics table
+        working-directory: fincalc-mcp
+        run: |
+          set -euo pipefail
+          LIMIT="${{ github.event.inputs.limit || '0' }}"
+          if [ "$LIMIT" != "0" ]; then
+            echo "TEST RUN: first $LIMIT funds"
+            uv run --with-editable . python scripts/build_metrics.py \
+              --limit "$LIMIT" --out src/fincalc_mcp/data/metrics.min.json.gz
+          else
+            echo "FULL RUN: whole universe"
+            uv run --with-editable . python scripts/build_metrics.py
+          fi
+
+      - name: Publish metrics.min.json.gz to fincalc-data
+        run: |
+          set -euo pipefail
+          cp fincalc-mcp/src/fincalc_mcp/data/metrics.min.json.gz metrics.min.json.gz
+          ls -la metrics.min.json.gz
+          git config user.name "fincalc-ci"
+          git config user.email "fincalc-ci@users.noreply.github.com"
+          git add metrics.min.json.gz
+          if git diff --cached --quiet; then
+            echo "No change in metrics table; nothing to commit."
+          else
+            git commit -m "chore: metrics refresh $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi
