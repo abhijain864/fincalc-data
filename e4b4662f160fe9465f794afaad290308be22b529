@@ -1,0 +1,23 @@
+.github/workflows/refresh-metrics.yml
+  bf0ead6ab5d89d66 1-70
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.15",
+  "base_commit_sha": "e4b4662f160fe9465f794afaad290308be22b529",
+  "prompts": {
+    "bf0ead6ab5d89d66": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d090fb82-c2c0-43ee-a22d-08430d4045f4",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Abhishek Jain <abhishek.jain@1mg.com>",
+      "messages": [],
+      "total_additions": 70,
+      "total_deletions": 0,
+      "accepted_lines": 70,
+      "overriden_lines": 0
+    }
+  }
+}
