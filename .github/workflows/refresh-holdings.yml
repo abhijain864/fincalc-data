@@ -1,0 +1,90 @@
+name: Refresh holdings tables
+
+# Weekly precompute of the portfolio-composition tables that let fincalc-mcp answer
+# "funds with >=20% in banks and >=30% in pharma, and sortino > 1.2".
+#
+# Deliberately SEPARATE from refresh-metrics: different upstream (finapi, not mfapi),
+# different coverage (~94% — index/passive and brand-new funds aren't published), and
+# a different failure mode. The metrics table must never break because holdings did.
+#
+# Runs AFTER the metrics refresh, because the build drives its universe off the
+# freshly published metrics table so the two join 1:1 by scheme code.
+#
+# Publishes two files:
+#   sectors.min.json.gz   (~150 KB) sector weights + AUM/expense/cap-mix — always loaded
+#   holdings.min.json.gz  (~1 MB)   per-stock rows — loaded lazily, on demand
+
+on:
+  schedule:
+    - cron: "0 4 * * 0"         # Sundays 04:00 UTC — ~2h after the metrics refresh starts
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Cap funds (0 = all). Set a small number for a quick test run."
+        required: false
+        default: "0"
+      rate:
+        description: "Max requests/second to finapi (kept gentle — it's a free API)."
+        required: false
+        default: "4"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-holdings
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - name: Checkout fincalc-data (this repo)
+        uses: actions/checkout@v4
+
+      - name: Checkout private build code (fincalc-mcp, read-only deploy key)
+        uses: actions/checkout@v4
+        with:
+          repository: abhijain864/fincalc-mcp
+          ssh-key: ${{ secrets.MCP_DEPLOY_KEY }}
+          path: fincalc-mcp
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v5
+
+      - name: Build holdings + sectors tables
+        working-directory: fincalc-mcp
+        run: |
+          set -euo pipefail
+          LIMIT="${{ github.event.inputs.limit || '0' }}"
+          RATE="${{ github.event.inputs.rate || '4' }}"
+          if [ "$LIMIT" != "0" ]; then
+            echo "TEST RUN: first $LIMIT funds"
+            uv run --with-editable . python scripts/build_holdings.py \
+              --limit "$LIMIT" --rate "$RATE" --out src/fincalc_mcp/data/holdings.min.json.gz
+            # a --out run writes <base>.sectors/.holdings — normalise to the real names
+            mv src/fincalc_mcp/data/holdings.min.sectors.json.gz \
+               src/fincalc_mcp/data/sectors.min.json.gz
+            mv src/fincalc_mcp/data/holdings.min.holdings.json.gz \
+               src/fincalc_mcp/data/holdings.min.json.gz
+          else
+            echo "FULL RUN: whole universe"
+            uv run --with-editable . python scripts/build_holdings.py --rate "$RATE"
+          fi
+
+      - name: Publish composition tables to fincalc-data
+        run: |
+          set -euo pipefail
+          cp fincalc-mcp/src/fincalc_mcp/data/sectors.min.json.gz  sectors.min.json.gz
+          cp fincalc-mcp/src/fincalc_mcp/data/holdings.min.json.gz holdings.min.json.gz
+          ls -la sectors.min.json.gz holdings.min.json.gz
+          git config user.name "fincalc-ci"
+          git config user.email "fincalc-ci@users.noreply.github.com"
+          git add sectors.min.json.gz holdings.min.json.gz
+          if git diff --cached --quiet; then
+            echo "No change in composition tables; nothing to commit."
+          else
+            git commit -m "chore: holdings refresh $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi
