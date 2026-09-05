@@ -1,0 +1,158 @@
+name: Refresh portfolio tables
+
+# Monthly rebuild of the composition tables that let fincalc-mcp answer
+# "funds with >=20% in banks and >=30% in pharma, and sortino > 1.2".
+#
+# Replaces refresh-holdings.yml, whose upstream (finapi) stopped returning
+# holdings entirely. Source is now the statutory monthly portfolio workbooks
+# AMCs file with SEBI, plus AMFI for expense ratios and NSE for benchmark series.
+#
+# MONTHLY, not weekly: SEBI's deadline is 10 days after month end, so anything
+# more frequent just re-reads the same filing. Runs on the 12th for buffer.
+#
+# Pack URLs are month-specific, so discovery is step 1 of every run -- a
+# committed registry is stale the moment a new month is filed.
+#
+# Publishes:
+#   industries.min.json.gz  (~70 KB)  industry weights + AUM/holdings scalars
+#   portfolios.min.json.gz  (~1 MB)   per-stock rows with ISIN, qty, value
+#   ter.min.json.gz         (~25 KB)  expense ratio by scheme code (AMFI)
+#   benchmarks.json                   scheme -> stated benchmark
+#   scheme_codes.json                 scheme name -> AMFI codes
+
+on:
+  schedule:
+    - cron: "0 5 12 * *"        # 12th, 05:00 UTC -- after the 10-day SEBI deadline
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Cap AMCs (0 = all). Small number for a quick test run."
+        required: false
+        default: "0"
+      skip_tri:
+        description: "Skip the NSE benchmark backfill (slow; rarely changes)."
+        required: false
+        default: "true"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-portfolios
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - name: Checkout fincalc-data (this repo)
+        uses: actions/checkout@v4
+
+      - name: Checkout private build code (fincalc-mcp, read-only deploy key)
+        uses: actions/checkout@v4
+        with:
+          repository: abhijain864/fincalc-mcp
+          ssh-key: ${{ secrets.MCP_DEPLOY_KEY }}
+          path: fincalc-mcp
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v5
+
+      # Step 1 of every run: pack URLs are month-specific and go stale.
+      - name: Discover current pack URLs
+        working-directory: fincalc-mcp
+        run: |
+          set -euo pipefail
+          uv run --with-editable . python scripts/discover_amc_packs.py
+
+      - name: Extract benchmarks and scheme names
+        working-directory: fincalc-mcp
+        run: |
+          set -euo pipefail
+          LIMIT="${{ github.event.inputs.limit || '0' }}"
+          ARGS=""
+          [ "$LIMIT" != "0" ] && ARGS="--limit $LIMIT"
+          uv run --with-editable . --with openpyxl --with xlrd \
+            python scripts/build_benchmarks.py $ARGS
+
+      - name: Map benchmarks to NSE indices
+        working-directory: fincalc-mcp
+        run: |
+          set -euo pipefail
+          uv run --with-editable . python scripts/build_nse_indices.py
+          uv run --with-editable . python scripts/build_benchmark_map.py
+
+      - name: Join scheme names to AMFI codes
+        working-directory: fincalc-mcp
+        run: |
+          set -euo pipefail
+          uv run --with-editable . python scripts/build_scheme_codes.py
+
+      - name: Extract holdings
+        working-directory: fincalc-mcp
+        run: |
+          set -euo pipefail
+          LIMIT="${{ github.event.inputs.limit || '0' }}"
+          ARGS=""
+          [ "$LIMIT" != "0" ] && ARGS="--limit $LIMIT"
+          uv run --with-editable . --with openpyxl --with xlrd \
+            python scripts/build_portfolios.py $ARGS
+
+      - name: Build expense-ratio table (AMFI)
+        working-directory: fincalc-mcp
+        run: |
+          set -euo pipefail
+          uv run --with-editable . --with openpyxl python scripts/build_ter.py
+
+      # Index history barely changes and the fetch is slow, so it is opt-in.
+      - name: Backfill benchmark TRI series (NSE)
+        if: ${{ github.event.inputs.skip_tri != 'true' }}
+        working-directory: fincalc-mcp
+        run: |
+          set -euo pipefail
+          uv run --with-editable . python scripts/build_tri.py
+
+      # A run that lost most of its coverage is an upstream problem, not a real
+      # change in what funds disclose. Publishing it would silently degrade
+      # every composition screen, so fail instead and keep serving last month.
+      - name: Guard against a degraded build
+        working-directory: fincalc-mcp
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import gzip, json, os, sys
+          new = json.load(gzip.open("src/fincalc_mcp/data/industries.min.json.gz"))
+          n_new = len(new.get("weights") or {})
+          prev_path = "../industries.min.json.gz"
+          n_old = 0
+          if os.path.exists(prev_path):
+              n_old = len(json.load(gzip.open(prev_path)).get("weights") or {})
+          print(f"portfolios: {n_old} published -> {n_new} built")
+          if n_new < 200:
+              sys.exit(f"ABORT: only {n_new} portfolios built; upstream looks broken")
+          if n_old and n_new < 0.90 * n_old:
+              sys.exit(f"ABORT: coverage fell {n_old} -> {n_new} (>10%); not publishing")
+          PY
+
+      - name: Publish tables to fincalc-data
+        run: |
+          set -euo pipefail
+          cd fincalc-mcp/src/fincalc_mcp/data
+          for f in industries.min.json.gz portfolios.min.json.gz ter.min.json.gz \
+                   benchmarks.json scheme_codes.json benchmark_map.json nse_indices.json; do
+            [ -f "$f" ] && cp "$f" "$GITHUB_WORKSPACE/$f"
+          done
+          # TRI is only rebuilt when the step runs; keep the published copy otherwise.
+          [ -f tri.min.json.gz ] && cp tri.min.json.gz "$GITHUB_WORKSPACE/tri.min.json.gz"
+          cd "$GITHUB_WORKSPACE"
+          ls -la *.json.gz *.json 2>/dev/null || true
+          git config user.name "fincalc-ci"
+          git config user.email "fincalc-ci@users.noreply.github.com"
+          git add -A -- '*.json.gz' '*.json'
+          if git diff --cached --quiet; then
+            echo "No change in portfolio tables; nothing to commit."
+          else
+            git commit -m "chore: portfolio refresh $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi

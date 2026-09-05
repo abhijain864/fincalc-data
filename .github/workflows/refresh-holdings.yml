@@ -1,4 +1,4 @@
-name: Refresh holdings tables
+name: Refresh holdings tables (RETIRED - finapi dead)
 
 # Weekly precompute of the portfolio-composition tables that let fincalc-mcp answer
 # "funds with >=20% in banks and >=30% in pharma, and sortino > 1.2".
@@ -14,9 +14,12 @@ name: Refresh holdings tables
 #   sectors.min.json.gz   (~150 KB) sector weights + AUM/expense/cap-mix — always loaded
 #   holdings.min.json.gz  (~1 MB)   per-stock rows — loaded lazily, on demand
 
+# RETIRED 2026-09: finapi stopped returning holdings (every fund came back empty,
+# see run 33693731783), so this job can only fail. Superseded by
+# refresh-portfolios.yml, which builds the same tables from the statutory AMC
+# portfolio workbooks. The schedule is removed rather than the file, so the old
+# build is still runnable by hand if finapi ever comes back.
 on:
-  schedule:
-    - cron: "0 4 * * 0"         # Sundays 04:00 UTC — ~2h after the metrics refresh starts
   workflow_dispatch:
     inputs:
       limit:
