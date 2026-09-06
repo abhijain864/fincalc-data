@@ -126,7 +126,11 @@ jobs:
       # A run that lost most of its coverage is an upstream problem, not a real
       # change in what funds disclose. Publishing it would silently degrade
       # every composition screen, so fail instead and keep serving last month.
+      # A capped run builds a fraction of the universe on purpose, so the
+      # coverage guard would always trip and the publish would always be wrong.
+      # Both are skipped: a limited run is a smoke test of the build steps.
       - name: Guard against a degraded build
+        if: ${{ (github.event.inputs.limit || '0') == '0' }}
         working-directory: fincalc-mcp
         run: |
           set -euo pipefail
@@ -146,6 +150,7 @@ jobs:
           PY
 
       - name: Publish tables to fincalc-data
+        if: ${{ (github.event.inputs.limit || '0') == '0' }}
         run: |
           set -euo pipefail
           cd fincalc-mcp/src/fincalc_mcp/data
