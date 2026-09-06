@@ -109,7 +109,12 @@ jobs:
             python scripts/build_portfolios.py $ARGS \
             --archive-dir "$GITHUB_WORKSPACE/archive"
 
+      # Supplementary tables: neither may sink a good portfolio build. AMFI and
+      # NSE both refuse connections from some runner IPs, and a single flaky
+      # upstream discarding 1,190 portfolios is the wrong trade. The publish step
+      # keeps whatever already exists for a table that did not rebuild.
       - name: Build expense-ratio table (AMFI)
+        continue-on-error: true
         working-directory: fincalc-mcp
         run: |
           set -euo pipefail
@@ -118,6 +123,7 @@ jobs:
       # Index history barely changes and the fetch is slow, so it is opt-in.
       - name: Backfill benchmark TRI series (NSE)
         if: ${{ github.event.inputs.skip_tri != 'true' }}
+        continue-on-error: true
         working-directory: fincalc-mcp
         run: |
           set -euo pipefail
@@ -154,12 +160,18 @@ jobs:
         run: |
           set -euo pipefail
           cd fincalc-mcp/src/fincalc_mcp/data
+          # A table that did not rebuild is simply not copied, so the previously
+          # published copy stays. Portfolios are the exception -- the guard above
+          # has already refused to let a degraded build get this far.
           for f in industries.min.json.gz portfolios.min.json.gz ter.min.json.gz \
-                   benchmarks.json scheme_codes.json benchmark_map.json nse_indices.json; do
-            [ -f "$f" ] && cp "$f" "$GITHUB_WORKSPACE/$f"
+                   tri.min.json.gz benchmarks.json scheme_codes.json \
+                   benchmark_map.json nse_indices.json; do
+            if [ -f "$f" ]; then
+              cp "$f" "$GITHUB_WORKSPACE/$f"
+            else
+              echo "  $f not rebuilt this run; keeping the published copy"
+            fi
           done
-          # TRI is only rebuilt when the step runs; keep the published copy otherwise.
-          [ -f tri.min.json.gz ] && cp tri.min.json.gz "$GITHUB_WORKSPACE/tri.min.json.gz"
           cd "$GITHUB_WORKSPACE"
           ls -la *.json.gz *.json 2>/dev/null || true
           git config user.name "fincalc-ci"
