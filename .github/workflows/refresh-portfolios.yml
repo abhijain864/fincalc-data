@@ -19,6 +19,12 @@ name: Refresh portfolio tables
 #   ter.min.json.gz         (~25 KB)  expense ratio by scheme code (AMFI)
 #   benchmarks.json                   scheme -> stated benchmark
 #   scheme_codes.json                 scheme name -> AMFI codes
+#   archive/portfolios-YYYY-MM.*      half-yearly snapshots, kept forever
+#
+# Everything but the archive is overwritten each month. SEBI's half-yearly
+# portfolios are struck at 31-March and 30-September, so runs that carry those
+# months also write a permanent dated copy -- without it there is no way to ask
+# what a fund's portfolio looked like six months ago.
 
 on:
   schedule:
@@ -97,7 +103,8 @@ jobs:
           ARGS=""
           [ "$LIMIT" != "0" ] && ARGS="--limit $LIMIT"
           uv run --with-editable . --with openpyxl --with xlrd \
-            python scripts/build_portfolios.py $ARGS
+            python scripts/build_portfolios.py $ARGS \
+            --archive-dir "$GITHUB_WORKSPACE/archive"
 
       - name: Build expense-ratio table (AMFI)
         working-directory: fincalc-mcp
@@ -149,7 +156,7 @@ jobs:
           ls -la *.json.gz *.json 2>/dev/null || true
           git config user.name "fincalc-ci"
           git config user.email "fincalc-ci@users.noreply.github.com"
-          git add -A -- '*.json.gz' '*.json'
+          git add -A -- '*.json.gz' '*.json' 'archive'
           if git diff --cached --quiet; then
             echo "No change in portfolio tables; nothing to commit."
           else
