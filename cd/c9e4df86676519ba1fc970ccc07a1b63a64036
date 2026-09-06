@@ -1,0 +1,23 @@
+.github/workflows/refresh-portfolios.yml
+  918a9cc4f3ca11b0 1-158
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.15",
+  "base_commit_sha": "cdc9e4df86676519ba1fc970ccc07a1b63a64036",
+  "prompts": {
+    "918a9cc4f3ca11b0": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "dfbe0482-01c0-43cc-95f6-a90704c2bbec",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Abhishek Jain <abhijain864@gmail.com>",
+      "messages": [],
+      "total_additions": 158,
+      "total_deletions": 0,
+      "accepted_lines": 158,
+      "overriden_lines": 0
+    }
+  }
+}
