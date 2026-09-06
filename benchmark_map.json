@@ -1,0 +1,1474 @@
+{
+ "map": {
+  "Nifty 50 TRI": {
+   "nse": "NIFTY 50",
+   "how": "exact",
+   "schemes": 7
+  },
+  "NIFTY 1D Rate Index": {
+   "nse": "NIFTY 1D RATE INDEX",
+   "how": "exact",
+   "schemes": 2
+  },
+  "NIFTY SmallCap 250 TRI": {
+   "nse": "NIFTY SMALLCAP 250",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty Large Midcap 250 TRI": {
+   "nse": "NIFTY LARGEMIDCAP 250",
+   "how": "exact",
+   "schemes": 2
+  },
+  "Nifty 500 TRI": {
+   "nse": "NIFTY 500",
+   "how": "exact",
+   "schemes": 37
+  },
+  "Nifty MNC TRI": {
+   "nse": "NIFTY MNC",
+   "how": "exact",
+   "schemes": 2
+  },
+  "Nifty 100 TRI": {
+   "nse": "NIFTY 100",
+   "how": "exact",
+   "schemes": 6
+  },
+  "Nifty Midcap 150 TRI": {
+   "nse": "NIFTY MIDCAP 150",
+   "how": "exact",
+   "schemes": 9
+  },
+  "NIFTY India Consumption TRI": {
+   "nse": "NIFTY INDIA CONSUMPTION",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty Infrastructure TRI": {
+   "nse": "NIFTY INFRASTRUCTURE",
+   "how": "exact",
+   "schemes": 3
+  },
+  "Nifty 50 Arbitrage Index": {
+   "nse": "NIFTY 50 ARBITRAGE",
+   "how": "exact",
+   "schemes": 5
+  },
+  "Nifty Financial Services TRI": {
+   "nse": "NIFTY FINANCIAL SERVICES",
+   "how": "exact",
+   "schemes": 5
+  },
+  "Nifty India Manufacturing TRI": {
+   "nse": "NIFTY INDIA MANUFACTURING",
+   "how": "exact",
+   "schemes": 3
+  },
+  "NIFTY 100 ESG TRI": {
+   "nse": "NIFTY100 ESG",
+   "how": "exact",
+   "schemes": 3
+  },
+  "NIFTY 500 Multicap 50:25:25 TRI": {
+   "nse": "NIFTY500 MULTICAP 50:25:25",
+   "how": "exact",
+   "schemes": 3
+  },
+  "Nifty Transportation and Logistics TRI": {
+   "nse": "NIFTY TRANSPORTATION & LOGISTICS",
+   "how": "fuzzy",
+   "schemes": 1
+  },
+  "Nifty 200 TRI": {
+   "nse": "NIFTY 200",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY 500 TRI": {
+   "nse": "NIFTY 500",
+   "how": "exact",
+   "schemes": 39
+  },
+  "NIFTY BANK TRI": {
+   "nse": "NIFTY BANK",
+   "how": "exact",
+   "schemes": 7
+  },
+  "NIFTY INDIA CONSUMPTION TRI INDEX": {
+   "nse": "NIFTY INDIA CONSUMPTION",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY CAPITAL MARKETS TRI": {
+   "nse": "NIFTY CAPITAL MARKETS",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY INDIA CONSUMPTION TRI": {
+   "nse": "NIFTY INDIA CONSUMPTION",
+   "how": "exact",
+   "schemes": 10
+  },
+  "NIFTY 50 ARBITRAGE INDEX": {
+   "nse": "NIFTY 50 ARBITRAGE",
+   "how": "exact",
+   "schemes": 2
+  },
+  "NIFTY LARGE MIDCAP 250 TRI": {
+   "nse": "NIFTY LARGEMIDCAP 250",
+   "how": "exact",
+   "schemes": 4
+  },
+  "NIFTY HEALTHCARE TRI": {
+   "nse": "NIFTY HEALTHCARE",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY INDIA MANUFACTURING TRI": {
+   "nse": "NIFTY INDIA MANUFACTURING",
+   "how": "exact",
+   "schemes": 6
+  },
+  "NIFTY 500 MULTICAP 50:25:25 INDEX": {
+   "nse": "NIFTY500 MULTICAP 50:25:25",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY 50 TRI": {
+   "nse": "NIFTY 50",
+   "how": "exact",
+   "schemes": 10
+  },
+  "NIFTY500 MOMENTUM 50 TRI": {
+   "nse": "NIFTY500 MOMENTUM 50",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY INDIA DEFENCE TRI": {
+   "nse": "NIFTY INDIA DEFENCE",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY 100 TRI": {
+   "nse": "NIFTY 100",
+   "how": "exact",
+   "schemes": 6
+  },
+  "NIFTY IT TRI": {
+   "nse": "NIFTY IT",
+   "how": "exact",
+   "schemes": 10
+  },
+  "NIFTY MIDCAP 50 INDEX TRI": {
+   "nse": "NIFTY MIDCAP 50",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY NEXT 50 INDEX TRI": {
+   "nse": "NIFTY NEXT 50",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY SMALLCAP 50 INDEX TRI": {
+   "nse": "NIFTY SMALLCAP 50",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY500 VALUE 50 TRI": {
+   "nse": "NIFTY500 VALUE 50",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY50 EQUAL WEIGHT INDEX": {
+   "nse": "NIFTY50 EQUAL WEIGHT",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY 1D RATE INDEX": {
+   "nse": "NIFTY 1D RATE INDEX",
+   "how": "exact",
+   "schemes": 5
+  },
+  "NIFTY500 QUALITY 50 TRI": {
+   "nse": "NIFTY500 QUALITY 50",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY SMALLCAP 250 TRI": {
+   "nse": "NIFTY SMALLCAP 250",
+   "how": "exact",
+   "schemes": 7
+  },
+  "NIFTY SDL SEP 2026 INDEX": {
+   "nse": "NIFTY SDL SEP 2026 INDEX",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY SERVICES SECTOR TRI": {
+   "nse": "NIFTY SERVICES SECTOR",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY 500 VALUE 50 TRI": {
+   "nse": "NIFTY500 VALUE 50",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY 50 ARBITRAGE INDEX TRI": {
+   "nse": "NIFTY 50 ARBITRAGE",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY FINANCIAL SERVICES TRI": {
+   "nse": "NIFTY FINANCIAL SERVICES",
+   "how": "exact",
+   "schemes": 6
+  },
+  "NIFTY INDIA CONSUMPTION TOTAL RETURN INDEX (TRI)": {
+   "nse": "NIFTY INDIA CONSUMPTION",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY 100 TOTAL RETURN INDEX (TRI)": {
+   "nse": "NIFTY 100",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY 500 MULTICAP 50:25:25 TRI": {
+   "nse": "NIFTY500 MULTICAP 50:25:25",
+   "how": "exact",
+   "schemes": 4
+  },
+  "NIFTY 50 TOTAL RETURN INDEX (TRI)": {
+   "nse": "NIFTY 50",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY NEXT 50 TOTAL RETURN INDEX (TRI)": {
+   "nse": "NIFTY NEXT 50",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY Smallcap 250 TRI": {
+   "nse": "NIFTY SMALLCAP 250",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty500 Multicap 50:25:25 TRI": {
+   "nse": "NIFTY500 MULTICAP 50:25:25",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty India Consumption TRI": {
+   "nse": "NIFTY INDIA CONSUMPTION",
+   "how": "exact",
+   "schemes": 3
+  },
+  "Nifty Midcap 150 Total Return Index": {
+   "nse": "NIFTY MIDCAP 150",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty Financial Services Total Return Index": {
+   "nse": "NIFTY FINANCIAL SERVICES",
+   "how": "exact",
+   "schemes": 2
+  },
+  "Nifty 1D Rate Index": {
+   "nse": "NIFTY 1D RATE INDEX",
+   "how": "exact",
+   "schemes": 4
+  },
+  "Nifty SDL Plus G-Sec Jun 2028 30:70 Index": {
+   "nse": "NIFTY SDL PLUS G-SEC JUN 2028 30:70 INDEX",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty SDL Plus G-Sec Sep 2027 50:50 Index": {
+   "nse": "NIFTY SDL PLUS G-SEC SEP 2027 50:50 INDEX",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY Large Midcap 250 TRI": {
+   "nse": "NIFTY LARGEMIDCAP 250",
+   "how": "exact",
+   "schemes": 2
+  },
+  "Nifty 50 Equal Weight TRI": {
+   "nse": "NIFTY50 EQUAL WEIGHT",
+   "how": "exact",
+   "schemes": 2
+  },
+  "Nifty Next 50 TRI": {
+   "nse": "NIFTY NEXT 50",
+   "how": "exact",
+   "schemes": 5
+  },
+  "NIFTY Midcap150 Quality 50 TRI": {
+   "nse": "NIFTY MIDCAP150 QUALITY 50",
+   "how": "exact",
+   "schemes": 2
+  },
+  "Nifty Bank TRI": {
+   "nse": "NIFTY BANK",
+   "how": "exact",
+   "schemes": 5
+  },
+  "Nifty IT TRI": {
+   "nse": "NIFTY IT",
+   "how": "exact",
+   "schemes": 3
+  },
+  "Nifty PSU Bank TRI": {
+   "nse": "NIFTY PSU BANK",
+   "how": "exact",
+   "schemes": 3
+  },
+  "Nifty Private Bank TRI": {
+   "nse": "NIFTY PRIVATE BANK",
+   "how": "exact",
+   "schemes": 2
+  },
+  "Nifty Smallcap250 Quality 50 TRI": {
+   "nse": "NIFTY SMALLCAP250 QUALITY 50",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty 500 Multicap 50:25:25 TRI": {
+   "nse": "NIFTY500 MULTICAP 50:25:25",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty Healthcare TRI": {
+   "nse": "NIFTY HEALTHCARE",
+   "how": "exact",
+   "schemes": 4
+  },
+  "Nifty Top 10 Equal Weight TRI": {
+   "nse": "NIFTY TOP 10 EQUAL WEIGHT",
+   "how": "exact",
+   "schemes": 2
+  },
+  "Nifty500 Flexicap Quality 30 TRI": {
+   "nse": "NIFTY500 FLEXICAP QUALITY 30",
+   "how": "exact",
+   "schemes": 2
+  },
+  "Nifty Smallcap 250 TRI": {
+   "nse": "NIFTY SMALLCAP 250",
+   "how": "exact",
+   "schemes": 8
+  },
+  "Nifty FMCG TRI": {
+   "nse": "NIFTY FMCG",
+   "how": "exact",
+   "schemes": 3
+  },
+  "NIFTY 50 Arbitrage Index": {
+   "nse": "NIFTY 50 ARBITRAGE",
+   "how": "exact",
+   "schemes": 3
+  },
+  "NIFTY500 Value 50": {
+   "nse": "NIFTY500 VALUE 50",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty Smallcap 250": {
+   "nse": "NIFTY SMALLCAP 250",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY 500": {
+   "nse": "NIFTY 500",
+   "how": "exact",
+   "schemes": 4
+  },
+  "Nifty Midcap 150": {
+   "nse": "NIFTY MIDCAP 150",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty 500 Multi Cap 50:25:25 Total Returns Index": {
+   "nse": "NIFTY500 MULTICAP 50:25:25",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY LargeMidcap 250": {
+   "nse": "NIFTY LARGEMIDCAP 250",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty 100": {
+   "nse": "NIFTY 100",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty Dividend Opportunities 50": {
+   "nse": "NIFTY DIVIDEND OPPORTUNITIES 50",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty 50": {
+   "nse": "NIFTY 50",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty Commodities TRI": {
+   "nse": "NIFTY COMMODITIES",
+   "how": "exact",
+   "schemes": 2
+  },
+  "Nifty Energy TRI": {
+   "nse": "NIFTY ENERGY",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty Housing Index": {
+   "nse": "NIFTY HOUSING",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty LargeMidcap 250 TRI": {
+   "nse": "NIFTY LARGEMIDCAP 250",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty 5 yr Benchmark G-sec Index": {
+   "nse": "NIFTY 5YR BENCHMARK G-SEC",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY 10 yr Benchmark G-Sec Index": {
+   "nse": "NIFTY 10 YR BENCHMARK G-SEC (CLEAN PRICE)",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty 100 Low Volatility 30 TRI": {
+   "nse": "NIFTY100 LOW VOLATILITY 30",
+   "how": "exact",
+   "schemes": 2
+  },
+  "Nifty 200 Momentum 30 TRI": {
+   "nse": "NIFTY200 MOMENTUM 30",
+   "how": "exact",
+   "schemes": 2
+  },
+  "Nifty 200 Quality 30 TRI": {
+   "nse": "NIFTY200 QUALITY 30",
+   "how": "exact",
+   "schemes": 3
+  },
+  "Nifty Alpha Low -Volatility 30 TRI": {
+   "nse": "NIFTY ALPHA LOW-VOLATILITY 30",
+   "how": "exact",
+   "schemes": 2
+  },
+  "Nifty Auto TRI": {
+   "nse": "NIFTY AUTO",
+   "how": "exact",
+   "schemes": 2
+  },
+  "Nifty EV & New Age Automotive TRI": {
+   "nse": "NIFTY EV & NEW AGE AUTOMOTIVE",
+   "how": "exact",
+   "schemes": 2
+  },
+  "Nifty Financial Services EX-Bank TRI": {
+   "nse": "NIFTY FINANCIAL SERVICES EX-BANK",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty G-sec Dec 2030 Index": {
+   "nse": "NIFTY G-SEC DEC 2030 INDEX",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty LargeMidcap 250 TRI 1": {
+   "nse": "NIFTY LARGEMIDCAP 250",
+   "how": "fuzzy",
+   "schemes": 1
+  },
+  "Nifty Metal TRI": {
+   "nse": "NIFTY METAL",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty Oil & Gas TRI": {
+   "nse": "NIFTY OIL & GAS",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty Pharma TRI": {
+   "nse": "NIFTY PHARMA",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY Private Bank TRI": {
+   "nse": "NIFTY PRIVATE BANK",
+   "how": "exact",
+   "schemes": 2
+  },
+  "Nifty PSU Bond Plus SDL Sep 2027 40:60 Index": {
+   "nse": "NIFTY PSU BOND PLUS SDL SEP 2027 40:60 INDEX",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty SDL Dec 2028 Index": {
+   "nse": "NIFTY SDL DEC 2028 INDEX",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty SDL Sep 2026 Index": {
+   "nse": "NIFTY SDL SEP 2026 INDEX",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty SDL Sep 2027 Index": {
+   "nse": "NIFTY SDL SEP 2027 INDEX",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty top 15 equal Weight TRI": {
+   "nse": "NIFTY TOP 15 EQUAL WEIGHT",
+   "how": "exact",
+   "schemes": 2
+  },
+  "NIFTY 50 Equal Weight TRI": {
+   "nse": "NIFTY50 EQUAL WEIGHT",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty 50 Value 20 TRI": {
+   "nse": "NIFTY50 VALUE 20",
+   "how": "exact",
+   "schemes": 2
+  },
+  "Nifty200 Value 30 TRI": {
+   "nse": "NIFTY200 VALUE 30",
+   "how": "exact",
+   "schemes": 2
+  },
+  "Nifty Rural TRI": {
+   "nse": "NIFTY RURAL",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty Transportation & Logistics TRI": {
+   "nse": "NIFTY TRANSPORTATION & LOGISTICS",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty India Consumption (TRI)": {
+   "nse": "NIFTY INDIA CONSUMPTION",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty 500 (TRI)": {
+   "nse": "NIFTY 500",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY LARGE - MIDCAP 250": {
+   "nse": "NIFTY LARGEMIDCAP 250",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty 500 Multi Cap 50:25:25 TRI": {
+   "nse": "NIFTY500 MULTICAP 50:25:25",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty Mid Cap 150 TRI": {
+   "nse": "NIFTY MIDCAP 150",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty 200 Value 30 Index (TRI)": {
+   "nse": "NIFTY200 VALUE 30",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty India Tourism Index (Total Return Index)": {
+   "nse": "NIFTY INDIA TOURISM",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY Transportation & Logistics Index (Total Return Index (TRI))": {
+   "nse": "NIFTY TRANSPORTATION & LOGISTICS",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty Services Sector TRI (Total Return Index)": {
+   "nse": "NIFTY SERVICES SECTOR",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty Smallcap 50 Index TRI": {
+   "nse": "NIFTY SMALLCAP 50",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty Rural index TRI": {
+   "nse": "NIFTY RURAL",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty200 Quality 30 Index (Total Return Index (TRI))": {
+   "nse": "NIFTY200 QUALITY 30",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty 200 Quality 30 Index (Total Return Index (TRI))": {
+   "nse": "NIFTY200 QUALITY 30",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty Private Bank Index (Total Return Index (TRI)": {
+   "nse": "NIFTY PRIVATE BANK",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty 50 Value 20 Index TRI": {
+   "nse": "NIFTY50 VALUE 20",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty Smallcap 250 Index (Total Return Index (TRI))": {
+   "nse": "NIFTY SMALLCAP 250",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty Next 50 Index (Total Return Index (TRI))": {
+   "nse": "NIFTY NEXT 50",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty Midcap 150 Index (Total Return Index (TRI))": {
+   "nse": "NIFTY MIDCAP 150",
+   "how": "exact",
+   "schemes": 2
+  },
+  "Nifty100 Low Volatility 30 TRI": {
+   "nse": "NIFTY100 LOW VOLATILITY 30",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty Financial Services Ex-Bank Index TRI": {
+   "nse": "NIFTY FINANCIAL SERVICES EX-BANK",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty 100 Equal Weight Index (Total Return Index (TRI))": {
+   "nse": "NIFTY100 EQUAL WEIGHT",
+   "how": "exact",
+   "schemes": 2
+  },
+  "Nifty Commodities Index (Total Return Index (TRI))": {
+   "nse": "NIFTY COMMODITIES",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty Top 10 Equal Weight Index (Total Return Index (TRI))": {
+   "nse": "NIFTY TOP 10 EQUAL WEIGHT",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty 50 Equal Weight Index (Total Return Index)": {
+   "nse": "NIFTY50 EQUAL WEIGHT",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY MNC Index (Total Return Index)": {
+   "nse": "NIFTY MNC",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty Midcap 150 Momentum 50 Index (Total Return Index (TRI))": {
+   "nse": "NIFTY MIDCAP150 MOMENTUM 50",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty 200 Momentum 30 Index (Total Return Index)": {
+   "nse": "NIFTY200 MOMENTUM 30",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty Midcap 50 Index (Total Return Index (TRI))": {
+   "nse": "NIFTY MIDCAP 50",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty500 Momentum 50 Index (Total Return Index (TRI))": {
+   "nse": "NIFTY500 MOMENTUM 50",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty 200 Momentum 30 Index (Total Return Index (TRI))": {
+   "nse": "NIFTY200 MOMENTUM 30",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY 100 Low Volatility 30 Index (TRI)": {
+   "nse": "NIFTY100 LOW VOLATILITY 30",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY 200 TRI": {
+   "nse": "NIFTY 200",
+   "how": "exact",
+   "schemes": 2
+  },
+  "Nifty MNC Index (TRI)": {
+   "nse": "NIFTY MNC",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty India Manufacturing Total Return Index": {
+   "nse": "NIFTY INDIA MANUFACTURING",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty Infrastructure Index TRI": {
+   "nse": "NIFTY INFRASTRUCTURE",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty Energy TRI (Total Return Index)": {
+   "nse": "NIFTY ENERGY",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty 500 Total Return Index": {
+   "nse": "NIFTY 500",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty 500 Index (Total Return Index)": {
+   "nse": "NIFTY 500",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty Healthcare Index (Total Return Index)": {
+   "nse": "NIFTY HEALTHCARE",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY100 ESG TRI": {
+   "nse": "NIFTY100 ESG",
+   "how": "exact",
+   "schemes": 3
+  },
+  "Nifty 500 (Total Return Index)": {
+   "nse": "NIFTY 500",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY India Consumption Index (Total Return Index)": {
+   "nse": "NIFTY INDIA CONSUMPTION",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty 50 Arbitrage Index TRI": {
+   "nse": "NIFTY 50 ARBITRAGE",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty India Consumption Index (Total Return Index)": {
+   "nse": "NIFTY INDIA CONSUMPTION",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty Chemicals Index (Total Return Index (TRI))": {
+   "nse": "NIFTY CHEMICALS",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty AAA Financial Services Bond Mar 2028 Index": {
+   "nse": "NIFTY AAA FINANCIAL SERVICES BOND MAR 2028",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty G-Sec July 2033 Index": {
+   "nse": "NIFTY G-SEC JUL 2033",
+   "how": "fuzzy",
+   "schemes": 1
+  },
+  "Nifty SDL Jul 2033 Index": {
+   "nse": "NIFTY SDL JUL 2033 INDEX",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty SDL Jul 2026 Index": {
+   "nse": "NIFTY SDL JUL 2026 INDEX",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty SDL Plus AAA PSU Bond Jul 2028 60:40 Index": {
+   "nse": "NIFTY SDL PLUS AAA PSU BOND JUL 2028 60:40 INDEX",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty SDL Apr 2032 Top 12 Equal Weight Index": {
+   "nse": "NIFTY SDL APR 2032 TOP 12 EQUAL WEIGHT INDEX",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty SDL Apr 2027 Top 12 Equal Weight Index": {
+   "nse": "NIFTY SDL APR 2027 TOP 12 EQUAL WEIGHT INDEX",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty Alpha 50 TRI": {
+   "nse": "NIFTY ALPHA 50",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty Alpha Low-Volatility 30 Index (Total Return Index (TRI))": {
+   "nse": "NIFTY ALPHA LOW-VOLATILITY 30",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty Alpha 50 Index (Total Return Index (TRI))": {
+   "nse": "NIFTY ALPHA 50",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Riskometer i.e. Nifty India Consumption Total Return Index (TRI)": {
+   "nse": "NIFTY INDIA CONSUMPTION",
+   "how": "exact",
+   "schemes": 1
+  },
+  "i.e NIFTY 100 TRI": {
+   "nse": "NIFTY 100",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Riskometer i.e. Nifty India Manufacturing Index (TRI)": {
+   "nse": "NIFTY INDIA MANUFACTURING",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY MIDCAP 150 TRI": {
+   "nse": "NIFTY MIDCAP 150",
+   "how": "exact",
+   "schemes": 8
+  },
+  "NIFTY 50 ARBITRAGE TRI": {
+   "nse": "NIFTY 50 ARBITRAGE",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY MIDCAP 100 - TRI": {
+   "nse": "NIFTY MIDCAP 100",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY 500 - TRI": {
+   "nse": "NIFTY 500",
+   "how": "exact",
+   "schemes": 4
+  },
+  "NIFTY MIDCAP 150 INDEX - TRI": {
+   "nse": "NIFTY MIDCAP 150",
+   "how": "exact",
+   "schemes": 2
+  },
+  "NIFTY SMALLCAP 250 INDEX- TRI": {
+   "nse": "NIFTY SMALLCAP 250",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY BANK INDEX- TRI": {
+   "nse": "NIFTY BANK",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY LARGEMIDCAP 250 INDEX - TRI": {
+   "nse": "NIFTY LARGEMIDCAP 250",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY NEXT 50 INDEX- TRI": {
+   "nse": "NIFTY NEXT 50",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY 5 YR BENCHMARK G-SEC INDEX": {
+   "nse": "NIFTY 5YR BENCHMARK G-SEC",
+   "how": "exact",
+   "schemes": 3
+  },
+  "NIFTY 200 MOMENTUM 30 TRI": {
+   "nse": "NIFTY200 MOMENTUM 30",
+   "how": "exact",
+   "schemes": 2
+  },
+  "NIFTY MICROCAP 250 TOTAL RETURN INDEX": {
+   "nse": "NIFTY MICROCAP 250",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY 500 TOTAL RETURN INDEX": {
+   "nse": "NIFTY 500",
+   "how": "exact",
+   "schemes": 7
+  },
+  "NIFTY 100 TRI INDEX": {
+   "nse": "NIFTY 100",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY SMALLCAP 250 TR INDEX": {
+   "nse": "NIFTY SMALLCAP 250",
+   "how": "fuzzy",
+   "schemes": 1
+  },
+  "NIFTY 500 MULTICAP 50:25:25 INDEX TR": {
+   "nse": "NIFTY500 MULTICAP 50:25:25",
+   "how": "fuzzy",
+   "schemes": 1
+  },
+  "NIFTY INDIA DEFENCE TOTAL RETURN INDEX": {
+   "nse": "NIFTY INDIA DEFENCE",
+   "how": "exact",
+   "schemes": 2
+  },
+  "NIFTY INDIA MANUFACTURING TOTAL RETURN INDEX": {
+   "nse": "NIFTY INDIA MANUFACTURING",
+   "how": "exact",
+   "schemes": 2
+  },
+  "NIFTY 500 MOMENTUM 50 TOTAL RETURN INDEX": {
+   "nse": "NIFTY500 MOMENTUM 50",
+   "how": "exact",
+   "schemes": 2
+  },
+  "NIFTY MIDSMALL FINANCIAL SERVICES TOTAL RETURN INDEX": {
+   "nse": "NIFTY MIDSMALL FINANCIAL SERVICES",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY MIDSMALL INDIA CONSUMPTION TOTAL RETURN INDEX": {
+   "nse": "NIFTY MIDSMALL INDIA CONSUMPTION",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY MIDSMALL HEALTHCARE TOTAL RETURN INDEX": {
+   "nse": "NIFTY MIDSMALL HEALTHCARE",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY MIDSMALL IT AND TELECOM TOTAL RETURN INDEX": {
+   "nse": "NIFTY MIDSMALL IT & TELECOM",
+   "how": "fuzzy",
+   "schemes": 1
+  },
+  "NIFTY CAPITAL MARKET TOTAL RETURN INDEX": {
+   "nse": "NIFTY CAPITAL MARKETS",
+   "how": "fuzzy",
+   "schemes": 2
+  },
+  "NIFTY 50 ARBITRAGE INDEX TOTAL RETURN INDEX": {
+   "nse": "NIFTY 50 ARBITRAGE",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY INFRASTRUCTURE TOTAL RETURN INDEX": {
+   "nse": "NIFTY INFRASTRUCTURE",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY 50 EQUAL WEIGHT TOTAL RETURN INDEX": {
+   "nse": "NIFTY50 EQUAL WEIGHT",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY NEXT 50 TOTAL RETURN INDEX": {
+   "nse": "NIFTY NEXT 50",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY SERVICES SECTOR TOTAL RETURN INDEX": {
+   "nse": "NIFTY SERVICES SECTOR",
+   "how": "exact",
+   "schemes": 2
+  },
+  "NIFTY PSE TOTAL RETURN INDEX": {
+   "nse": "NIFTY PSE",
+   "how": "exact",
+   "schemes": 2
+  },
+  "NIFTY INDIA TOURISM TOTAL RETURN INDEX": {
+   "nse": "NIFTY INDIA TOURISM",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY MIDCAP 150 MOMENTUM 50 TOTAL RETURN INDEX": {
+   "nse": "NIFTY MIDCAP150 MOMENTUM 50",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY ALPHA 50 TOTAL RETURN INDEX": {
+   "nse": "NIFTY ALPHA 50",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY 100 TOTAL RETURN INDEX": {
+   "nse": "NIFTY 100",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY ENERGY TOTAL RETURN INDEX": {
+   "nse": "NIFTY ENERGY",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY MNC TOTAL RETURN INDEX": {
+   "nse": "NIFTY MNC",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY FINANCIAL SERVICES TOTAL RETURN INDEX": {
+   "nse": "NIFTY FINANCIAL SERVICES",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY LARGEMIDCAP 250 TRI": {
+   "nse": "NIFTY LARGEMIDCAP 250",
+   "how": "exact",
+   "schemes": 3
+  },
+  "NIFTY INFRASTRUCTURE TRI": {
+   "nse": "NIFTY INFRASTRUCTURE",
+   "how": "exact",
+   "schemes": 4
+  },
+  "NIFTY DIVIDEND OPPORTUNITIES 50 TRI": {
+   "nse": "NIFTY DIVIDEND OPPORTUNITIES 50",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY 50 VALUE 20 TRI": {
+   "nse": "NIFTY50 VALUE 20",
+   "how": "exact",
+   "schemes": 2
+  },
+  "NIFTY 8-13 YR G-SEC INDEX": {
+   "nse": "NIFTY 8-13 YR G-SEC",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY NEXT 50 TRI": {
+   "nse": "NIFTY NEXT 50",
+   "how": "exact",
+   "schemes": 4
+  },
+  "NIFTY PSU BANK TRI": {
+   "nse": "NIFTY PSU BANK",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY 50 SHARIAH TRI": {
+   "nse": "NIFTY50 SHARIAH",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY CPSE TRI": {
+   "nse": "NIFTY CPSE",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY PHARMA TRI": {
+   "nse": "NIFTY PHARMA",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY AUTO TRI": {
+   "nse": "NIFTY AUTO",
+   "how": "exact",
+   "schemes": 3
+  },
+  "NIFTY AAA CPSE BOND PLUS SDL APR 2027 60:40 INDEX": {
+   "nse": "NIFTY AAA CPSE BOND PLUS SDL APR 2027 60:40 INDEX",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY ALPHA LOW VOLATILITY 30 TR": {
+   "nse": "NIFTY ALPHA LOW-VOLATILITY 30",
+   "how": "fuzzy",
+   "schemes": 1
+  },
+  "NIFTY AAA PSU BOND PLUS SDL SEP 2026 50:50 INDEX": {
+   "nse": "NIFTY AAA PSU BOND PLUS SDL SEP 2026 50:50 INDEX",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY SDL PLUS G-SEC JUN 2028 70:30 INDEX": {
+   "nse": "NIFTY SDL PLUS G-SEC JUN 2028 70:30 INDEX",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY G-SEC SEP 2027 INDEX": {
+   "nse": "NIFTY G-SEC SEP 2027 INDEX",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY G-SEC JUN 2036 INDEX": {
+   "nse": "NIFTY G-SEC JUN 2036 INDEX",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY SDL PLUS G-SEC JUN 2029 70:30 INDEX": {
+   "nse": "NIFTY SDL PLUS G-SEC JUN 2029 70:30 INDEX",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY G-SEC OCT 2028 INDEX": {
+   "nse": "NIFTY G-SEC OCT 2028 INDEX",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY 500 EQUAL WEIGHT TRI": {
+   "nse": "NIFTY500 EQUAL WEIGHT",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY 500 MOMENTUM 50 TRI": {
+   "nse": "NIFTY500 MOMENTUM 50",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY REALTY TRI": {
+   "nse": "NIFTY REALTY",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY 500 LOW VOLATILITY 50 TRI": {
+   "nse": "NIFTY500 LOW VOLATILITY 50",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY 500 QUALITY 50 TRI": {
+   "nse": "NIFTY500 QUALITY 50",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY MNC TRI": {
+   "nse": "NIFTY MNC",
+   "how": "exact",
+   "schemes": 2
+  },
+  "NIFTY 50 Arbitrage": {
+   "nse": "NIFTY 50 ARBITRAGE",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY HEALTHCARE INDEX TRI": {
+   "nse": "NIFTY HEALTHCARE",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY500 MULTICAP 50 25 25 TRI": {
+   "nse": "NIFTY500 MULTICAP 50:25:25",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY PSE TRI": {
+   "nse": "NIFTY PSE",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY COMMODITIES TRI": {
+   "nse": "NIFTY COMMODITIES",
+   "how": "exact",
+   "schemes": 2
+  },
+  "NIFTY 10 YR BENCHMARK G-SEC": {
+   "nse": "NIFTY 10 YR BENCHMARK G-SEC (CLEAN PRICE)",
+   "how": "exact",
+   "schemes": 2
+  },
+  "NIFTY 50 ARBITRAGE": {
+   "nse": "NIFTY 50 ARBITRAGE",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY200 QUALITY 30 TRI": {
+   "nse": "NIFTY200 QUALITY 30",
+   "how": "exact",
+   "schemes": 3
+  },
+  "NIFTY PRIVATE BANK TRI": {
+   "nse": "NIFTY PRIVATE BANK",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY CPSE BOND PLUS SDL SEP 2026 50:50 INDEX": {
+   "nse": "NIFTY CPSE BOND PLUS SDL SEP 2026 50:50 INDEX",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY500 MULTICAP 50:25:25 TRI": {
+   "nse": "NIFTY500 MULTICAP 50:25:25",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY50 EQUAL WEIGHT TRI": {
+   "nse": "NIFTY50 EQUAL WEIGHT",
+   "how": "exact",
+   "schemes": 2
+  },
+  "NIFTY ENERGY TRI": {
+   "nse": "NIFTY ENERGY",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY200 MOMENTUM 30 TRI": {
+   "nse": "NIFTY200 MOMENTUM 30",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY100 LOW VOLATILITY 30 TRI": {
+   "nse": "NIFTY100 LOW VOLATILITY 30",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY 1 D RATE INDEX": {
+   "nse": "NIFTY 1D RATE INDEX",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY MIDCAP 150 MOMENTUM 50 TRI": {
+   "nse": "NIFTY MIDCAP150 MOMENTUM 50",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY200 VALUE 30 TRI": {
+   "nse": "NIFTY200 VALUE 30",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY G-SEC JUL 2031 INDEX": {
+   "nse": "NIFTY G-SEC JUL 2031 INDEX",
+   "how": "exact",
+   "schemes": 1
+  },
+  "i.e NIFTY 500 TRI": {
+   "nse": "NIFTY 500",
+   "how": "exact",
+   "schemes": 3
+  },
+  "i.e NIFTY 1D Rate Index": {
+   "nse": "NIFTY 1D RATE INDEX",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY 100-TRI": {
+   "nse": "NIFTY 100",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty 500-TRI": {
+   "nse": "NIFTY 500",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY Total Market Index TRI": {
+   "nse": "NIFTY TOTAL MARKET",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY Financial Services TRI": {
+   "nse": "NIFTY FINANCIAL SERVICES",
+   "how": "exact",
+   "schemes": 2
+  },
+  "NIFTY Non-Cyclical Consumer Index TRI": {
+   "nse": "NIFTY NON-CYCLICAL CONSUMER",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty EV and New Age Automotive Index - Total Return Index": {
+   "nse": "NIFTY EV & NEW AGE AUTOMOTIVE",
+   "how": "fuzzy",
+   "schemes": 2
+  },
+  "Nifty India Defence Index- Total Return Index": {
+   "nse": "NIFTY INDIA DEFENCE",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty India Defence Index-Total Return Index": {
+   "nse": "NIFTY INDIA DEFENCE",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty 500 Multicap 50:25:25 Index TRI": {
+   "nse": "NIFTY500 MULTICAP 50:25:25",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty India Railways PSU Index \u2013 TRI": {
+   "nse": "NIFTY INDIA RAILWAYS PSU",
+   "how": "exact",
+   "schemes": 2
+  },
+  "Nifty 200 Index - Total Return Index": {
+   "nse": "NIFTY 200",
+   "how": "exact",
+   "schemes": 2
+  },
+  "Nifty 500 Momentum 50 Index \u2013 TRI": {
+   "nse": "NIFTY500 MOMENTUM 50",
+   "how": "exact",
+   "schemes": 2
+  },
+  "Nifty 500 Low Volatility 50 Index \u2013 TRI": {
+   "nse": "NIFTY500 LOW VOLATILITY 50",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty India Internet Index - TRI": {
+   "nse": "NIFTY INDIA INTERNET",
+   "how": "exact",
+   "schemes": 2
+  },
+  "Nifty 50 Index - TRI": {
+   "nse": "NIFTY 50",
+   "how": "exact",
+   "schemes": 2
+  },
+  "Nifty Next 50 Index TRI": {
+   "nse": "NIFTY NEXT 50",
+   "how": "exact",
+   "schemes": 2
+  },
+  "Nifty Capital Markets Index - TRI": {
+   "nse": "NIFTY CAPITAL MARKETS",
+   "how": "exact",
+   "schemes": 2
+  },
+  "Nifty Smallcap 250 Index - TRI": {
+   "nse": "NIFTY SMALLCAP 250",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty Midcap 150 Index - TRI": {
+   "nse": "NIFTY MIDCAP 150",
+   "how": "exact",
+   "schemes": 3
+  },
+  "Nifty Metal Index - TRI": {
+   "nse": "NIFTY METAL",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty Chemicals Index - TRI": {
+   "nse": "NIFTY CHEMICALS",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty Smallcap 250 Index": {
+   "nse": "NIFTY SMALLCAP 250",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty PSE Index - TRI": {
+   "nse": "NIFTY PSE",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty Smallcap 250 Momentum Quality 100 Index TRI": {
+   "nse": "NIFTY SMALLCAP250 MOMENTUM QUALITY 100",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty Smallcap 250 Momentum Quality 100 Total Return Index": {
+   "nse": "NIFTY SMALLCAP250 MOMENTUM QUALITY 100",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty 100 Index TRI*": {
+   "nse": "NIFTY 100",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty Midcap 150 Index TRI*": {
+   "nse": "NIFTY MIDCAP 150",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty LargeMidcap 250 Index - TRI*": {
+   "nse": "NIFTY LARGEMIDCAP 250",
+   "how": "exact",
+   "schemes": 2
+  },
+  "Nifty 50 Index TRI*": {
+   "nse": "NIFTY 50",
+   "how": "exact",
+   "schemes": 2
+  },
+  "Nifty Smallcap 100 Index TRI*": {
+   "nse": "NIFTY SMALLCAP 100",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty 1D Rate Index*": {
+   "nse": "NIFTY 1D RATE INDEX",
+   "how": "exact",
+   "schemes": 2
+  },
+  "Nifty 8-13 Yr G-Sec Index*": {
+   "nse": "NIFTY 8-13 YR G-SEC",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty MidSmallcap400 50:50 Index TRI*": {
+   "nse": "NIFTY MIDSMALLCAP400 50:50",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty LargeMidcap250 Plus 8-13 yr G-Sec 70:30 Index - TRI*": {
+   "nse": "NIFTY LARGEMIDCAP250 PLUS 8-13 YR G-SEC 70:30",
+   "how": "exact",
+   "schemes": 1
+  },
+  "Nifty Smallcap 250 Index TRI": {
+   "nse": "NIFTY SMALLCAP 250",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY 500 Multicap 50:25:25 Index TRI": {
+   "nse": "NIFTY500 MULTICAP 50:25:25",
+   "how": "exact",
+   "schemes": 1
+  },
+  "NIFTY100 ESG INDEX TRI": {
+   "nse": "NIFTY100 ESG",
+   "how": "exact",
+   "schemes": 1
+  }
+ },
+ "unresolved": {
+  "NIFTY 50 Midcap Index TRI": 1,
+  "S&P DEVELOPED EX-U.S. BMI TOTAL RETURN INDEX": 1,
+  "NIFTY REALTY TR INDEX": 1,
+  "NIFTY 200 INDEX TR": 1,
+  "Nifty RealtyIndex - TRI": 1,
+  "Nifty Private Bank Index Fund": 1
+ },
+ "buckets": {
+  "CRISIL (licensed)": 187,
+  "BSE family (needs bseindia)": 124,
+  "MAPPED exact": 573,
+  "composite blend (synthesise from legs)": 40,
+  "commodity price (not an index)": 36,
+  "international index": 38,
+  "NIFTY debt/ES tier (absent from NSE catalogue)": 83,
+  "MAPPED fuzzy": 11,
+  "UNRESOLVED": 6,
+  "fund-of-fund (chain to that fund's NAV)": 4
+ }
+}
