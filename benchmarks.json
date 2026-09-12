@@ -2,7 +2,7 @@
  {
   "amc": "360 ONE Mutual Fund",
   "sheet": "Dynamic Bond",
-  "scheme_name": null,
+  "scheme_name": "360 ONE Dynamic Bond Fund",
   "benchmark_raw": "CRISIL Dynamic Bond A-III Index",
   "label": "As per AMFI Tier I Benchmark i.e. CRISIL",
   "how": "inline"
@@ -50,7 +50,7 @@
  {
   "amc": "360 ONE Mutual Fund",
   "sheet": "Balance Hybrid",
-  "scheme_name": null,
+  "scheme_name": "360 ONE Balanced Hybrid Fund",
   "benchmark_raw": "Nifty 50 Hybrid Composite Debt 50:50 Index",
   "label": "As per AMFI Tier I Benchmark i.e.Nifty 5",
   "how": "inline"
@@ -74,7 +74,7 @@
  {
   "amc": "360 ONE Mutual Fund",
   "sheet": "Overnight Fund",
-  "scheme_name": null,
+  "scheme_name": "360 ONE Overnight Fund",
   "benchmark_raw": "NIFTY 1D Rate Index",
   "label": "As per AMFI Tier I Benchmark i.e. NIFTY ",
   "how": "inline"
@@ -82,7 +82,7 @@
  {
   "amc": "360 ONE Mutual Fund",
   "sheet": "Multi Asset Allocation",
-  "scheme_name": null,
+  "scheme_name": "360 ONE Multi Asset Allocation Fund",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -2034,7 +2034,7 @@
  {
   "amc": "Bank of India Mutual Fund",
   "sheet": "F & O Disclosure",
-  "scheme_name": null,
+  "scheme_name": "Bank of India Arbitrage Fund",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -2962,7 +2962,7 @@
  {
   "amc": "Franklin Templeton Mutual Fund",
   "sheet": "FILCF",
-  "scheme_name": "Franklin India Large Cap Fund (Formerly known as Franklin India Bluechip Fund)^",
+  "scheme_name": "Franklin India Large Cap Fund",
   "benchmark_raw": "Nifty 100",
   "label": "Primary Benchmark",
   "how": "inline"
@@ -2986,7 +2986,7 @@
  {
   "amc": "Franklin Templeton Mutual Fund",
   "sheet": "FIDYF",
-  "scheme_name": "Franklin India Dividend Yield Fund (Formerly known as Templeton India Equity Income Fund) ^",
+  "scheme_name": "Franklin India Dividend Yield Fund",
   "benchmark_raw": "Nifty Dividend Opportunities 50",
   "label": "Tier",
   "how": "inline"
@@ -3026,7 +3026,7 @@
  {
   "amc": "Franklin Templeton Mutual Fund",
   "sheet": "FIUS",
-  "scheme_name": null,
+  "scheme_name": "Franklin U.S. Opportunities Equity Active Fund of Funds",
   "benchmark_raw": "Russell 3000 Growth Index",
   "label": "Primary Benchmark",
   "how": "inline"
@@ -3034,7 +3034,7 @@
  {
   "amc": "Franklin Templeton Mutual Fund",
   "sheet": "FIPAF",
-  "scheme_name": null,
+  "scheme_name": "Mutual Fund Units",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -3042,7 +3042,7 @@
  {
   "amc": "Franklin Templeton Mutual Fund",
   "sheet": "FF",
-  "scheme_name": null,
+  "scheme_name": "Mutual Fund Units",
   "benchmark_raw": "CRISIL Hybrid 50+50 - Moderate Index",
   "label": "Primary Benchmark",
   "how": "inline"
@@ -4242,7 +4242,7 @@
  {
   "amc": "ICICI Prudential Mutual Fund",
   "sheet": "Derivative",
-  "scheme_name": null,
+  "scheme_name": "ICICI Prudential Overnight Fund",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -4570,7 +4570,7 @@
  {
   "amc": "ITI Mutual Fund",
   "sheet": "All - Performance ",
-  "scheme_name": null,
+  "scheme_name": "ITI Overnight Fund",
   "benchmark_raw": "CRISIL Liquid Overnight Index",
   "label": "Benchmark Name",
   "how": "below"
@@ -4866,7 +4866,7 @@
  {
   "amc": "Kotak Mahindra Mutual Fund",
   "sheet": "OVR",
-  "scheme_name": "Kotak Overnight Fund",
+  "scheme_name": "Kotak Overnight Fund Daily IDCW",
   "benchmark_raw": "Nifty 1D Rate Index",
   "label": "Benchmark",
   "how": "inline"
@@ -5090,7 +5090,7 @@
  {
   "amc": "Kotak Mahindra Mutual Fund",
   "sheet": "MAF",
-  "scheme_name": "Kotak Multi Asset Allocation Fund",
+  "scheme_name": "Kotak Multi Asset Allocation Fund-Direct IDCW",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -5130,7 +5130,7 @@
  {
   "amc": "Kotak Mahindra Mutual Fund",
   "sheet": "LIQ",
-  "scheme_name": "Kotak Liquid Fund",
+  "scheme_name": "Kotak-Liquid Fund - Direct Weekly IDCW",
   "benchmark_raw": "Nifty Liquid Index A-I",
   "label": "Benchmark",
   "how": "inline"
@@ -5210,7 +5210,7 @@
  {
   "amc": "Kotak Mahindra Mutual Fund",
   "sheet": "KLD",
-  "scheme_name": "Kotak Low Duration Fund",
+  "scheme_name": "Kotak Low Duration Fund-Direct Weekly IDCW",
   "benchmark_raw": "Nifty Low Duration Debt Index A-I",
   "label": "Benchmark",
   "how": "inline"
@@ -5218,7 +5218,7 @@
  {
   "amc": "Kotak Mahindra Mutual Fund",
   "sheet": "KIP",
-  "scheme_name": "Kotak Debt Hybrid Fund",
+  "scheme_name": "Kotak-Debt Hybrid Fund Monthly IDCW",
   "benchmark_raw": "CRISIL Hybrid 85+15 - Conservative Index",
   "label": "Benchmark",
   "how": "inline"
@@ -5234,7 +5234,7 @@
  {
   "amc": "Kotak Mahindra Mutual Fund",
   "sheet": "KGS",
-  "scheme_name": "Kotak Banking and PSU Debt Fund",
+  "scheme_name": "Kotak-Banking and PSU Debt Fund-Direct Monthly IDCW",
   "benchmark_raw": "CRISIL Banking and PSU Debt A-II Index",
   "label": "Benchmark",
   "how": "inline"
@@ -5274,7 +5274,7 @@
  {
   "amc": "Kotak Mahindra Mutual Fund",
   "sheet": "KCB",
-  "scheme_name": "Kotak Corporate Bond Fund",
+  "scheme_name": "Kotak Corporate Bond Fund-Direct Monthly IDCW",
   "benchmark_raw": "Nifty Corporate Bond Index A-II",
   "label": "Benchmark",
   "how": "inline"
@@ -5394,7 +5394,7 @@
  {
   "amc": "Kotak Mahindra Mutual Fund",
   "sheet": "FLT",
-  "scheme_name": "Kotak Savings Fund",
+  "scheme_name": "Kotak Savings Fund Monthly IDCW",
   "benchmark_raw": "Nifty Ultra Short Duration Debt Index A-I",
   "label": "Benchmark",
   "how": "inline"
@@ -5402,7 +5402,7 @@
  {
   "amc": "Kotak Mahindra Mutual Fund",
   "sheet": "FLR",
-  "scheme_name": "Kotak Money Market Fund",
+  "scheme_name": "Kotak Money Market Fund Monthly IDCW",
   "benchmark_raw": "CRISIL Money Market A-I Index",
   "label": "Benchmark",
   "how": "inline"
@@ -5458,7 +5458,7 @@
  {
   "amc": "Kotak Mahindra Mutual Fund",
   "sheet": "CPL",
-  "scheme_name": "Kotak Arbitrage Fund",
+  "scheme_name": "Kotak Arbitrage Fund Monthly IDCW",
   "benchmark_raw": "Nifty 50 Arbitrage Index TRI",
   "label": "Benchmark",
   "how": "inline"
@@ -5674,7 +5674,7 @@
  {
   "amc": "Kotak Mahindra Mutual Fund",
   "sheet": "Common Notes",
-  "scheme_name": null,
+  "scheme_name": "Common Notes to Portfolio",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -5690,7 +5690,7 @@
  {
   "amc": "LIC Mutual Fund",
   "sheet": "Sheet1",
-  "scheme_name": "LIC MF Nifty 8-13 yr G-Sec ETF",
+  "scheme_name": "LIC MF Medium to Long Duration Fund",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -5722,7 +5722,7 @@
  {
   "amc": "LIC Mutual Fund",
   "sheet": "LDINPF",
-  "scheme_name": "LIC MF BANKING & PSU FUND",
+  "scheme_name": "LIC MF Banking & PSU Fund",
   "benchmark_raw": "i . e . Nifty Banking & PSU Debt Index AII",
   "label": "As per AMFI Tier I Benchmark i . e . Nif",
   "how": "inline"
@@ -5738,7 +5738,7 @@
  {
   "amc": "LIC Mutual Fund",
   "sheet": "LDMNMF",
-  "scheme_name": "LIC MF MONEY MARKET FUND",
+  "scheme_name": "LIC MF Money Market Fund",
   "benchmark_raw": "i . e . NIFTY Money Market Index A-I",
   "label": "As per AMFI Tier I Benchmark i . e . NIF",
   "how": "inline"
@@ -5746,7 +5746,7 @@
  {
   "amc": "LIC Mutual Fund",
   "sheet": "LDONTF",
-  "scheme_name": "LIC MF OVERNIGHT FUND",
+  "scheme_name": "LIC MF Overnight Fund",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -5778,7 +5778,7 @@
  {
   "amc": "LIC Mutual Fund",
   "sheet": "LLIQDF",
-  "scheme_name": "LIC MF LIQUID FUND",
+  "scheme_name": "LIC MF Liquid Fund",
   "benchmark_raw": "i . e . CRISIL Liquid Debt A-I Index",
   "label": "As per AMFI Tier I Benchmark i . e . CRI",
   "how": "inline"
@@ -5786,7 +5786,7 @@
  {
   "amc": "LIC Mutual Fund",
   "sheet": "Sheet1",
-  "scheme_name": null,
+  "scheme_name": "LIC MF Arbitrage Fund",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -6026,7 +6026,7 @@
  {
   "amc": "LIC Mutual Fund",
   "sheet": "LETF50",
-  "scheme_name": "NSE Symbol:LICNETFN50",
+  "scheme_name": "LIC MF NIFTY 50 ETF",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -6042,7 +6042,7 @@
  {
   "amc": "LIC Mutual Fund",
   "sheet": "LEULIS",
-  "scheme_name": "LIC MF UNIT LINKED INSURANCE SCHEME",
+  "scheme_name": null,
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -6050,7 +6050,7 @@
  {
   "amc": "Mahindra Mutual Fund",
   "sheet": "MMF01",
-  "scheme_name": "AS PER AMFI TIER I BENCHMARK I.E. CRISIL LIQUID DEBT A-I INDEX",
+  "scheme_name": "MAHINDRA MANULIFE LIQUID FUND",
   "benchmark_raw": "CRISIL LIQUID DEBT A-I INDEX",
   "label": "AS PER AMFI TIER I BENCHMARK I.E. CRISIL",
   "how": "inline"
@@ -6058,7 +6058,7 @@
  {
   "amc": "Mahindra Mutual Fund",
   "sheet": "MMF02",
-  "scheme_name": "AS PER AMFI TIER I BENCHMARK I.E. NIFTY 500 TRI",
+  "scheme_name": "MAHINDRA MANULIFE ELSS TAX SAVER FUND",
   "benchmark_raw": "NIFTY 500 TRI",
   "label": "AS PER AMFI TIER I BENCHMARK I.E. NIFTY ",
   "how": "inline"
@@ -6066,7 +6066,7 @@
  {
   "amc": "Mahindra Mutual Fund",
   "sheet": "MMF03",
-  "scheme_name": "AS PER AMFI TIER I BENCHMARK I.E. NIFTY EQUITY SAVINGS TRI",
+  "scheme_name": "MAHINDRA MANULIFE EQUITY SAVINGS FUND",
   "benchmark_raw": "NIFTY EQUITY SAVINGS TRI",
   "label": "AS PER AMFI TIER I BENCHMARK I.E. NIFTY ",
   "how": "inline"
@@ -6074,7 +6074,7 @@
  {
   "amc": "Mahindra Mutual Fund",
   "sheet": "MMF04",
-  "scheme_name": "AS PER AMFI TIER I BENCHMARK I.E. CRISIL LOW DURATION DEBT A-I INDEX",
+  "scheme_name": "MAHINDRA MANULIFE LOW DURATION FUND",
   "benchmark_raw": "CRISIL LOW DURATION DEBT A-I INDEX",
   "label": "AS PER AMFI TIER I BENCHMARK I.E. CRISIL",
   "how": "inline"
@@ -6082,7 +6082,7 @@
  {
   "amc": "Mahindra Mutual Fund",
   "sheet": "MMF05",
-  "scheme_name": "AS PER AMFI TIER I BENCHMARK I.E. NIFTY 500 MULTICAP 50:25:25 TRI",
+  "scheme_name": "MAHINDRA MANULIFE MULTI CAP FUND",
   "benchmark_raw": "NIFTY 500 MULTICAP 50:25:25 TRI",
   "label": "AS PER AMFI TIER I BENCHMARK I.E. NIFTY ",
   "how": "inline"
@@ -6090,7 +6090,7 @@
  {
   "amc": "Mahindra Mutual Fund",
   "sheet": "MMF07",
-  "scheme_name": "AS PER AMFI TIER I BENCHMARK I.E. NIFTY MIDCAP 150 TRI",
+  "scheme_name": "MAHINDRA MANULIFE MID CAP FUND",
   "benchmark_raw": "NIFTY MIDCAP 150 TRI",
   "label": "AS PER AMFI TIER I BENCHMARK I.E. NIFTY ",
   "how": "inline"
@@ -6098,7 +6098,7 @@
  {
   "amc": "Mahindra Mutual Fund",
   "sheet": "MMF08",
-  "scheme_name": "AS PER AMFI TIER I BENCHMARK I.E. CRISIL DYNAMIC BOND A-III INDEX",
+  "scheme_name": "MAHINDRA MANULIFE DYNAMIC BOND FUND",
   "benchmark_raw": "CRISIL DYNAMIC BOND A-III INDEX",
   "label": "AS PER AMFI TIER I BENCHMARK I.E. CRISIL",
   "how": "inline"
@@ -6106,7 +6106,7 @@
  {
   "amc": "Mahindra Mutual Fund",
   "sheet": "MMF09",
-  "scheme_name": "AS PER AMFI TIER I BENCHMARK I.E. NIFTY INDIA CONSUMPTION TRI",
+  "scheme_name": "MAHINDRA MANULIFE CONSUMPTION FUND",
   "benchmark_raw": "NIFTY INDIA CONSUMPTION TRI",
   "label": "AS PER AMFI TIER I BENCHMARK I.E. NIFTY ",
   "how": "inline"
@@ -6114,7 +6114,7 @@
  {
   "amc": "Mahindra Mutual Fund",
   "sheet": "MMF10",
-  "scheme_name": "AS PER AMFI TIER I BENCHMARK I.E. NIFTY 100 TRI",
+  "scheme_name": "MAHINDRA MANULIFE LARGE CAP FUND",
   "benchmark_raw": "NIFTY 100 TRI",
   "label": "AS PER AMFI TIER I BENCHMARK I.E. NIFTY ",
   "how": "inline"
@@ -6122,7 +6122,7 @@
  {
   "amc": "Mahindra Mutual Fund",
   "sheet": "MMF11",
-  "scheme_name": "AS PER AMFI TIER I BENCHMARK I.E. CRISIL HYBRID 35+65 AGGRESSIVE INDEX",
+  "scheme_name": "MAHINDRA MANULIFE AGGRESSIVE HYBRID FUND",
   "benchmark_raw": "CRISIL HYBRID 35+65 AGGRESSIVE INDEX",
   "label": "AS PER AMFI TIER I BENCHMARK I.E. CRISIL",
   "how": "inline"
@@ -6130,7 +6130,7 @@
  {
   "amc": "Mahindra Mutual Fund",
   "sheet": "MMF12",
-  "scheme_name": "AS PER AMFI TIER I BENCHMARK I.E. CRISIL LIQUID OVERNIGHT INDEX",
+  "scheme_name": "MAHINDRA MANULIFE OVERNIGHT FUND",
   "benchmark_raw": "CRISIL LIQUID OVERNIGHT INDEX",
   "label": "AS PER AMFI TIER I BENCHMARK I.E. CRISIL",
   "how": "inline"
@@ -6138,7 +6138,7 @@
  {
   "amc": "Mahindra Mutual Fund",
   "sheet": "MMF13",
-  "scheme_name": "AS PER AMFI TIER I BENCHMARK I.E. CRISIL ULTRA SHORT DURATION DEBT A-I INDEX",
+  "scheme_name": "MAHINDRA MANULIFE ULTRA SHORT DURATION FUND",
   "benchmark_raw": "CRISIL ULTRA SHORT DURATION DEBT A-I INDEX",
   "label": "AS PER AMFI TIER I BENCHMARK I.E. CRISIL",
   "how": "inline"
@@ -6146,7 +6146,7 @@
  {
   "amc": "Mahindra Mutual Fund",
   "sheet": "MMF14",
-  "scheme_name": "AS PER AMFI TIER I BENCHMARK I.E. NIFTY LARGE MIDCAP 250 TRI",
+  "scheme_name": "MAHINDRA MANULIFE LARGE & MID CAP FUND",
   "benchmark_raw": "NIFTY LARGE MIDCAP 250 TRI",
   "label": "AS PER AMFI TIER I BENCHMARK I.E. NIFTY ",
   "how": "inline"
@@ -6154,7 +6154,7 @@
  {
   "amc": "Mahindra Mutual Fund",
   "sheet": "MMF15",
-  "scheme_name": "AS PER AMFI TIER I BENCHMARK I.E. NIFTY 50 ARBITRAGE TRI",
+  "scheme_name": "MAHINDRA MANULIFE ARBITRAGE FUND",
   "benchmark_raw": "NIFTY 50 ARBITRAGE TRI",
   "label": "AS PER AMFI TIER I BENCHMARK I.E. NIFTY ",
   "how": "inline"
@@ -6162,7 +6162,7 @@
  {
   "amc": "Mahindra Mutual Fund",
   "sheet": "MMF16",
-  "scheme_name": "AS PER AMFI TIER I BENCHMARK I.E. NIFTY 500 TRI",
+  "scheme_name": "MAHINDRA MANULIFE FOCUSED FUND",
   "benchmark_raw": "NIFTY 500 TRI",
   "label": "AS PER AMFI TIER I BENCHMARK I.E. NIFTY ",
   "how": "inline"
@@ -6170,7 +6170,7 @@
  {
   "amc": "Mahindra Mutual Fund",
   "sheet": "MMF17",
-  "scheme_name": "AS PER AMFI TIER I BENCHMARK I.E. CRISIL SHORT DURATION DEBT A-II INDEX",
+  "scheme_name": "MAHINDRA MANULIFE SHORT DURATION FUND",
   "benchmark_raw": "CRISIL SHORT DURATION DEBT A-II INDEX",
   "label": "AS PER AMFI TIER I BENCHMARK I.E. CRISIL",
   "how": "inline"
@@ -6178,7 +6178,7 @@
  {
   "amc": "Mahindra Mutual Fund",
   "sheet": "MMF18",
-  "scheme_name": "AS PER AMFI TIER I BENCHMARK I.E. NIFTY 500 TRI",
+  "scheme_name": "MAHINDRA MANULIFE FLEXI CAP FUND",
   "benchmark_raw": "NIFTY 500 TRI",
   "label": "AS PER AMFI TIER I BENCHMARK I.E. NIFTY ",
   "how": "inline"
@@ -6186,7 +6186,7 @@
  {
   "amc": "Mahindra Mutual Fund",
   "sheet": "MMF19",
-  "scheme_name": "FTSE EPRA NAREIT ASIA EX JAPAN REITS INDEX",
+  "scheme_name": "MAHINDRA MANULIFE ASIA PACIFIC REITS FOF",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -6194,7 +6194,7 @@
  {
   "amc": "Mahindra Mutual Fund",
   "sheet": "MMF20",
-  "scheme_name": "AS PER AMFI TIER I BENCHMARK I.E. NIFTY 50 HYBRID COMPOSITE DEBT 50: 50 INDEX TRI",
+  "scheme_name": "MAHINDRA MANULIFE BALANCED ADVANTAGE FUND",
   "benchmark_raw": "NIFTY 50 HYBRID COMPOSITE DEBT 50: 50 INDEX TRI",
   "label": "AS PER AMFI TIER I BENCHMARK I.E. NIFTY ",
   "how": "inline"
@@ -6202,7 +6202,7 @@
  {
   "amc": "Mahindra Mutual Fund",
   "sheet": "MMF21",
-  "scheme_name": "AS PER AMFI TIER I BENCHMARK I.E. BSE 250 SMALL CAP TRI",
+  "scheme_name": "MAHINDRA MANULIFE SMALL CAP FUND",
   "benchmark_raw": "BSE 250 SMALL CAP TRI",
   "label": "AS PER AMFI TIER I BENCHMARK I.E. BSE 25",
   "how": "inline"
@@ -6210,7 +6210,7 @@
  {
   "amc": "Mahindra Mutual Fund",
   "sheet": "MMF22",
-  "scheme_name": "AS PER AMFI TIER I BENCHMARK I.E. NIFTY 500 TRI",
+  "scheme_name": "MAHINDRA MANULIFE BUSINESS CYCLE FUND",
   "benchmark_raw": "NIFTY 500 TRI",
   "label": "AS PER AMFI TIER I BENCHMARK I.E. NIFTY ",
   "how": "inline"
@@ -6218,7 +6218,7 @@
  {
   "amc": "Mahindra Mutual Fund",
   "sheet": "MMF23",
-  "scheme_name": "MAHINDRA MANULIFE MULTI ASSET ALLOCATION FUND ( AN OPEN ENDED SCHEME INVESTING IN EQUITY, DEBT, GOLD/SILVER EXCHANGE TRADED FUNDS (ETFS) AND EXCHANGE TRADED COMMODITY DERIVATIVES )",
+  "scheme_name": "Mahindra Manulife Multi Asset Allocation Fund",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -6226,7 +6226,7 @@
  {
   "amc": "Mahindra Mutual Fund",
   "sheet": "MMF24",
-  "scheme_name": "AS PER AMFI TIER I BENCHMARK I.E. NIFTY INDIA MANUFACTURING TRI",
+  "scheme_name": "MAHINDRA MANULIFE MANUFACTURING FUND",
   "benchmark_raw": "NIFTY INDIA MANUFACTURING TRI",
   "label": "AS PER AMFI TIER I BENCHMARK I.E. NIFTY ",
   "how": "inline"
@@ -6234,7 +6234,7 @@
  {
   "amc": "Mahindra Mutual Fund",
   "sheet": "MMF25",
-  "scheme_name": "AS PER AMFI TIER I BENCHMARK I.E. NIFTY 500 TRI",
+  "scheme_name": "MAHINDRA MANULIFE VALUE FUND",
   "benchmark_raw": "NIFTY 500 TRI",
   "label": "AS PER AMFI TIER I BENCHMARK I.E. NIFTY ",
   "how": "inline"
@@ -6242,7 +6242,7 @@
  {
   "amc": "Mahindra Mutual Fund",
   "sheet": "MMF26",
-  "scheme_name": "AS PER AMFI TIER I BENCHMARK I.E. NIFTY FINANCIAL SERVICES TRI",
+  "scheme_name": "MAHINDRA MANULIFE BANKING & FINANCIAL SERVICES FUND",
   "benchmark_raw": "NIFTY FINANCIAL SERVICES TRI",
   "label": "AS PER AMFI TIER I BENCHMARK I.E. NIFTY ",
   "how": "inline"
@@ -6250,7 +6250,7 @@
  {
   "amc": "Mahindra Mutual Fund",
   "sheet": "MMF27",
-  "scheme_name": "AS PER AMFI TIER I BENCHMARK I.E. 60% CRISIL COMPOSITE BOND INDEX + 40% NIFTY 50 ARBITRAGE",
+  "scheme_name": "MAHINDRA MANULIFE INCOME PLUS ARBITRAGE ACTIVE FOF",
   "benchmark_raw": "60% CRISIL COMPOSITE BOND INDEX + 40% NIFTY 50 ARBITRAGE",
   "label": "AS PER AMFI TIER I BENCHMARK I.E. 60% CR",
   "how": "inline"
@@ -6258,7 +6258,7 @@
  {
   "amc": "Mahindra Mutual Fund",
   "sheet": "MMF28",
-  "scheme_name": "AS PER AMFI TIER I BENCHMARK I.E. NIFTY 500 TRI",
+  "scheme_name": "MAHINDRA MANULIFE INNOVATION OPPORTUNITIES FUND",
   "benchmark_raw": "NIFTY 500 TRI",
   "label": "AS PER AMFI TIER I BENCHMARK I.E. NIFTY ",
   "how": "inline"
@@ -6266,7 +6266,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO01",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal Nifty 50 ETF",
   "benchmark_raw": "NIFTY 50 TRI",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6274,7 +6274,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO02",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal Nifty Midcap 100 ETF",
   "benchmark_raw": "NIFTY MIDCAP 100 - TRI",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6282,7 +6282,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO03",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal Nasdaq 100 ETF",
   "benchmark_raw": "NASDAQ-100 TRI",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6290,7 +6290,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO05",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal Focused Fund",
   "benchmark_raw": "NIFTY 500 - TRI",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6298,7 +6298,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO06",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal Ultra Short Term Fund",
   "benchmark_raw": "CRISIL ULTRA SHORT DURATION FUND BI INDEX",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6306,7 +6306,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO07",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal Midcap Fund",
   "benchmark_raw": "NIFTY MIDCAP 150 INDEX - TRI",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6314,7 +6314,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO08",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal Flexicap Fund",
   "benchmark_raw": "NIFTY 500 - TRI",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6322,7 +6322,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO09",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal ELSS Tax Saver Fund",
   "benchmark_raw": "NIFTY 500 - TRI",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6330,7 +6330,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO10",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal Balanced Advantage Fund",
   "benchmark_raw": "CRISIL HYBRID 50+ 50 MODERATE INDEX",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6338,7 +6338,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO13",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal Nasdaq 100 Fund of Fund",
   "benchmark_raw": "NASDAQ-100 TRI",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6346,7 +6346,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO15",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal Liquid Fund",
   "benchmark_raw": "CRISIL LIQUID FUND AI INDEX",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6354,7 +6354,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO16",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal Nifty Midcap 150 Index Fund",
   "benchmark_raw": "NIFTY MIDCAP 150 INDEX - TRI",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6362,7 +6362,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO17",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal Nifty Smallcap 250 Index Fund",
   "benchmark_raw": "NIFTY SMALLCAP 250 INDEX- TRI",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6370,7 +6370,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO18",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal Nifty 500 Index Fund",
   "benchmark_raw": "NIFTY 500 - TRI",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6378,7 +6378,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO19",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal Nifty Bank Index Fund",
   "benchmark_raw": "NIFTY BANK INDEX- TRI",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6386,7 +6386,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO20",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal Large and Midcap Fund",
   "benchmark_raw": "NIFTY LARGEMIDCAP 250 INDEX - TRI",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6394,7 +6394,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO21",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal Nifty 50 Index Fund",
   "benchmark_raw": "NIFTY 50 TRI",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6402,7 +6402,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO22",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal Nifty Next 50 Index Fund",
   "benchmark_raw": "NIFTY NEXT 50 INDEX- TRI",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6410,7 +6410,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO23",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal S&P 500 Index Fund",
   "benchmark_raw": "S&P 500 INDEX TRI",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6418,7 +6418,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO25",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal Nifty 5 year Benchmark G-Sec ETF",
   "benchmark_raw": "NIFTY 5 YR BENCHMARK G-SEC INDEX",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6426,7 +6426,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO26",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal Asset Allocation Passive Fund of Fund - Aggressive",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -6434,7 +6434,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO27",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal Asset Allocation Passive Fund of Fund - Conservative",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -6442,7 +6442,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO28",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal 5 Year G-Sec Fund of Fund",
   "benchmark_raw": "NIFTY 5 YR BENCHMARK G-SEC INDEX",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6450,7 +6450,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO30",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal Nasdaq Q50 ETF",
   "benchmark_raw": "NASDAQ Q50 INDEX TRI",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6458,7 +6458,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO31",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal Nifty 200 Momentum 30 ETF",
   "benchmark_raw": "NIFTY 200 MOMENTUM 30 TRI",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6466,7 +6466,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO32",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal Nifty 200 Momentum 30 Index Fund",
   "benchmark_raw": "NIFTY 200 MOMENTUM 30 TRI",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6474,7 +6474,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO33",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal BSE Low Volatility ETF",
   "benchmark_raw": "BSE LOW VOLATILITY TOTAL RETURN INDEX",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6482,7 +6482,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO34",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal BSE low Volatility Index Fund",
   "benchmark_raw": "BSE LOW VOLATILITY TOTAL RETURN INDEX",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6490,7 +6490,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO35",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal BSE Financials ex Bank 30 Index Fund",
   "benchmark_raw": "BSE FINANCIALS EX BANK 30 - TRI",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6498,7 +6498,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO36",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal BSE Healthcare ETF",
   "benchmark_raw": "BSE HEALTHCARE - TRI",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6506,7 +6506,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO37",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal BSE Enhanced Value ETF",
   "benchmark_raw": "BSE ENHANCED VALUE - TRI",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6514,7 +6514,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO38",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal BSE Enhanced Value Index Fund",
   "benchmark_raw": "BSE ENHANCED VALUE - TRI",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6522,7 +6522,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO39",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal BSE Quality ETF",
   "benchmark_raw": "BSE QUALITY - TRI",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6530,7 +6530,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO40",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal BSE Quality Index Fund",
   "benchmark_raw": "BSE QUALITY - TRI",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6538,7 +6538,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO41",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal Gold and Silver Passive Fund of Funds",
   "benchmark_raw": "LBMA PRICE OF GOLD",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6546,7 +6546,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO43",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal Nifty Microcap 250 Index Fund",
   "benchmark_raw": "NIFTY MICROCAP 250 TOTAL RETURN INDEX",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6554,7 +6554,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO44",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal Developed Market Ex US ETFs Overseas Equity Passive FOF",
   "benchmark_raw": "S&P DEVELOPED EX-U.S. BMI TOTAL RETURN INDEX",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6562,7 +6562,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO45",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal Nifty 500 ETF",
   "benchmark_raw": "NIFTY 500 TOTAL RETURN INDEX",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6570,7 +6570,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO46",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "MOTILAL OSWAL SMALL CAP FUND",
   "benchmark_raw": "NIFTY SMALLCAP 250 TRI",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6578,7 +6578,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO47",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "MOTILAL OSWAL LARGE CAP FUND",
   "benchmark_raw": "NIFTY 100 TRI INDEX",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6586,7 +6586,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO48",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal Nifty Realty ETF",
   "benchmark_raw": "NIFTY REALTY TR INDEX",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6594,7 +6594,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO49",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal Nifty Smallcap 250 ETF",
   "benchmark_raw": "NIFTY SMALLCAP 250 TR INDEX",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6602,7 +6602,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO50",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal Quant Fund",
   "benchmark_raw": "NIFTY 200 INDEX TR",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6610,7 +6610,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO51",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal Multi Cap Fund",
   "benchmark_raw": "NIFTY 500 MULTICAP 50:25:25 INDEX TR",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6618,7 +6618,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO52",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal Nifty India Defence Index Fund",
   "benchmark_raw": "NIFTY INDIA DEFENCE TOTAL RETURN INDEX",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6626,7 +6626,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO53",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal Manufacturing Fund",
   "benchmark_raw": "NIFTY INDIA MANUFACTURING TOTAL RETURN INDEX",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6634,7 +6634,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO54",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal Business Cycle Fund",
   "benchmark_raw": "NIFTY 500 TRI",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6642,7 +6642,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO55",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal Nifty India Defence ETF",
   "benchmark_raw": "NIFTY INDIA DEFENCE TOTAL RETURN INDEX",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6650,7 +6650,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO56",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal Nifty 500 Momentum 50 Index Fund",
   "benchmark_raw": "NIFTY 500 MOMENTUM 50 TOTAL RETURN INDEX",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6658,7 +6658,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO57",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal Nifty 500 Momentum 50 ETF",
   "benchmark_raw": "NIFTY 500 MOMENTUM 50 TOTAL RETURN INDEX",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6666,7 +6666,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO58",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal Digital India Fund",
   "benchmark_raw": "BSE TECK TRI",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6674,7 +6674,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO59",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal Nifty MidSmall Fin Servs Index Fund",
   "benchmark_raw": "NIFTY MIDSMALL FINANCIAL SERVICES TOTAL RETURN INDEX",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6682,7 +6682,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO60",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal Nifty MidSmall India Consumption Index Fund",
   "benchmark_raw": "NIFTY MIDSMALL INDIA CONSUMPTION TOTAL RETURN INDEX",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6690,7 +6690,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO61",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal Nifty MidSmall Healthcare Index Fund",
   "benchmark_raw": "NIFTY MIDSMALL HEALTHCARE TOTAL RETURN INDEX",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6698,7 +6698,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO62",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal Nifty MidSmall IT and Telecom Index Fund",
   "benchmark_raw": "NIFTY MIDSMALL IT AND TELECOM TOTAL RETURN INDEX",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6706,7 +6706,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO63",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal Nifty Capital Market Index Fund",
   "benchmark_raw": "NIFTY CAPITAL MARKET TOTAL RETURN INDEX",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6714,7 +6714,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO64",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal Arbitrage Fund",
   "benchmark_raw": "NIFTY 50 ARBITRAGE INDEX TOTAL RETURN INDEX",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6722,7 +6722,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO65",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal Innovation Opportunities Fund",
   "benchmark_raw": "NIFTY 500 TOTAL RETURN INDEX",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6730,7 +6730,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO66",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal Active Momentum Fund",
   "benchmark_raw": "NIFTY 500 TOTAL RETURN INDEX",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6738,7 +6738,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO67",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal Nifty Capital Market ETF",
   "benchmark_raw": "NIFTY CAPITAL MARKET TOTAL RETURN INDEX",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6746,7 +6746,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO68",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal Infrastructure Fund",
   "benchmark_raw": "NIFTY INFRASTRUCTURE TOTAL RETURN INDEX",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6754,7 +6754,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO69",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal Nifty 50 Equal Weight ETF",
   "benchmark_raw": "NIFTY 50 EQUAL WEIGHT TOTAL RETURN INDEX",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6762,7 +6762,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO70",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal Nifty Next 50 ETF",
   "benchmark_raw": "NIFTY NEXT 50 TOTAL RETURN INDEX",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6770,7 +6770,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO71",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal BSE India Infrastructure ETF",
   "benchmark_raw": "BSE INDIA INFRASTRUCTURE TOTAL RETURN INDEX",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6778,7 +6778,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO72",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal Services Fund",
   "benchmark_raw": "NIFTY SERVICES SECTOR TOTAL RETURN INDEX",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6786,7 +6786,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO73",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal Nifty India Manufacturing ETF",
   "benchmark_raw": "NIFTY INDIA MANUFACTURING TOTAL RETURN INDEX",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6794,7 +6794,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO74",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal Nifty PSE ETF",
   "benchmark_raw": "NIFTY PSE TOTAL RETURN INDEX",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6802,7 +6802,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO75",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal Nifty India Tourism ETF",
   "benchmark_raw": "NIFTY INDIA TOURISM TOTAL RETURN INDEX",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6810,7 +6810,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO76",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal Nifty Midcap 150 Momentum 50 ETF",
   "benchmark_raw": "NIFTY MIDCAP 150 MOMENTUM 50 TOTAL RETURN INDEX",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6818,7 +6818,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO77",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal Nifty Alpha 50 ETF",
   "benchmark_raw": "NIFTY ALPHA 50 TOTAL RETURN INDEX",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6826,7 +6826,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO78",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal BSE 1000 Index Fund",
   "benchmark_raw": "BSE 1000 TOTAL RETURN INDEX",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6834,7 +6834,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO79",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal Gold ETF",
   "benchmark_raw": "DOMESTIC PRICE OF PHYSICAL GOLD",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6842,7 +6842,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO80",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal Special Opportunities Fund",
   "benchmark_raw": "NIFTY 500 TOTAL RETURN INDEX",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6850,7 +6850,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO81",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal Silver ETF",
   "benchmark_raw": "DOMESTIC PRICE OF PHYSICAL SILVER",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6858,7 +6858,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO82",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal Consumption Fund",
   "benchmark_raw": "NIFTY INDIA CONSUMPTION TRI",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6866,7 +6866,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO83",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal Nifty 100 ETF",
   "benchmark_raw": "NIFTY 100 TOTAL RETURN INDEX",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6874,7 +6874,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO84",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal Nifty Energy ETF",
   "benchmark_raw": "NIFTY ENERGY TOTAL RETURN INDEX",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6882,7 +6882,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO85",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal BSE Select IPO ETF",
   "benchmark_raw": "BSE SELECT IPO TOTAL RETURN INDEX",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6890,7 +6890,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO86",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal Nifty Services Sector ETF",
   "benchmark_raw": "NIFTY SERVICES SECTOR TOTAL RETURN INDEX",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6898,7 +6898,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO87",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal Nifty MNC ETF",
   "benchmark_raw": "NIFTY MNC TOTAL RETURN INDEX",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6906,7 +6906,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO88",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal Diversified Eq Flexicap Passive FOF",
   "benchmark_raw": "NIFTY 500 TOTAL RETURN INDEX",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6914,7 +6914,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO89",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal Financial Services Fund",
   "benchmark_raw": "NIFTY FINANCIAL SERVICES TOTAL RETURN INDEX",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6922,7 +6922,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO90",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal Multi Factor Passive Fund of Funds",
   "benchmark_raw": "NIFTY 500 TOTAL RETURN INDEX",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6930,7 +6930,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO91",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal BSE Top 10 Banks ETF",
   "benchmark_raw": "NIFTY PSE TOTAL RETURN INDEX",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6938,7 +6938,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO92",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "MOTILAL OSWAL CONTRA FUND",
   "benchmark_raw": "NIFTY 500 TOTAL RETURN INDEX",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6946,7 +6946,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO93",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal BSE Clean Environment Index Fund",
   "benchmark_raw": "BSE CLEAN ENVIRONMENT TOTAL RETURN INDEX",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -6954,7 +6954,7 @@
  {
   "amc": "Motilal Oswal Mutual Fund",
   "sheet": "YO94",
-  "scheme_name": "(Investment Manager for Motilal Oswal Mutual Fund)",
+  "scheme_name": "Motilal Oswal BSE Midcap 150 Momentum 30 Index Fund",
   "benchmark_raw": "BSE CLEAN ENVIRONMENT TOTAL RETURN INDEX",
   "label": "BENCHMARK NAME",
   "how": "inline"
@@ -8130,7 +8130,7 @@
  {
   "amc": "Quantum Mutual Fund",
   "sheet": "QLTEVF",
-  "scheme_name": "Quantum Asset Management Company Private Ltd",
+  "scheme_name": "Quantum Value Fund",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -8138,7 +8138,7 @@
  {
   "amc": "Quantum Mutual Fund",
   "sheet": "QLF",
-  "scheme_name": "Quantum Asset Management Company Private Ltd",
+  "scheme_name": "Quantum Liquid Fund",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -8146,7 +8146,7 @@
  {
   "amc": "Quantum Mutual Fund",
   "sheet": "QGF",
-  "scheme_name": "Quantum Asset Management Company Private Ltd",
+  "scheme_name": "Quantum Gold ETF",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -8154,7 +8154,7 @@
  {
   "amc": "Quantum Mutual Fund",
   "sheet": "QNF",
-  "scheme_name": "Quantum Asset Management Company Private Ltd",
+  "scheme_name": "Quantum Nifty 50 ETF",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -8162,7 +8162,7 @@
  {
   "amc": "Quantum Mutual Fund",
   "sheet": "QTSF",
-  "scheme_name": "Quantum Asset Management Company Private Ltd",
+  "scheme_name": "Quantum ELSS Tax Saver Fund",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -8170,7 +8170,7 @@
  {
   "amc": "Quantum Mutual Fund",
   "sheet": "QEFOF",
-  "scheme_name": "Quantum Asset Management Company Private Ltd",
+  "scheme_name": "Quantum Diversified Equity All Cap Active FOF",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -8178,7 +8178,7 @@
  {
   "amc": "Quantum Mutual Fund",
   "sheet": "QGSF",
-  "scheme_name": "Quantum Asset Management Company Private Ltd",
+  "scheme_name": "Quantum Gold ETF FOF",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -8186,7 +8186,7 @@
  {
   "amc": "Quantum Mutual Fund",
   "sheet": "QMAFOF",
-  "scheme_name": "Quantum Asset Management Company Private Ltd",
+  "scheme_name": "Quantum Multi Asset Active FOF",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -8194,7 +8194,7 @@
  {
   "amc": "Quantum Mutual Fund",
   "sheet": "QDBF",
-  "scheme_name": "Quantum Asset Management Company Private Ltd",
+  "scheme_name": "Quantum Dynamic Term Fund",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -8202,7 +8202,7 @@
  {
   "amc": "Quantum Mutual Fund",
   "sheet": "QESG",
-  "scheme_name": "Quantum Asset Management Company Private Ltd",
+  "scheme_name": "Quantum ESG Best In Class Strategy Fund",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -8210,7 +8210,7 @@
  {
   "amc": "Quantum Mutual Fund",
   "sheet": "QNFOF",
-  "scheme_name": "Quantum Asset Management Company Private Ltd",
+  "scheme_name": "Quantum Nifty 50 ETF FOF",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -8218,7 +8218,7 @@
  {
   "amc": "Quantum Mutual Fund",
   "sheet": "QSCAPF",
-  "scheme_name": "Quantum Asset Management Company Private Ltd",
+  "scheme_name": "Quantum Small Cap Fund",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -8226,7 +8226,7 @@
  {
   "amc": "Quantum Mutual Fund",
   "sheet": "QMULTI",
-  "scheme_name": "Quantum Asset Management Company Private Ltd",
+  "scheme_name": "Quantum Multi Asset Allocation Fund",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -8234,7 +8234,7 @@
  {
   "amc": "Quantum Mutual Fund",
   "sheet": "QETHICAL",
-  "scheme_name": "Quantum Asset Management Company Private Ltd",
+  "scheme_name": "Quantum Ethical Fund",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -9210,7 +9210,7 @@
  {
   "amc": "Shriram Mutual Fund",
   "sheet": "Shriram Aggressive Hybrid Fund",
-  "scheme_name": null,
+  "scheme_name": "Shriram Aggressive Hybrid Fund",
   "benchmark_raw": "i.e CRISIL Hybrid 35+65 - Aggressive Index",
   "label": "As per AMFI Tier I Benchmark i.e CRISIL ",
   "how": "inline"
@@ -9218,7 +9218,7 @@
  {
   "amc": "Shriram Mutual Fund",
   "sheet": "Shriram Flexi Cap Fund",
-  "scheme_name": null,
+  "scheme_name": "Shriram Flexi Cap Fund",
   "benchmark_raw": "i.e NIFTY 500 TRI",
   "label": "As per AMFI Tier I Benchmark i.e NIFTY 5",
   "how": "inline"
@@ -9226,7 +9226,7 @@
  {
   "amc": "Shriram Mutual Fund",
   "sheet": "Shriram ELSS Tax Saver Fund",
-  "scheme_name": null,
+  "scheme_name": "Shriram ELSS Tax Saver Fund",
   "benchmark_raw": "i.e NIFTY 500 TRI",
   "label": "As per AMFI Tier I Benchmark i.e NIFTY 5",
   "how": "inline"
@@ -9234,7 +9234,7 @@
  {
   "amc": "Shriram Mutual Fund",
   "sheet": "Shriram Balanced Advantage Fund",
-  "scheme_name": null,
+  "scheme_name": "Shriram Balanced Advantage Fund",
   "benchmark_raw": "i.e CRISIL Hybrid 50+50 - Moderate Index",
   "label": "As per AMFI Tier I Benchmark i.e CRISIL ",
   "how": "inline"
@@ -9242,7 +9242,7 @@
  {
   "amc": "Shriram Mutual Fund",
   "sheet": "Shriram Multi Asset Allocation",
-  "scheme_name": null,
+  "scheme_name": "Shriram Multi Asset Allocation Fund",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -9250,7 +9250,7 @@
  {
   "amc": "Shriram Mutual Fund",
   "sheet": "Shriram Multi Sector Rotation",
-  "scheme_name": null,
+  "scheme_name": "Shriram Multi Sector Rotation Fund",
   "benchmark_raw": "i.e NIFTY 500 TRI",
   "label": "As per AMFI Tier I Benchmark i.e NIFTY 5",
   "how": "inline"
@@ -9258,7 +9258,7 @@
  {
   "amc": "Shriram Mutual Fund",
   "sheet": "Shriram Overnight Fund",
-  "scheme_name": null,
+  "scheme_name": "Shriram Overnight Fund",
   "benchmark_raw": "i.e CRISIL Liquid Overnight Index",
   "label": "As per AMFI Tier I Benchmark i.e CRISIL ",
   "how": "inline"
@@ -9274,7 +9274,7 @@
  {
   "amc": "Shriram Mutual Fund",
   "sheet": "Shriram Liquid Fund",
-  "scheme_name": null,
+  "scheme_name": "Shriram Liquid Fund",
   "benchmark_raw": "i.e Nifty Liquid Index A-I",
   "label": "As per AMFI Tier I Benchmark i.e Nifty L",
   "how": "inline"
@@ -9282,7 +9282,7 @@
  {
   "amc": "Shriram Mutual Fund",
   "sheet": "Shriram Money Market Fund",
-  "scheme_name": null,
+  "scheme_name": "Shriram Money Market Fund",
   "benchmark_raw": "i.e Nifty Money Market Index A-I",
   "label": "As per AMFI Tier I Benchmark i.e Nifty M",
   "how": "inline"
@@ -9522,7 +9522,7 @@
  {
   "amc": "Sundaram Mutual Fund",
   "sheet": "SUNMFF",
-  "scheme_name": "Sundaram Multi-Factor Fund",
+  "scheme_name": "Sundaram Multi Factor Fund",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -9530,15 +9530,543 @@
  {
   "amc": "Tata Mutual Fund",
   "sheet": "Tata Scheme Risk-o-Meter",
-  "scheme_name": "CRISIL Hybrid 35+65 - Aggressive Index",
-  "benchmark_raw": null,
-  "label": null,
-  "how": null
+  "scheme_name": "TATA AGGRESSIVE HYBRID FUND",
+  "benchmark_raw": "CRISIL Hybrid 35+65 - Aggressive Index",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "Tata Mutual Fund",
+  "sheet": "Tata Scheme Risk-o-Meter",
+  "scheme_name": "TATA ARBITRAGE FUND",
+  "benchmark_raw": "NIFTY 50 Arbitrage",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "Tata Mutual Fund",
+  "sheet": "Tata Scheme Risk-o-Meter",
+  "scheme_name": "TATA BALANCED ADVANTAGE FUND",
+  "benchmark_raw": "CRISIL Hybrid 50+50 - Moderate Index",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "Tata Mutual Fund",
+  "sheet": "Tata Scheme Risk-o-Meter",
+  "scheme_name": "TATA BANKING & FINANCIAL SERVICES FUND",
+  "benchmark_raw": "Nifty Financial Services",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "Tata Mutual Fund",
+  "sheet": "Tata Scheme Risk-o-Meter",
+  "scheme_name": "TATA BSE MULTICAP CONSUMPTION 50-30-20 INDEX FUND",
+  "benchmark_raw": "BSE MULTICAP CONSUMPTION (50:30:20)",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "Tata Mutual Fund",
+  "sheet": "Tata Scheme Risk-o-Meter",
+  "scheme_name": "TATA BSE QUALITY INDEX FUND",
+  "benchmark_raw": "BSE QUALITY INDEX",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "Tata Mutual Fund",
+  "sheet": "Tata Scheme Risk-o-Meter",
+  "scheme_name": "TATA BSE SELECT BUSINESS GROUPS INDEX FUND",
+  "benchmark_raw": "BSE SELECT BUSINESS GROUPS",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "Tata Mutual Fund",
+  "sheet": "Tata Scheme Risk-o-Meter",
+  "scheme_name": "TATA BSE SENSEX INDEX FUND",
+  "benchmark_raw": "BSE SENSEX",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "Tata Mutual Fund",
+  "sheet": "Tata Scheme Risk-o-Meter",
+  "scheme_name": "TATA BUSINESS CYCLE FUND",
+  "benchmark_raw": "Nifty 500",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "Tata Mutual Fund",
+  "sheet": "Tata Scheme Risk-o-Meter",
+  "scheme_name": "TATA CHILDRENS FUND",
+  "benchmark_raw": "Nifty 500",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "Tata Mutual Fund",
+  "sheet": "Tata Scheme Risk-o-Meter",
+  "scheme_name": "TATA CORPORATE BOND FUND",
+  "benchmark_raw": "CRISIL Corporate Bond A-II Index",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "Tata Mutual Fund",
+  "sheet": "Tata Scheme Risk-o-Meter",
+  "scheme_name": "TATA DIGITAL INDIA FUND",
+  "benchmark_raw": "Nifty IT",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "Tata Mutual Fund",
+  "sheet": "Tata Scheme Risk-o-Meter",
+  "scheme_name": "TATA DIVIDEND YIELD FUND",
+  "benchmark_raw": "Nifty 500",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "Tata Mutual Fund",
+  "sheet": "Tata Scheme Risk-o-Meter",
+  "scheme_name": "TATA ELSS FUND",
+  "benchmark_raw": "Nifty 500",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "Tata Mutual Fund",
+  "sheet": "Tata Scheme Risk-o-Meter",
+  "scheme_name": "TATA ETHICAL FUND",
+  "benchmark_raw": "Nifty500 Shariah",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "Tata Mutual Fund",
+  "sheet": "Tata Scheme Risk-o-Meter",
+  "scheme_name": "TATA FLEXI CAP FUND",
+  "benchmark_raw": "Nifty 500",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "Tata Mutual Fund",
+  "sheet": "Tata Scheme Risk-o-Meter",
+  "scheme_name": "TATA FLOATING RATE FUND",
+  "benchmark_raw": "CRISIL Short Duration Debt A-II Index",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "Tata Mutual Fund",
+  "sheet": "Tata Scheme Risk-o-Meter",
+  "scheme_name": "TATA FOCUSED FUND",
+  "benchmark_raw": "Nifty 500",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "Tata Mutual Fund",
+  "sheet": "Tata Scheme Risk-o-Meter",
+  "scheme_name": "TATA GILT SECURITIES FUND",
+  "benchmark_raw": "CRISIL Dynamic Gilt Index (AIII)",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "Tata Mutual Fund",
+  "sheet": "Tata Scheme Risk-o-Meter",
+  "scheme_name": "TATA GOLD ETF FUND OF FUND",
+  "benchmark_raw": "Domestic Price of Gold",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "Tata Mutual Fund",
+  "sheet": "Tata Scheme Risk-o-Meter",
+  "scheme_name": "TATA GOLD EXCHANGE TRADED FUND",
+  "benchmark_raw": "Domestic Price of Gold",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "Tata Mutual Fund",
+  "sheet": "Tata Scheme Risk-o-Meter",
+  "scheme_name": "TATA HOUSING OPPORTUNITIES FUND",
+  "benchmark_raw": "NIFTY Housing",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "Tata Mutual Fund",
+  "sheet": "Tata Scheme Risk-o-Meter",
+  "scheme_name": "TATA INCOME PLUS ARBITRAGE ACTIVE FOF",
+  "benchmark_raw": "Crisil Composite Bond Fund Index (60%) + Nifty 50 Arbitrage Index (40%) (TRI)",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "Tata Mutual Fund",
+  "sheet": "Tata Scheme Risk-o-Meter",
+  "scheme_name": "TATA INDIA CONSUMER FUND",
+  "benchmark_raw": "Nifty India Consumption",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "Tata Mutual Fund",
+  "sheet": "Tata Scheme Risk-o-Meter",
+  "scheme_name": "TATA INDIA INNOVATION FUND",
+  "benchmark_raw": "Nifty 500",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "Tata Mutual Fund",
+  "sheet": "Tata Scheme Risk-o-Meter",
+  "scheme_name": "TATA INDIA PHARMA & HEALTHCARE FUND",
+  "benchmark_raw": "BSE HEALTHCARE",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "Tata Mutual Fund",
+  "sheet": "Tata Scheme Risk-o-Meter",
+  "scheme_name": "TATA INFRASTRUCTURE FUND",
+  "benchmark_raw": "BSE INDIA INFRASTRUCTURE INDEX",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "Tata Mutual Fund",
+  "sheet": "Tata Scheme Risk-o-Meter",
+  "scheme_name": "TATA LARGE & MID CAP FUND",
+  "benchmark_raw": "NIFTY LargeMidcap 250",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "Tata Mutual Fund",
+  "sheet": "Tata Scheme Risk-o-Meter",
+  "scheme_name": "TATA LARGE CAP FUND",
+  "benchmark_raw": "Nifty 100",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "Tata Mutual Fund",
+  "sheet": "Tata Scheme Risk-o-Meter",
+  "scheme_name": "TATA LIQUID FUND",
+  "benchmark_raw": "CRISIL Liquid Debt A-I Index",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "Tata Mutual Fund",
+  "sheet": "Tata Scheme Risk-o-Meter",
+  "scheme_name": "TATA MID CAP FUND",
+  "benchmark_raw": "Nifty Midcap 150",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "Tata Mutual Fund",
+  "sheet": "Tata Scheme Risk-o-Meter",
+  "scheme_name": "TATA MONEY MARKET FUND",
+  "benchmark_raw": "CRISIL Money Market A-I Index",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "Tata Mutual Fund",
+  "sheet": "Tata Scheme Risk-o-Meter",
+  "scheme_name": "TATA MULTI ASSET ALLOCATION FUND",
+  "benchmark_raw": "Composite Benchmark of 65% BSE 200 + 15% CRISIL Short Term Bond Index + 20% iComdex Composite Index (Total Return variant of the index (TRI) will be used for performance comparison)",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "Tata Mutual Fund",
+  "sheet": "Tata Scheme Risk-o-Meter",
+  "scheme_name": "TATA MULTICAP FUND",
+  "benchmark_raw": "Nifty500 Multicap 50:25:25",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "Tata Mutual Fund",
+  "sheet": "Tata Scheme Risk-o-Meter",
+  "scheme_name": "TATA MULTI SECTOR PASSIVE FOF",
+  "benchmark_raw": "Nifty 500",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "Tata Mutual Fund",
+  "sheet": "Tata Scheme Risk-o-Meter",
+  "scheme_name": "TATA NIFTY 50 EXCHANGE TRADED FUND",
+  "benchmark_raw": "Nifty 50",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "Tata Mutual Fund",
+  "sheet": "Tata Scheme Risk-o-Meter",
+  "scheme_name": "TATA NIFTY 50 INDEX FUND",
+  "benchmark_raw": "Nifty 50",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "Tata Mutual Fund",
+  "sheet": "Tata Scheme Risk-o-Meter",
+  "scheme_name": "TATA NIFTY AUTO INDEX FUND",
+  "benchmark_raw": "NIFTY Auto",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "Tata Mutual Fund",
+  "sheet": "Tata Scheme Risk-o-Meter",
+  "scheme_name": "TATA NIFTY CAPITAL MARKETS INDEX FUND",
+  "benchmark_raw": "Nifty Capital Markets",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "Tata Mutual Fund",
+  "sheet": "Tata Scheme Risk-o-Meter",
+  "scheme_name": "TATA NIFTY FINANCIAL SERVICES INDEX FUND",
+  "benchmark_raw": "NIFTY Financial Services",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "Tata Mutual Fund",
+  "sheet": "Tata Scheme Risk-o-Meter",
+  "scheme_name": "TATA NIFTY G-SEC DEC 2026 INDEX FUND",
+  "benchmark_raw": "Nifty G-Sec Dec 2026 Index",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "Tata Mutual Fund",
+  "sheet": "Tata Scheme Risk-o-Meter",
+  "scheme_name": "TATA NIFTY G-SEC DEC 2029 INDEX FUND",
+  "benchmark_raw": "Nifty G-Sec Dec 2029 Index",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "Tata Mutual Fund",
+  "sheet": "Tata Scheme Risk-o-Meter",
+  "scheme_name": "TATA NIFTY INDIA DIGITAL ETF FUND OF FUND",
+  "benchmark_raw": "Nifty India Digital",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "Tata Mutual Fund",
+  "sheet": "Tata Scheme Risk-o-Meter",
+  "scheme_name": "TATA NIFTY INDIA DIGITAL EXCHANGE TRADED FUND",
+  "benchmark_raw": "Nifty India Digital",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "Tata Mutual Fund",
+  "sheet": "Tata Scheme Risk-o-Meter",
+  "scheme_name": "TATA NIFTY INDIA TOURISM INDEX FUND",
+  "benchmark_raw": "Nifty India Tourism",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "Tata Mutual Fund",
+  "sheet": "Tata Scheme Risk-o-Meter",
+  "scheme_name": "TATA NIFTY MIDCAP 150 INDEX FUND",
+  "benchmark_raw": "Nifty Midcap 150",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "Tata Mutual Fund",
+  "sheet": "Tata Scheme Risk-o-Meter",
+  "scheme_name": "TATA NIFTY MIDCAP 150 MOMENTUM 50 INDEX FUND",
+  "benchmark_raw": "Nifty Midcap150 Momentum 50",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "Tata Mutual Fund",
+  "sheet": "Tata Scheme Risk-o-Meter",
+  "scheme_name": "TATA NIFTY MIDSMALL HEALTHCARE INDEX FUND",
+  "benchmark_raw": "Nifty MidSmall Healthcare",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "Tata Mutual Fund",
+  "sheet": "Tata Scheme Risk-o-Meter",
+  "scheme_name": "TATA NIFTY NEXT 50 INDEX FUND",
+  "benchmark_raw": "Nifty Next 50",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "Tata Mutual Fund",
+  "sheet": "Tata Scheme Risk-o-Meter",
+  "scheme_name": "TATA NIFTY PRIVATE BANK EXCHANGE TRADED FUND",
+  "benchmark_raw": "Nifty Private Bank",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "Tata Mutual Fund",
+  "sheet": "Tata Scheme Risk-o-Meter",
+  "scheme_name": "TATA NIFTY REALTY INDEX FUND",
+  "benchmark_raw": "Nifty Realty",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "Tata Mutual Fund",
+  "sheet": "Tata Scheme Risk-o-Meter",
+  "scheme_name": "TATA NIFTY SDL PLUS AAA PSU BOND DEC 2027 60 40 INDEX FUND",
+  "benchmark_raw": "Nifty SDL Plus AAA PSU Bond Dec 2027 60:40 Index",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "Tata Mutual Fund",
+  "sheet": "Tata Scheme Risk-o-Meter",
+  "scheme_name": "TATA NIFTY200 ALPHA 30 INDEX FUND",
+  "benchmark_raw": "Nifty200 Alpha 30",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "Tata Mutual Fund",
+  "sheet": "Tata Scheme Risk-o-Meter",
+  "scheme_name": "TATA NIFTY500 MULTICAP INDIA MANUFACTURING 50-30-20 INDEX FUND",
+  "benchmark_raw": "Nifty500 Multicap India Manufacturing 50:30:20",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "Tata Mutual Fund",
+  "sheet": "Tata Scheme Risk-o-Meter",
+  "scheme_name": "TATA NIFTY500 MULTICAP INFRASTRUCTURE 50-30-20 INDEX FUND",
+  "benchmark_raw": "Nifty500 Multicap Infrastructure 50:30:20",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "Tata Mutual Fund",
+  "sheet": "Tata Scheme Risk-o-Meter",
+  "scheme_name": "TATA OVERNIGHT FUND",
+  "benchmark_raw": "CRISIL Liquid Overnight Index (AI)",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "Tata Mutual Fund",
+  "sheet": "Tata Scheme Risk-o-Meter",
+  "scheme_name": "TATA RESOURCES & ENERGY FUND",
+  "benchmark_raw": "Nifty Commodities",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "Tata Mutual Fund",
+  "sheet": "Tata Scheme Risk-o-Meter",
+  "scheme_name": "TATA RETIREMENT SAVINGS FUND-CONSERVATIVE PLAN",
+  "benchmark_raw": "CRISIL Short Term Debt Hybrid 75+25 Index",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "Tata Mutual Fund",
+  "sheet": "Tata Scheme Risk-o-Meter",
+  "scheme_name": "TATA RETIREMENT SAVINGS FUND-MODERATE PLAN",
+  "benchmark_raw": "CRISIL Hybrid 25+75 - Aggressive Index",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "Tata Mutual Fund",
+  "sheet": "Tata Scheme Risk-o-Meter",
+  "scheme_name": "TATA RETIREMENT SAVINGS FUND-PROGRESSIVE PLAN",
+  "benchmark_raw": "Nifty 500",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "Tata Mutual Fund",
+  "sheet": "Tata Scheme Risk-o-Meter",
+  "scheme_name": "TATA SHORT TERM BOND FUND",
+  "benchmark_raw": "CRISIL Short Duration Debt A-II Index",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "Tata Mutual Fund",
+  "sheet": "Tata Scheme Risk-o-Meter",
+  "scheme_name": "TATA SILVER ETF FUND OF FUND",
+  "benchmark_raw": "Domestic Price of silver",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "Tata Mutual Fund",
+  "sheet": "Tata Scheme Risk-o-Meter",
+  "scheme_name": "TATA SILVER EXCHANGE TRADED FUND",
+  "benchmark_raw": "Domestic Price of silver",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "Tata Mutual Fund",
+  "sheet": "Tata Scheme Risk-o-Meter",
+  "scheme_name": "TATA SMALL CAP FUND",
+  "benchmark_raw": "Nifty Smallcap 250",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "Tata Mutual Fund",
+  "sheet": "Tata Scheme Risk-o-Meter",
+  "scheme_name": "TATA TREASURY ADVANTAGE FUND",
+  "benchmark_raw": "CRISIL Low Duration Debt A-I Index",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "Tata Mutual Fund",
+  "sheet": "Tata Scheme Risk-o-Meter",
+  "scheme_name": "TATA ULTRA SHORT TERM FUND",
+  "benchmark_raw": "CRISIL Ultra Short Duration Debt A-I Index",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "Tata Mutual Fund",
+  "sheet": "Tata Scheme Risk-o-Meter",
+  "scheme_name": "TATA VALUE FUND",
+  "benchmark_raw": "Nifty 500",
+  "label": "(roster)",
+  "how": "roster"
  },
  {
   "amc": "Tata Mutual Fund",
   "sheet": "Debt Replication Index",
-  "scheme_name": "Index Name",
+  "scheme_name": "TATA NIFTY G-SEC DEC 2026 INDEX FUND",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -9546,7 +10074,7 @@
  {
   "amc": "Tata Mutual Fund",
   "sheet": "Dividend History",
-  "scheme_name": null,
+  "scheme_name": "Tata Aggressive Hybrid Fund Regular Plan - IDCW Monthly",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -9570,7 +10098,7 @@
  {
   "amc": "Tata Mutual Fund",
   "sheet": "TIPAAFOF",
-  "scheme_name": "Scheme Risk-O-Meter",
+  "scheme_name": "TATA INCOME PLUS ARBITRAGE ACTIVE FOF",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -9578,7 +10106,7 @@
  {
   "amc": "Tata Mutual Fund",
   "sheet": "TSLVETF",
-  "scheme_name": "Scheme Risk-O-Meter",
+  "scheme_name": "TATA SILVER EXCHANGE TRADED FUND",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -9586,7 +10114,7 @@
  {
   "amc": "Tata Mutual Fund",
   "sheet": "TGLDETF",
-  "scheme_name": "Scheme Risk-O-Meter",
+  "scheme_name": "TATA GOLD EXCHANGE TRADED FUND",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -9594,7 +10122,7 @@
  {
   "amc": "Tata Mutual Fund",
   "sheet": "TEQPEF",
-  "scheme_name": "Scheme Risk-O-Meter",
+  "scheme_name": "TATA VALUE FUND",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -9602,7 +10130,7 @@
  {
   "amc": "Tata Mutual Fund",
   "sheet": "TSCAPF",
-  "scheme_name": "Scheme Risk-O-Meter",
+  "scheme_name": "TATA SMALL CAP FUND",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -9610,7 +10138,7 @@
  {
   "amc": "Tata Mutual Fund",
   "sheet": "TRSFP",
-  "scheme_name": "Scheme Risk-O-Meter",
+  "scheme_name": "TATA RETIREMENT SAVINGS FUND-PROGRESSIVE PLAN",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -9618,7 +10146,7 @@
  {
   "amc": "Tata Mutual Fund",
   "sheet": "TRSFM",
-  "scheme_name": "Scheme Risk-O-Meter",
+  "scheme_name": "TATA RETIREMENT SAVINGS FUND-MODERATE PLAN",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -9626,7 +10154,7 @@
  {
   "amc": "Tata Mutual Fund",
   "sheet": "TREF",
-  "scheme_name": "Scheme Risk-O-Meter",
+  "scheme_name": "TATA RESOURCES & ENERGY FUND",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -9634,7 +10162,7 @@
  {
   "amc": "Tata Mutual Fund",
   "sheet": "TNMIIF",
-  "scheme_name": "Scheme Risk-O-Meter",
+  "scheme_name": "TATA NIFTY500 MULTICAP INFRASTRUCTURE 50-30-20 INDEX FUND",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -9642,7 +10170,7 @@
  {
   "amc": "Tata Mutual Fund",
   "sheet": "TNMIMIF",
-  "scheme_name": "Scheme Risk-O-Meter",
+  "scheme_name": "TATA NIFTY500 MULTICAP INDIA MANUFACTURING 50-30-20 INDEX FUND",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -9650,7 +10178,7 @@
  {
   "amc": "Tata Mutual Fund",
   "sheet": "TNA30IF",
-  "scheme_name": "Scheme Risk-O-Meter",
+  "scheme_name": "TATA NIFTY200 ALPHA 30 INDEX FUND",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -9658,7 +10186,7 @@
  {
   "amc": "Tata Mutual Fund",
   "sheet": "TNRIF",
-  "scheme_name": "Scheme Risk-O-Meter",
+  "scheme_name": "TATA NIFTY REALTY INDEX FUND",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -9666,7 +10194,7 @@
  {
   "amc": "Tata Mutual Fund",
   "sheet": "TNPBETF",
-  "scheme_name": "Scheme Risk-O-Meter",
+  "scheme_name": "TATA NIFTY PRIVATE BANK EXCHANGE TRADED FUND",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -9674,7 +10202,7 @@
  {
   "amc": "Tata Mutual Fund",
   "sheet": "TNNIF",
-  "scheme_name": "Scheme Risk-O-Meter",
+  "scheme_name": "TATA NIFTY NEXT 50 INDEX FUND",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -9682,7 +10210,7 @@
  {
   "amc": "Tata Mutual Fund",
   "sheet": "TNMSHIF",
-  "scheme_name": "Scheme Risk-O-Meter",
+  "scheme_name": "TATA NIFTY MIDSMALL HEALTHCARE INDEX FUND",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -9690,7 +10218,7 @@
  {
   "amc": "Tata Mutual Fund",
   "sheet": "TNMMIF",
-  "scheme_name": "Scheme Risk-O-Meter",
+  "scheme_name": "TATA NIFTY MIDCAP 150 MOMENTUM 50 INDEX FUND",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -9698,7 +10226,7 @@
  {
   "amc": "Tata Mutual Fund",
   "sheet": "TNMIF150",
-  "scheme_name": "Scheme Risk-O-Meter",
+  "scheme_name": "TATA NIFTY MIDCAP 150 INDEX FUND",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -9706,7 +10234,7 @@
  {
   "amc": "Tata Mutual Fund",
   "sheet": "TNITIF",
-  "scheme_name": "Scheme Risk-O-Meter",
+  "scheme_name": "TATA NIFTY INDIA TOURISM INDEX FUND",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -9714,7 +10242,7 @@
  {
   "amc": "Tata Mutual Fund",
   "sheet": "TNIDETF",
-  "scheme_name": "Scheme Risk-O-Meter",
+  "scheme_name": "TATA NIFTY INDIA DIGITAL EXCHANGE TRADED FUND",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -9722,7 +10250,7 @@
  {
   "amc": "Tata Mutual Fund",
   "sheet": "TNIDFOF",
-  "scheme_name": "Scheme Risk-O-Meter",
+  "scheme_name": "TATA NIFTY INDIA DIGITAL ETF FUND OF FUND",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -9730,7 +10258,7 @@
  {
   "amc": "Tata Mutual Fund",
   "sheet": "TNFSIF",
-  "scheme_name": "Scheme Risk-O-Meter",
+  "scheme_name": "TATA NIFTY FINANCIAL SERVICES INDEX FUND",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -9738,7 +10266,7 @@
  {
   "amc": "Tata Mutual Fund",
   "sheet": "TNCMIF",
-  "scheme_name": "Scheme Risk-O-Meter",
+  "scheme_name": "TATA NIFTY CAPITAL MARKETS INDEX FUND",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -9746,7 +10274,7 @@
  {
   "amc": "Tata Mutual Fund",
   "sheet": "TNAIF",
-  "scheme_name": "Scheme Risk-O-Meter",
+  "scheme_name": "TATA NIFTY AUTO INDEX FUND",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -9754,7 +10282,7 @@
  {
   "amc": "Tata Mutual Fund",
   "sheet": "TIFNA",
-  "scheme_name": "Scheme Risk-O-Meter",
+  "scheme_name": "TATA NIFTY 50 INDEX FUND",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -9762,7 +10290,7 @@
  {
   "amc": "Tata Mutual Fund",
   "sheet": "TNETF",
-  "scheme_name": "Scheme Risk-O-Meter",
+  "scheme_name": "TATA NIFTY 50 EXCHANGE TRADED FUND",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -9770,7 +10298,7 @@
  {
   "amc": "Tata Mutual Fund",
   "sheet": "TMULTICF",
-  "scheme_name": "Scheme Risk-O-Meter",
+  "scheme_name": "TATA MULTICAP FUND",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -9778,7 +10306,7 @@
  {
   "amc": "Tata Mutual Fund",
   "sheet": "TMAOF",
-  "scheme_name": "Scheme Risk-O-Meter",
+  "scheme_name": "TATA MULTI ASSET ALLOCATION FUND",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -9786,7 +10314,7 @@
  {
   "amc": "Tata Mutual Fund",
   "sheet": "TINR",
-  "scheme_name": "Scheme Risk-O-Meter",
+  "scheme_name": "TATA MID CAP FUND",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -9794,7 +10322,7 @@
  {
   "amc": "Tata Mutual Fund",
   "sheet": "TTOFE",
-  "scheme_name": "Scheme Risk-O-Meter",
+  "scheme_name": "TATA LARGE CAP FUND",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -9802,7 +10330,7 @@
  {
   "amc": "Tata Mutual Fund",
   "sheet": "TEOF",
-  "scheme_name": "Scheme Risk-O-Meter",
+  "scheme_name": "TATA LARGE & MID CAP FUND",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -9810,7 +10338,7 @@
  {
   "amc": "Tata Mutual Fund",
   "sheet": "TISF",
-  "scheme_name": "Scheme Risk-O-Meter",
+  "scheme_name": "TATA INFRASTRUCTURE FUND",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -9818,7 +10346,7 @@
  {
   "amc": "Tata Mutual Fund",
   "sheet": "TIPHF",
-  "scheme_name": "Scheme Risk-O-Meter",
+  "scheme_name": "TATA INDIA PHARMA & HEALTHCARE FUND",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -9826,7 +10354,7 @@
  {
   "amc": "Tata Mutual Fund",
   "sheet": "TIIF",
-  "scheme_name": "Scheme Risk-O-Meter",
+  "scheme_name": "TATA INDIA INNOVATION FUND",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -9834,7 +10362,7 @@
  {
   "amc": "Tata Mutual Fund",
   "sheet": "TICF",
-  "scheme_name": "Scheme Risk-O-Meter",
+  "scheme_name": "TATA INDIA CONSUMER FUND",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -9842,7 +10370,7 @@
  {
   "amc": "Tata Mutual Fund",
   "sheet": "THOF",
-  "scheme_name": "Scheme Risk-O-Meter",
+  "scheme_name": "TATA HOUSING OPPORTUNITIES FUND",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -9850,7 +10378,7 @@
  {
   "amc": "Tata Mutual Fund",
   "sheet": "TFEF",
-  "scheme_name": "Scheme Risk-O-Meter",
+  "scheme_name": "TATA FOCUSED FUND",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -9858,7 +10386,7 @@
  {
   "amc": "Tata Mutual Fund",
   "sheet": "TMCAPF",
-  "scheme_name": "Scheme Risk-O-Meter",
+  "scheme_name": "TATA FLEXI CAP FUND",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -9866,7 +10394,7 @@
  {
   "amc": "Tata Mutual Fund",
   "sheet": "TCS",
-  "scheme_name": "Scheme Risk-O-Meter",
+  "scheme_name": "TATA ETHICAL FUND",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -9874,7 +10402,7 @@
  {
   "amc": "Tata Mutual Fund",
   "sheet": "TTSF96",
-  "scheme_name": "Scheme Risk-O-Meter",
+  "scheme_name": "TATA ELSS FUND",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -9882,7 +10410,7 @@
  {
   "amc": "Tata Mutual Fund",
   "sheet": "TDIVYF",
-  "scheme_name": "Scheme Risk-O-Meter",
+  "scheme_name": "TATA DIVIDEND YIELD FUND",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -9890,7 +10418,7 @@
  {
   "amc": "Tata Mutual Fund",
   "sheet": "TDIF",
-  "scheme_name": "Scheme Risk-O-Meter",
+  "scheme_name": "TATA DIGITAL INDIA FUND",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -9898,7 +10426,7 @@
  {
   "amc": "Tata Mutual Fund",
   "sheet": "TYCF",
-  "scheme_name": "Scheme Risk-O-Meter",
+  "scheme_name": "TATA CHILDRENS FUND",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -9906,7 +10434,7 @@
  {
   "amc": "Tata Mutual Fund",
   "sheet": "TBCF",
-  "scheme_name": "Scheme Risk-O-Meter",
+  "scheme_name": "TATA BUSINESS CYCLE FUND",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -9914,7 +10442,7 @@
  {
   "amc": "Tata Mutual Fund",
   "sheet": "TIFSA",
-  "scheme_name": null,
+  "scheme_name": "TATA BSE SENSEX INDEX FUND",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -9922,7 +10450,7 @@
  {
   "amc": "Tata Mutual Fund",
   "sheet": "TBSBGIF",
-  "scheme_name": null,
+  "scheme_name": "TATA BSE SELECT BUSINESS GROUPS INDEX FUND",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -9930,7 +10458,7 @@
  {
   "amc": "Tata Mutual Fund",
   "sheet": "TBSEQIF",
-  "scheme_name": null,
+  "scheme_name": "TATA BSE QUALITY INDEX FUND",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -9938,7 +10466,7 @@
  {
   "amc": "Tata Mutual Fund",
   "sheet": "TBMCIF",
-  "scheme_name": null,
+  "scheme_name": "TATA BSE MULTICAP CONSUMPTION 50-30-20 INDEX FUND",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -9946,7 +10474,7 @@
  {
   "amc": "Tata Mutual Fund",
   "sheet": "TBFSF",
-  "scheme_name": "Scheme Risk-O-Meter",
+  "scheme_name": "TATA BANKING & FINANCIAL SERVICES FUND",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -9954,7 +10482,7 @@
  {
   "amc": "Tata Mutual Fund",
   "sheet": "TBAF",
-  "scheme_name": null,
+  "scheme_name": "TATA BALANCED ADVANTAGE FUND",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -9962,7 +10490,7 @@
  {
   "amc": "Tata Mutual Fund",
   "sheet": "TAF",
-  "scheme_name": "Scheme Risk-O-Meter",
+  "scheme_name": "TATA ARBITRAGE FUND",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -9970,7 +10498,7 @@
  {
   "amc": "Tata Mutual Fund",
   "sheet": "TEGF",
-  "scheme_name": "Scheme Risk-O-Meter",
+  "scheme_name": "TATA AGGRESSIVE HYBRID FUND",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -9978,7 +10506,7 @@
  {
   "amc": "Tata Mutual Fund",
   "sheet": "TMSPFOF",
-  "scheme_name": "Scheme Risk-O-Meter",
+  "scheme_name": "TATA MULTI SECTOR PASSIVE FOF",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -9986,7 +10514,7 @@
  {
   "amc": "Tata Mutual Fund",
   "sheet": "TFRSTF",
-  "scheme_name": null,
+  "scheme_name": "TATA LIQUID FUND",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -9994,7 +10522,7 @@
  {
   "amc": "Tata Mutual Fund",
   "sheet": "TUSTF",
-  "scheme_name": null,
+  "scheme_name": "TATA ULTRA SHORT TERM FUND",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -10002,7 +10530,7 @@
  {
   "amc": "Tata Mutual Fund",
   "sheet": "TFF",
-  "scheme_name": null,
+  "scheme_name": "TATA TREASURY ADVANTAGE FUND",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -10010,7 +10538,7 @@
  {
   "amc": "Tata Mutual Fund",
   "sheet": "TSTBF",
-  "scheme_name": null,
+  "scheme_name": "TATA SHORT TERM BOND FUND",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -10018,7 +10546,7 @@
  {
   "amc": "Tata Mutual Fund",
   "sheet": "TRSFC",
-  "scheme_name": "Scheme Risk-O-Meter",
+  "scheme_name": "Annualised Portfolio YTM*",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -10026,7 +10554,7 @@
  {
   "amc": "Tata Mutual Fund",
   "sheet": "TOF",
-  "scheme_name": null,
+  "scheme_name": "TATA OVERNIGHT FUND",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -10058,7 +10586,7 @@
  {
   "amc": "Tata Mutual Fund",
   "sheet": "TLF",
-  "scheme_name": null,
+  "scheme_name": "TATA MONEY MARKET FUND",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -10066,7 +10594,7 @@
  {
   "amc": "Tata Mutual Fund",
   "sheet": "TGSFR",
-  "scheme_name": null,
+  "scheme_name": "TATA GILT SECURITIES FUND",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -10074,7 +10602,7 @@
  {
   "amc": "Tata Mutual Fund",
   "sheet": "TFRF",
-  "scheme_name": null,
+  "scheme_name": "TATA FLOATING RATE FUND",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -10082,7 +10610,7 @@
  {
   "amc": "Tata Mutual Fund",
   "sheet": "TCORPBF",
-  "scheme_name": null,
+  "scheme_name": "TATA CORPORATE BOND FUND",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -10106,7 +10634,7 @@
  {
   "amc": "UTI Mutual Fund",
   "sheet": "Sheet0",
-  "scheme_name": null,
+  "scheme_name": "UTI Aggressive Hybrid Fund",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -10114,7 +10642,7 @@
  {
   "amc": "UTI Mutual Fund",
   "sheet": "Sheet0",
-  "scheme_name": null,
+  "scheme_name": "SCHEME: UTI - Large Cap Fund",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -10122,15 +10650,647 @@
  {
   "amc": "UTI Mutual Fund",
   "sheet": "Risk-o-meter_June302026",
-  "scheme_name": null,
-  "benchmark_raw": null,
-  "label": null,
-  "how": null
+  "scheme_name": "UTI - Overnight Fund",
+  "benchmark_raw": "CRISIL Liquid Overnight Index",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI - Arbitrage Fund",
+  "benchmark_raw": "Nifty 50 Arbitrage Index",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI Annual Interval Fund - I",
+  "benchmark_raw": "Nifty Low Duration Debt Index A-I",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI Low Duration Fund",
+  "benchmark_raw": "Nifty Low Duration Debt Index A-I",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI Banking & PSU Fund",
+  "benchmark_raw": "Nifty Banking & PSU Debt Index A-II",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI - Floater Fund",
+  "benchmark_raw": "CRISIL Short Duration Debt A-II Index",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI CRISIL SDL Maturity June 2027 Index Fund",
+  "benchmark_raw": "CRISIL IBX SDL Index \u2013 June 2027",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI Fixed Term Income Fund Series XXXVI - I (1574 Days)",
+  "benchmark_raw": "CRISIL Short Duration Debt A-II Index",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI - Dynamic Bond Fund.",
+  "benchmark_raw": "CRISIL Dynamic Bond A-III Index",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI NIFTY SDL Plus AAA PSU Bond Apr 2028- 75:25 Index Fund",
+  "benchmark_raw": "Nifty SDL Plus AAA PSU Bond Apr 2028 75:25 Index",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI - Money Market Fund",
+  "benchmark_raw": "CRISIL Money Market A-I Index",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI - Liquid Fund",
+  "benchmark_raw": "Nifty Liquid Index A-I",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI Short Duration Fund",
+  "benchmark_raw": "CRISIL Short Duration Debt A-II Index",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI Ultra Short Duration Fund",
+  "benchmark_raw": "Nifty Ultra Short Duration Debt Index A-I",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI Income Plus Arbitrage Active Fund of Fund",
+  "benchmark_raw": "60% CRISIL Short Term Bond Fund Index + 40% Nifty 50 Arbitrage TRI",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI - Gilt Fund",
+  "benchmark_raw": "CRISIL Dynamic Gilt Index",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI Medium Duration Fund",
+  "benchmark_raw": "Nifty Medium Duration Debt Index A-III",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI - Corporate Bond Fund",
+  "benchmark_raw": "Nifty Corporate Bond Index A-II",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI Gilt Fund with 10 year Constant Duration",
+  "benchmark_raw": "CRISIL 10 Year Gilt Index",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI CRISIL SDL Maturity April 2033 Index Fund",
+  "benchmark_raw": "CRISIL IBX SDL Index \u2013 April 2033",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI Long Duration Fund",
+  "benchmark_raw": "Nifty Long Duration Debt Index A-III",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI Nifty 5 yr Benchmark G-Sec ETF",
+  "benchmark_raw": "Nifty 5 yr Benchmark G-Sec Index",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI Nifty 10 yr Benchmark G-Sec ETF",
+  "benchmark_raw": "Nifty 10 yr Benchmark G-Sec Index",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI Medium to Long Duration Fund",
+  "benchmark_raw": "CRISIL Medium to Long Duration Debt A-III Index",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI - Equity Savings Fund",
+  "benchmark_raw": "CRISIL Equity Savings Index",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI Conservative Hybrid Fund",
+  "benchmark_raw": "Nifty 50 Hybrid Composite Debt 15:85 Index",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI - Credit Risk Fund.",
+  "benchmark_raw": "CRISIL Credit Risk Debt B-II Index",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI Retirement Fund",
+  "benchmark_raw": "CRISIL Short Term Debt Hybrid 60+40 Index",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI Children's Hybrid Fund",
+  "benchmark_raw": "CRISIL Short Term Debt Hybrid 60+40 Index",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI - Unit Linked Insurance Plan",
+  "benchmark_raw": "Nifty 50 Hybrid Composite Debt 50:50 Index",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI - Gold Exchange Traded Fund",
+  "benchmark_raw": "Price of Gold",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI Gold ETF Fund of Fund",
+  "benchmark_raw": "Price of Gold",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI Balanced Advantage Fund",
+  "benchmark_raw": "Nifty 50 Hybrid Composite Debt 50:50 Index",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI Aggressive Hybrid Fund",
+  "benchmark_raw": "CRISIL Hybrid 35+65 - Aggressive Index",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI - MNC Fund",
+  "benchmark_raw": "Nifty MNC TRI",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI - Flexi Cap Fund.",
+  "benchmark_raw": "Nifty 500 TRI",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI - Large Cap Fund",
+  "benchmark_raw": "BSE 100 TRI",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI ELSS Tax Saver Fund",
+  "benchmark_raw": "Nifty 500 TRI",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI Nifty 50 Index Fund",
+  "benchmark_raw": "Nifty 50 TRI",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI - Master Equity Plan Unit Scheme",
+  "benchmark_raw": "BSE 100 TRI",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI - Infrastructure Fund",
+  "benchmark_raw": "Nifty Infrastructure TRI",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI Children's Equity Fund",
+  "benchmark_raw": "Nifty 500 TRI",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI - Dividend Yield Fund",
+  "benchmark_raw": "Nifty 500 TRI",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI Value Fund",
+  "benchmark_raw": "Nifty 500 TRI",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI - India Consumer Fund",
+  "benchmark_raw": "Nifty India Consumption TRI",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI Multi Asset Allocation Fund",
+  "benchmark_raw": "65% BSE 200 TRI + 25% CRISIL Composite Bond Index + 7% Domestic Price of Gold + 2% Domestic Price of Silver + 1% iCOMDEX Composite Index",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI Large & Mid Cap Fund",
+  "benchmark_raw": "Nifty LargeMidcap 250 TRI",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI - Healthcare Fund",
+  "benchmark_raw": "BSE Healthcare TRI",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI - Transportation and Logistics Fund",
+  "benchmark_raw": "Nifty Transportation and Logistics TRI",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI - Mid Cap Fund",
+  "benchmark_raw": "Nifty Midcap 150 TRI",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI - Banking and Financial Services Fund",
+  "benchmark_raw": "Nifty Financial Services TRI",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI Nifty 50 ETF",
+  "benchmark_raw": "Nifty 50 TRI",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI BSE Sensex ETF",
+  "benchmark_raw": "BSE Sensex TRI",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI - Nifty Next 50 Exchange Traded Fund.",
+  "benchmark_raw": "Nifty Next 50 TRI",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI - Nifty Next 50 Index Fund",
+  "benchmark_raw": "Nifty Next 50 TRI",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI - BSE Sensex Next 50 Exchange Traded Fund",
+  "benchmark_raw": "BSE Sensex Next 50 TRI",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI Nifty Bank ETF",
+  "benchmark_raw": "Nifty Bank TRI",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI Small Cap Fund",
+  "benchmark_raw": "Nifty Smallcap 250 TRI",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI Nifty 200 Momentum 30 Index Fund",
+  "benchmark_raw": "Nifty 200 Momentum 30 TRI",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI Focused Fund",
+  "benchmark_raw": "Nifty 500 TRI",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI BSE Sensex Index Fund",
+  "benchmark_raw": "BSE Sensex TRI",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI BSE Low Volatility Index Fund",
+  "benchmark_raw": "BSE Low Volatility TRI",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI Nifty Midcap 150 Quality 50 Index Fund",
+  "benchmark_raw": "Nifty Midcap150 Quality 50 TRI",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI Silver Exchange Traded Fund",
+  "benchmark_raw": "Price of Silver",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI Silver ETF Fund of Fund",
+  "benchmark_raw": "Price of Silver",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI Nifty 500 Value 50 Index Fund",
+  "benchmark_raw": "Nifty 500 Value 50 TRI",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI BSE Housing Index Fund",
+  "benchmark_raw": "BSE Housing TRI",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI Nifty50 Equal Weight Index Fund",
+  "benchmark_raw": "Nifty 50 Equal Weight TRI",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI Nifty Midcap 150 Exchange Traded Fund",
+  "benchmark_raw": "Nifty Midcap 150 TRI",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI Innovation Fund",
+  "benchmark_raw": "Nifty 500 TRI",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI Nifty IT ETF",
+  "benchmark_raw": "Nifty IT Index",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI Nifty 200 Quality 30 Index Fund",
+  "benchmark_raw": "Nifty200 Quality 30 TRI",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI Nifty Private Bank Index Fund",
+  "benchmark_raw": "Nifty Private Bank TRI",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI Nifty Alpha Low-Volatility 30 Index Fund",
+  "benchmark_raw": "Nifty Alpha Low-Volatility 30 TRI",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI Nifty Midcap 150 Index Fund",
+  "benchmark_raw": "Nifty Midcap 150 TRI",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI Quant Fund",
+  "benchmark_raw": "BSE 200 TRI",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI Nifty India Manufacturing Index Fund",
+  "benchmark_raw": "Nifty India Manufacturing TRI",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI Nifty Midsmallcap 400 Momentum Quality 100 Index Fund",
+  "benchmark_raw": "Nifty Midsmallcap 400 Momentum Quality 100 TRI",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI Multi Cap Fund",
+  "benchmark_raw": "Nifty 500 Multicap 50:25:25 TRI",
+  "label": "(roster)",
+  "how": "roster"
+ },
+ {
+  "amc": "UTI Mutual Fund",
+  "sheet": "Risk-o-meter_June302026",
+  "scheme_name": "UTI Nifty500 Shariah Index Fund",
+  "benchmark_raw": "Nifty500 Shariah TRI",
+  "label": "(roster)",
+  "how": "roster"
  },
  {
   "amc": "UTI Mutual Fund",
   "sheet": "Risk-o-meter_May312026",
-  "scheme_name": null,
+  "scheme_name": "Fund Code",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -10138,7 +11298,7 @@
  {
   "amc": "UTI Mutual Fund",
   "sheet": "Risk-o-meter_Apr302026",
-  "scheme_name": null,
+  "scheme_name": "Fund Code",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -10146,7 +11306,7 @@
  {
   "amc": "UTI Mutual Fund",
   "sheet": "Risk-o-meter_Mar312026",
-  "scheme_name": null,
+  "scheme_name": "Fund Code",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -10154,7 +11314,7 @@
  {
   "amc": "UTI Mutual Fund",
   "sheet": "Risk-o-meter_Feb282026",
-  "scheme_name": null,
+  "scheme_name": "Fund Code",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -10162,7 +11322,7 @@
  {
   "amc": "UTI Mutual Fund",
   "sheet": "Risk-o-meter_Jan31 2026",
-  "scheme_name": null,
+  "scheme_name": "Fund Code",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -10170,7 +11330,7 @@
  {
   "amc": "UTI Mutual Fund",
   "sheet": "Risk-o-meter_Dec 31 2025",
-  "scheme_name": null,
+  "scheme_name": "Fund Code",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -10178,7 +11338,7 @@
  {
   "amc": "UTI Mutual Fund",
   "sheet": "Risk-o-meter_Nov 30 2025",
-  "scheme_name": null,
+  "scheme_name": "Fund Code",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -10186,7 +11346,7 @@
  {
   "amc": "UTI Mutual Fund",
   "sheet": "Risk-o-meter_Oct 31 2025",
-  "scheme_name": null,
+  "scheme_name": "Fund Code",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -10194,7 +11354,7 @@
  {
   "amc": "UTI Mutual Fund",
   "sheet": "I+A benchmark riskometer",
-  "scheme_name": null,
+  "scheme_name": "CRISIL Short Term Bond Fund Index",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -10202,7 +11362,7 @@
  {
   "amc": "UTI Mutual Fund",
   "sheet": "Risk-o-meter_Sep 30 2025",
-  "scheme_name": null,
+  "scheme_name": "Fund Code",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -10210,7 +11370,7 @@
  {
   "amc": "UTI Mutual Fund",
   "sheet": "Risk-o-meter_August 31 2025",
-  "scheme_name": null,
+  "scheme_name": "Fund Code",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -10218,7 +11378,7 @@
  {
   "amc": "UTI Mutual Fund",
   "sheet": "Risk-o-meter_July 31 2025",
-  "scheme_name": null,
+  "scheme_name": "Fund Code",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -10234,7 +11394,7 @@
  {
   "amc": "UTI Mutual Fund",
   "sheet": "Risk-o-meter_June 302025",
-  "scheme_name": null,
+  "scheme_name": "Fund Code",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -10242,7 +11402,7 @@
  {
   "amc": "UTI Mutual Fund",
   "sheet": "Risk-o-meter_May 31 2025",
-  "scheme_name": null,
+  "scheme_name": "Fund Code",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -10250,7 +11410,7 @@
  {
   "amc": "UTI Mutual Fund",
   "sheet": "Risk-o-meter_Apr 30 2025",
-  "scheme_name": null,
+  "scheme_name": "Fund Code",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -10258,7 +11418,7 @@
  {
   "amc": "UTI Mutual Fund",
   "sheet": "Risk-o-meter_Mar 31 2025",
-  "scheme_name": null,
+  "scheme_name": "Fund Code",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -10266,7 +11426,7 @@
  {
   "amc": "UTI Mutual Fund",
   "sheet": "Risk-o-meter_Feb 28 2025",
-  "scheme_name": null,
+  "scheme_name": "Fund Code",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -10274,7 +11434,7 @@
  {
   "amc": "UTI Mutual Fund",
   "sheet": "Risk-o-meter_Jan 31 2025",
-  "scheme_name": null,
+  "scheme_name": "Fund Code",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -10282,7 +11442,7 @@
  {
   "amc": "UTI Mutual Fund",
   "sheet": "Risk-o-meter_Dec 31 2024",
-  "scheme_name": null,
+  "scheme_name": "Fund Code",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -10290,7 +11450,7 @@
  {
   "amc": "UTI Mutual Fund",
   "sheet": "Risk-o-meter_Nov 30 2024",
-  "scheme_name": null,
+  "scheme_name": "Fund Code",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -10298,7 +11458,7 @@
  {
   "amc": "UTI Mutual Fund",
   "sheet": "Risk-o-meter_Oct 31 2024",
-  "scheme_name": null,
+  "scheme_name": "Fund Code",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -10306,7 +11466,7 @@
  {
   "amc": "UTI Mutual Fund",
   "sheet": "Risk-o-meter_Sep 30 2024",
-  "scheme_name": null,
+  "scheme_name": "Fund Code",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -10314,7 +11474,7 @@
  {
   "amc": "UTI Mutual Fund",
   "sheet": "Risk-o-meter_Aug 31 2024",
-  "scheme_name": null,
+  "scheme_name": "Fund Code",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -10322,7 +11482,7 @@
  {
   "amc": "UTI Mutual Fund",
   "sheet": "Risk-o-meter_July 31 2024",
-  "scheme_name": null,
+  "scheme_name": "Fund Code",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -10330,7 +11490,7 @@
  {
   "amc": "UTI Mutual Fund",
   "sheet": "Risk-o-meter_Apr 30 2024",
-  "scheme_name": null,
+  "scheme_name": "Fund Code",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -10338,7 +11498,7 @@
  {
   "amc": "UTI Mutual Fund",
   "sheet": "Sheet1",
-  "scheme_name": null,
+  "scheme_name": "Fund Code",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -10346,7 +11506,7 @@
  {
   "amc": "UTI Mutual Fund",
   "sheet": "exposure",
-  "scheme_name": null,
+  "scheme_name": "SCHEME: UTI - Unit Linked Insurance Plan",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -10826,7 +11986,7 @@
  {
   "amc": "Groww Mutual Fund",
   "sheet": "IB01",
-  "scheme_name": "IB01-Groww Large Cap Fund",
+  "scheme_name": "Groww Large Cap Fund",
   "benchmark_raw": "NIFTY 100-TRI",
   "label": "Benchmark",
   "how": "inline"
@@ -10834,7 +11994,7 @@
  {
   "amc": "Groww Mutual Fund",
   "sheet": "IB02",
-  "scheme_name": "IB02-Groww Liquid Fund",
+  "scheme_name": "Groww Liquid Fund",
   "benchmark_raw": "CRISIL Liquid Debt A-I Index",
   "label": "Benchmark",
   "how": "inline"
@@ -10842,7 +12002,7 @@
  {
   "amc": "Groww Mutual Fund",
   "sheet": "IB03",
-  "scheme_name": "IB03-Groww Aggressive Hybrid Fund",
+  "scheme_name": "Groww Aggressive Hybrid Fund",
   "benchmark_raw": "CRISIL Hybrid 35+65 - Aggressive Index",
   "label": "Benchmark",
   "how": "inline"
@@ -10850,7 +12010,7 @@
  {
   "amc": "Groww Mutual Fund",
   "sheet": "IB05",
-  "scheme_name": "IB05-Groww Dynamic Term Fund",
+  "scheme_name": "Groww Dynamic Bond Fund",
   "benchmark_raw": "CRISIL Dynamic Bond A-III Index",
   "label": "Benchmark",
   "how": "inline"
@@ -10858,7 +12018,7 @@
  {
   "amc": "Groww Mutual Fund",
   "sheet": "IB10",
-  "scheme_name": "IB10-Groww Short Term Fund",
+  "scheme_name": "Groww Short Duration Fund",
   "benchmark_raw": "CRISIL Short Duration Debt A-II Index",
   "label": "Benchmark",
   "how": "inline"
@@ -10866,7 +12026,7 @@
  {
   "amc": "Groww Mutual Fund",
   "sheet": "IB11",
-  "scheme_name": "IB11-Groww ELSS Tax Saver Fund",
+  "scheme_name": "Groww ELSS Tax Saver Fund",
   "benchmark_raw": "Nifty 500-TRI",
   "label": "Benchmark",
   "how": "inline"
@@ -10874,7 +12034,7 @@
  {
   "amc": "Groww Mutual Fund",
   "sheet": "IB13",
-  "scheme_name": "IB13-Groww Value Fund",
+  "scheme_name": "Groww Value Fund",
   "benchmark_raw": "NIFTY 500 TRI",
   "label": "Benchmark",
   "how": "inline"
@@ -10882,7 +12042,7 @@
  {
   "amc": "Groww Mutual Fund",
   "sheet": "IB16",
-  "scheme_name": "IB16-Groww Overnight Fund",
+  "scheme_name": "Groww Overnight Fund",
   "benchmark_raw": "CRISIL Liquid Overnight Index",
   "label": "Benchmark",
   "how": "inline"
@@ -10890,7 +12050,7 @@
  {
   "amc": "Groww Mutual Fund",
   "sheet": "IB18",
-  "scheme_name": "IB18-Groww Nifty Total Market Index Fund",
+  "scheme_name": "Groww Nifty Total Market Index Fund",
   "benchmark_raw": "NIFTY Total Market Index TRI",
   "label": "Benchmark",
   "how": "inline"
@@ -10898,7 +12058,7 @@
  {
   "amc": "Groww Mutual Fund",
   "sheet": "IB19",
-  "scheme_name": "IB19-Groww Banking & Financial Services Fund",
+  "scheme_name": "Groww Banking & Financial Services Fund",
   "benchmark_raw": "NIFTY Financial Services TRI",
   "label": "Benchmark",
   "how": "inline"
@@ -10906,7 +12066,7 @@
  {
   "amc": "Groww Mutual Fund",
   "sheet": "IB20",
-  "scheme_name": "IB20-Groww Nifty Smallcap 250 Index Fund",
+  "scheme_name": "Groww Nifty Smallcap 250 Index Fund",
   "benchmark_raw": "NIFTY Financial Services TRI",
   "label": "Benchmark",
   "how": "inline"
@@ -10914,7 +12074,7 @@
  {
   "amc": "Groww Mutual Fund",
   "sheet": "IB21",
-  "scheme_name": "IB21-Groww Nifty Non-Cycl Consumer Index Fund",
+  "scheme_name": "Groww Nifty Non-Cycl Consumer Index Fund",
   "benchmark_raw": "NIFTY Non-Cyclical Consumer Index TRI",
   "label": "Benchmark",
   "how": "inline"
@@ -10922,7 +12082,7 @@
  {
   "amc": "Groww Mutual Fund",
   "sheet": "IB22",
-  "scheme_name": "IB22-Groww Nifty EV & New Age Auto ETF FOF",
+  "scheme_name": "Groww Nifty EV & New Age Auto ETF FOF",
   "benchmark_raw": "Nifty EV and New Age Automotive Index - Total Return Index",
   "label": "Benchmark",
   "how": "inline"
@@ -10930,7 +12090,7 @@
  {
   "amc": "Groww Mutual Fund",
   "sheet": "IB23",
-  "scheme_name": "IB23-Groww Nifty EV & New Age Automotive ETF",
+  "scheme_name": "Groww Nifty EV & New Age Automotive ETF",
   "benchmark_raw": "Nifty EV and New Age Automotive Index - Total Return Index",
   "label": "Benchmark",
   "how": "inline"
@@ -10946,7 +12106,7 @@
  {
   "amc": "Groww Mutual Fund",
   "sheet": "IB25",
-  "scheme_name": "IB25-Groww Nifty India Defence ETF",
+  "scheme_name": "Groww Nifty India Defence ETF",
   "benchmark_raw": "Nifty India Defence Index- Total Return Index",
   "label": "Benchmark",
   "how": "inline"
@@ -10954,7 +12114,7 @@
  {
   "amc": "Groww Mutual Fund",
   "sheet": "IB26",
-  "scheme_name": "IB26-Groww Nifty India Defence ETF FOF",
+  "scheme_name": "Groww Nifty India Defence ETF FOF",
   "benchmark_raw": "Nifty India Defence Index-Total Return Index",
   "label": "Benchmark",
   "how": "inline"
@@ -10962,7 +12122,7 @@
  {
   "amc": "Groww Mutual Fund",
   "sheet": "IB27",
-  "scheme_name": "IB27-GROWW Gold ETF",
+  "scheme_name": "GROWW Gold ETF",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -10970,7 +12130,7 @@
  {
   "amc": "Groww Mutual Fund",
   "sheet": "IB28",
-  "scheme_name": "IB28-Groww Gold ETF FOF",
+  "scheme_name": "Groww Gold ETF FOF",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -10978,7 +12138,7 @@
  {
   "amc": "Groww Mutual Fund",
   "sheet": "IB29",
-  "scheme_name": "IB29-Groww Multicap Fund",
+  "scheme_name": "Groww Multicap Fund",
   "benchmark_raw": "Nifty 500 Multicap 50:25:25 Index TRI",
   "label": "Benchmark",
   "how": "inline"
@@ -10986,7 +12146,7 @@
  {
   "amc": "Groww Mutual Fund",
   "sheet": "IB31",
-  "scheme_name": "IB31-Groww Nifty India Railways PSU Index",
+  "scheme_name": null,
   "benchmark_raw": "Nifty India Railways PSU Index \u2013 TRI",
   "label": "Benchmark",
   "how": "inline"
@@ -10994,7 +12154,7 @@
  {
   "amc": "Groww Mutual Fund",
   "sheet": "IB32",
-  "scheme_name": "IB32-Groww Nifty India Railways PSU ETF",
+  "scheme_name": "Groww Nifty India Railways PSU ETF",
   "benchmark_raw": "Nifty India Railways PSU Index \u2013 TRI",
   "label": "Benchmark",
   "how": "inline"
@@ -11002,7 +12162,7 @@
  {
   "amc": "Groww Mutual Fund",
   "sheet": "IB33",
-  "scheme_name": "IB33-GROWW NIFTY 200 ETF",
+  "scheme_name": "GROWW NIFTY 200 ETF",
   "benchmark_raw": "Nifty 200 Index - Total Return Index",
   "label": "Benchmark",
   "how": "inline"
@@ -11010,7 +12170,7 @@
  {
   "amc": "Groww Mutual Fund",
   "sheet": "IB34",
-  "scheme_name": "IB34-Groww Nifty 200 ETF FOF",
+  "scheme_name": "Groww Nifty 200 ETF FOF",
   "benchmark_raw": "Nifty 200 Index - Total Return Index",
   "label": "Benchmark",
   "how": "inline"
@@ -11018,7 +12178,7 @@
  {
   "amc": "Groww Mutual Fund",
   "sheet": "IB35",
-  "scheme_name": "IB35-Groww Nifty 500 Momentum 50 ETF",
+  "scheme_name": "Groww Nifty 500 Momentum 50 ETF",
   "benchmark_raw": "Nifty 500 Momentum 50 Index \u2013 TRI",
   "label": "Benchmark",
   "how": "inline"
@@ -11026,7 +12186,7 @@
  {
   "amc": "Groww Mutual Fund",
   "sheet": "IB36",
-  "scheme_name": "IB36-Groww Nifty 500 Momentum 50 ETF FOF",
+  "scheme_name": "Groww Nifty 500 Momentum 50 ETF FOF",
   "benchmark_raw": "Nifty 500 Momentum 50 Index \u2013 TRI",
   "label": "Benchmark",
   "how": "inline"
@@ -11034,7 +12194,7 @@
  {
   "amc": "Groww Mutual Fund",
   "sheet": "IB37",
-  "scheme_name": "IB37-Groww Gilt Fund",
+  "scheme_name": "Groww Gilt Fund",
   "benchmark_raw": "CRISIL Dynamic Gilt Index",
   "label": "Benchmark",
   "how": "inline"
@@ -11042,7 +12202,7 @@
  {
   "amc": "Groww Mutual Fund",
   "sheet": "IB38",
-  "scheme_name": "IB38-Groww Silver ETF",
+  "scheme_name": "Groww Silver ETF",
   "benchmark_raw": "Domestic Price of Physical Silver",
   "label": "Benchmark",
   "how": "inline"
@@ -11050,7 +12210,7 @@
  {
   "amc": "Groww Mutual Fund",
   "sheet": "IB39",
-  "scheme_name": "IB39-Groww Silver ETF FOF",
+  "scheme_name": "Groww Silver ETF FOF",
   "benchmark_raw": "Domestic Price of Physical Silver",
   "label": "Benchmark",
   "how": "inline"
@@ -11058,7 +12218,7 @@
  {
   "amc": "Groww Mutual Fund",
   "sheet": "IB40",
-  "scheme_name": "IB40-Groww Nifty 500 Low Volatility 50 ETF",
+  "scheme_name": "Groww Nifty 500 Low Volatility 50 ETF",
   "benchmark_raw": "Nifty 500 Low Volatility 50 Index \u2013 TRI",
   "label": "Benchmark",
   "how": "inline"
@@ -11066,7 +12226,7 @@
  {
   "amc": "Groww Mutual Fund",
   "sheet": "IB41",
-  "scheme_name": "IB41-Groww Nifty India Internet ETF",
+  "scheme_name": "Groww Nifty India Internet ETF",
   "benchmark_raw": "Nifty India Internet Index - TRI",
   "label": "Benchmark",
   "how": "inline"
@@ -11074,7 +12234,7 @@
  {
   "amc": "Groww Mutual Fund",
   "sheet": "IB42",
-  "scheme_name": "IB42-Groww Nifty India Internet ETF FOF",
+  "scheme_name": "Groww Nifty India Internet ETF FOF",
   "benchmark_raw": "Nifty India Internet Index - TRI",
   "label": "Benchmark",
   "how": "inline"
@@ -11082,7 +12242,7 @@
  {
   "amc": "Groww Mutual Fund",
   "sheet": "IB43",
-  "scheme_name": "IB43-Groww Nifty 50 Index Fund",
+  "scheme_name": "Groww Nifty 50 Index Fund",
   "benchmark_raw": "Nifty 50 Index - TRI",
   "label": "Benchmark",
   "how": "inline"
@@ -11090,7 +12250,7 @@
  {
   "amc": "Groww Mutual Fund",
   "sheet": "IB44",
-  "scheme_name": "IB44-Groww Nifty 50 ETF",
+  "scheme_name": "Groww Nifty 50 ETF",
   "benchmark_raw": "Nifty 50 Index - TRI",
   "label": "Benchmark",
   "how": "inline"
@@ -11098,7 +12258,7 @@
  {
   "amc": "Groww Mutual Fund",
   "sheet": "IB45",
-  "scheme_name": "IB45-Groww BSE Power ETF",
+  "scheme_name": "Groww BSE Power ETF",
   "benchmark_raw": "BSE Power Index TRI",
   "label": "Benchmark",
   "how": "inline"
@@ -11106,7 +12266,7 @@
  {
   "amc": "Groww Mutual Fund",
   "sheet": "IB46",
-  "scheme_name": "IB46-Groww BSE Power ETF FOF",
+  "scheme_name": "Groww BSE Power ETF FOF",
   "benchmark_raw": "BSE Power Index TRI",
   "label": "Benchmark",
   "how": "inline"
@@ -11114,7 +12274,7 @@
  {
   "amc": "Groww Mutual Fund",
   "sheet": "IB47",
-  "scheme_name": "IB47-Groww Nifty Next 50 ETF",
+  "scheme_name": "Groww Nifty Next 50 ETF",
   "benchmark_raw": "Nifty Next 50 Index TRI",
   "label": "Benchmark",
   "how": "inline"
@@ -11122,7 +12282,7 @@
  {
   "amc": "Groww Mutual Fund",
   "sheet": "IB48",
-  "scheme_name": "IB48-Groww Nifty Next 50 Index Fund",
+  "scheme_name": "Groww Nifty Next 50 Index Fund",
   "benchmark_raw": "Nifty Next 50 Index TRI",
   "label": "Benchmark",
   "how": "inline"
@@ -11130,7 +12290,7 @@
  {
   "amc": "Groww Mutual Fund",
   "sheet": "IB49",
-  "scheme_name": "IB49-Groww Multi Asset Allocation Fund",
+  "scheme_name": "Groww Multi Asset Allocation Fund",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -11138,7 +12298,7 @@
  {
   "amc": "Groww Mutual Fund",
   "sheet": "IB50",
-  "scheme_name": "IB50-Groww Nifty Realty ETF",
+  "scheme_name": "Groww Nifty Realty ETF",
   "benchmark_raw": "Nifty RealtyIndex - TRI",
   "label": "Benchmark",
   "how": "inline"
@@ -11146,7 +12306,7 @@
  {
   "amc": "Groww Mutual Fund",
   "sheet": "IB51",
-  "scheme_name": "IB51-Groww Nifty Capital Markets ETF",
+  "scheme_name": "Groww Nifty Capital Markets ETF",
   "benchmark_raw": "Nifty Capital Markets Index - TRI",
   "label": "Benchmark",
   "how": "inline"
@@ -11154,7 +12314,7 @@
  {
   "amc": "Groww Mutual Fund",
   "sheet": "IB52",
-  "scheme_name": "IB52-Groww Nifty Smallcap 250 ETF",
+  "scheme_name": "Groww Nifty Smallcap 250 ETF",
   "benchmark_raw": "Nifty Smallcap 250 Index - TRI",
   "label": "Benchmark",
   "how": "inline"
@@ -11162,7 +12322,7 @@
  {
   "amc": "Groww Mutual Fund",
   "sheet": "IB53",
-  "scheme_name": "IB53-Groww Nifty Midcap 150 ETF",
+  "scheme_name": "Groww Nifty Midcap 150 ETF",
   "benchmark_raw": "Nifty Midcap 150 Index - TRI",
   "label": "Benchmark",
   "how": "inline"
@@ -11170,7 +12330,7 @@
  {
   "amc": "Groww Mutual Fund",
   "sheet": "IB54",
-  "scheme_name": "IB54-Groww Nifty Midcap 150 Index Fund",
+  "scheme_name": "Groww Nifty Midcap 150 Index Fund",
   "benchmark_raw": "Nifty Midcap 150 Index - TRI",
   "label": "Benchmark",
   "how": "inline"
@@ -11178,7 +12338,7 @@
  {
   "amc": "Groww Mutual Fund",
   "sheet": "IB55",
-  "scheme_name": "IB55-Groww Money Market Fund",
+  "scheme_name": "Groww Money Market Fund",
   "benchmark_raw": "CRISIL Money Market Index A-I",
   "label": "Benchmark",
   "how": "inline"
@@ -11186,7 +12346,7 @@
  {
   "amc": "Groww Mutual Fund",
   "sheet": "IB56",
-  "scheme_name": "IB56-Groww Nifty Capital Markets ETF FOF",
+  "scheme_name": "Groww Nifty Capital Markets ETF FOF",
   "benchmark_raw": "Nifty Capital Markets Index - TRI",
   "label": "Benchmark",
   "how": "inline"
@@ -11194,7 +12354,7 @@
  {
   "amc": "Groww Mutual Fund",
   "sheet": "IB57",
-  "scheme_name": "IB57-Groww Nifty Metal ETF",
+  "scheme_name": "Groww Nifty Metal ETF",
   "benchmark_raw": "Nifty Metal Index - TRI",
   "label": "Benchmark",
   "how": "inline"
@@ -11202,7 +12362,7 @@
  {
   "amc": "Groww Mutual Fund",
   "sheet": "IB58",
-  "scheme_name": "IB58-Groww Multi Asset Omni FOF",
+  "scheme_name": "Groww Multi Asset Omni FOF",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -11210,7 +12370,7 @@
  {
   "amc": "Groww Mutual Fund",
   "sheet": "IB59",
-  "scheme_name": "IB59-Groww Nifty Chemicals ETF",
+  "scheme_name": "Groww Nifty Chemicals ETF",
   "benchmark_raw": "Nifty Chemicals Index - TRI",
   "label": "Benchmark",
   "how": "inline"
@@ -11218,7 +12378,7 @@
  {
   "amc": "Groww Mutual Fund",
   "sheet": "IB60",
-  "scheme_name": "IB60-Groww Small Cap Fund",
+  "scheme_name": "Groww Small Cap Fund",
   "benchmark_raw": "Nifty Smallcap 250 Index",
   "label": "Benchmark",
   "how": "inline"
@@ -11226,7 +12386,7 @@
  {
   "amc": "Groww Mutual Fund",
   "sheet": "IB61",
-  "scheme_name": "IB61-Groww Nifty PSE ETF",
+  "scheme_name": "Groww Nifty PSE ETF",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -11234,7 +12394,7 @@
  {
   "amc": "Groww Mutual Fund",
   "sheet": "IB62",
-  "scheme_name": "IB62-Groww Nifty PSE ETF FOF",
+  "scheme_name": "Groww Nifty PSE ETF FOF",
   "benchmark_raw": "Groww Nifty PSE ETF FOF",
   "label": "Benchmark",
   "how": "inline"
@@ -11242,7 +12402,7 @@
  {
   "amc": "Groww Mutual Fund",
   "sheet": "IB63",
-  "scheme_name": "IB63-Groww BSE Hospitals ETF",
+  "scheme_name": "Groww BSE Hospitals ETF",
   "benchmark_raw": "Groww BSE Hospitals ETF",
   "label": "Benchmark",
   "how": "inline"
@@ -11250,7 +12410,7 @@
  {
   "amc": "Groww Mutual Fund",
   "sheet": "IB64",
-  "scheme_name": "IB64-Groww BSE Hospitals ETF FOF",
+  "scheme_name": "Groww BSE Hospitals ETF FOF",
   "benchmark_raw": "Groww BSE Hospitals ETF FOF",
   "label": "Benchmark",
   "how": "inline"
@@ -11258,7 +12418,7 @@
  {
   "amc": "Groww Mutual Fund",
   "sheet": "IB65",
-  "scheme_name": "IB65-Groww Nifty PSU Bank Index Fund",
+  "scheme_name": "Groww Nifty PSU Bank Index Fund",
   "benchmark_raw": "Nifty Midcap 150 Index - TRI",
   "label": "Benchmark",
   "how": "inline"
@@ -11266,7 +12426,7 @@
  {
   "amc": "Groww Mutual Fund",
   "sheet": "IB66",
-  "scheme_name": "IB66-Groww Nifty PSU Bank ETF",
+  "scheme_name": "Groww Nifty PSU Bank ETF",
   "benchmark_raw": "Groww Nifty PSU Bank ETF",
   "label": "Benchmark",
   "how": "inline"
@@ -11274,7 +12434,7 @@
  {
   "amc": "Groww Mutual Fund",
   "sheet": "IB67",
-  "scheme_name": "IB67-Groww Arbitrage Fund",
+  "scheme_name": "Groww Arbitrage Fund",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -11282,7 +12442,7 @@
  {
   "amc": "Groww Mutual Fund",
   "sheet": "IB68",
-  "scheme_name": "IB68-Groww Nifty Private Bank ETF",
+  "scheme_name": "Groww Nifty Private Bank ETF",
   "benchmark_raw": "Groww Nifty Private Bank ETF",
   "label": "Benchmark",
   "how": "inline"
@@ -11290,7 +12450,7 @@
  {
   "amc": "Groww Mutual Fund",
   "sheet": "IB69",
-  "scheme_name": "IB69-Groww Nifty Private Bank Index Fund",
+  "scheme_name": "Groww Nifty Private Bank Index Fund",
   "benchmark_raw": "Groww Nifty Private Bank Index Fund",
   "label": "Benchmark",
   "how": "inline"
@@ -11298,7 +12458,7 @@
  {
   "amc": "Groww Mutual Fund",
   "sheet": "IB70",
-  "scheme_name": "IB70-Groww Nifty Smallcap 250Mom Qlty 100 ETF",
+  "scheme_name": "Groww Nifty Smallcap 250Mom Qlty 100 ETF",
   "benchmark_raw": "Groww Nifty Private Bank ETF",
   "label": "Benchmark",
   "how": "inline"
@@ -11306,7 +12466,7 @@
  {
   "amc": "Groww Mutual Fund",
   "sheet": "IB71",
-  "scheme_name": "IB71-Groww Nifty Smallcap 250Mom Qlty100 Indx",
+  "scheme_name": null,
   "benchmark_raw": "Groww Nifty Private Bank Index Fund",
   "label": "Benchmark",
   "how": "inline"
@@ -11314,7 +12474,7 @@
  {
   "amc": "Groww Mutual Fund",
   "sheet": "IB72",
-  "scheme_name": "IB72-Groww Nifty Cements ETF",
+  "scheme_name": "Groww Nifty Cements ETF",
   "benchmark_raw": "Groww Nifty Cements ETF",
   "label": "Benchmark",
   "how": "inline"
@@ -11546,7 +12706,7 @@
  {
   "amc": "Samco Mutual Fund",
   "sheet": "Portfolio Overlap - Equity Fund",
-  "scheme_name": null,
+  "scheme_name": "Samco Special Opportunities Fund",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -11554,7 +12714,7 @@
  {
   "amc": "Samco Mutual Fund",
   "sheet": "Portfolio Overlap - Hybrid Fund",
-  "scheme_name": null,
+  "scheme_name": "Samco Dynamic Asset Allocation Fund",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -11562,7 +12722,7 @@
  {
   "amc": "Samco Mutual Fund",
   "sheet": "Portfolio Overlap - Sector_Them",
-  "scheme_name": null,
+  "scheme_name": "Samco Special Opportunities Fund",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -11666,7 +12826,7 @@
  {
   "amc": "Samco Mutual Fund",
   "sheet": "Portfolio Overlap - Equity Fund",
-  "scheme_name": null,
+  "scheme_name": "Samco Special Opportunities Fund",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -11674,7 +12834,7 @@
  {
   "amc": "Samco Mutual Fund",
   "sheet": "Portfolio Overlap - Hybrid Fund",
-  "scheme_name": null,
+  "scheme_name": "Samco Dynamic Asset Allocation Fund",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -11682,7 +12842,7 @@
  {
   "amc": "Samco Mutual Fund",
   "sheet": "Portfolio Overlap - Sector_Them",
-  "scheme_name": null,
+  "scheme_name": "Samco Special Opportunities Fund",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -11953,6 +13113,22 @@
  },
  {
   "amc": "HDFC Mutual Fund",
+  "sheet": "HDFCPM",
+  "scheme_name": "HDFC Aggressive Hybrid Fund",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "HDFC Mutual Fund",
+  "sheet": "DerivativeHDFC Aggressive Hybri",
+  "scheme_name": null,
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "HDFC Mutual Fund",
   "sheet": "HDFCAR",
   "scheme_name": "HDFC Arbitrage Fund",
   "benchmark_raw": null,
@@ -11962,7 +13138,7 @@
  {
   "amc": "HDFC Mutual Fund",
   "sheet": "DerivativeHDFCAR",
-  "scheme_name": null,
+  "scheme_name": "HDFC Arbitrage Fund",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -12049,6 +13225,14 @@
  },
  {
   "amc": "HDFC Mutual Fund",
+  "sheet": "DerivativeHDFCBUSICY",
+  "scheme_name": "HDFC Business Cycle Fund",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "HDFC Mutual Fund",
   "sheet": "HDFCRSLFSF",
   "scheme_name": "HDFC CRISIL-IBX Financial Services 3-6 Months Debt Index Fund",
   "benchmark_raw": null,
@@ -12089,6 +13273,22 @@
  },
  {
   "amc": "HDFC Mutual Fund",
+  "sheet": "HMIPLT",
+  "scheme_name": "HDFC Conservative Hybrid Fund",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "HDFC Mutual Fund",
+  "sheet": "DerivativeHDFC Conservative Hyb",
+  "scheme_name": null,
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "HDFC Mutual Fund",
   "sheet": "HDFCNCCFND",
   "scheme_name": "HDFC Consumption Fund",
   "benchmark_raw": null,
@@ -12106,7 +13306,7 @@
  {
   "amc": "HDFC Mutual Fund",
   "sheet": "DerivativeHDFC Corporate Bond F",
-  "scheme_name": null,
+  "scheme_name": "7.83% SIDBI 2028 - Series V NCD ISD 241123 Mat 241128",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -12146,14 +13346,14 @@
  {
   "amc": "HDFC Mutual Fund",
   "sheet": "HDFCHI",
-  "scheme_name": "HDFC Dynamic Debt Fund",
+  "scheme_name": "HDFC Dynamic Term Fund",
   "benchmark_raw": null,
   "label": null,
   "how": null
  },
  {
   "amc": "HDFC Mutual Fund",
-  "sheet": "DerivativeHDFC Dynamic Debt Fun",
+  "sheet": "DerivativeHDFC Dynamic Term Fun",
   "scheme_name": null,
   "benchmark_raw": null,
   "label": null,
@@ -12162,7 +13362,7 @@
  {
   "amc": "HDFC Mutual Fund",
   "sheet": "HDFCTS",
-  "scheme_name": "HDFC ELSS Tax saver",
+  "scheme_name": "HDFC ELSS - Tax Saver Fund",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -12177,15 +13377,15 @@
  },
  {
   "amc": "HDFC Mutual Fund",
-  "sheet": "DerivativeHDFC Equity Savings F",
-  "scheme_name": "360 ONE PRIME LIMITED (3M TBill+ 3.90%) NCD ISD 290526 MAT 250728(step up & down)",
+  "sheet": "DerivativeHDFCMY",
+  "scheme_name": "HDFC Equity Savings Fund",
   "benchmark_raw": null,
   "label": null,
   "how": null
  },
  {
   "amc": "HDFC Mutual Fund",
-  "sheet": "DerivativeHDFCMY",
+  "sheet": "DerivativeHDFC Equity Savings F",
   "scheme_name": null,
   "benchmark_raw": null,
   "label": null,
@@ -12202,7 +13402,7 @@
  {
   "amc": "HDFC Mutual Fund",
   "sheet": "DerivativeHDFCEQ",
-  "scheme_name": null,
+  "scheme_name": "HDFC Flexicap Fund",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -12210,14 +13410,14 @@
  {
   "amc": "HDFC Mutual Fund",
   "sheet": "HDFLSP",
-  "scheme_name": "HDFC Floating Rate Debt Fund",
+  "scheme_name": "HDFC Floating Interest Rates Fund",
   "benchmark_raw": null,
   "label": null,
   "how": null
  },
  {
   "amc": "HDFC Mutual Fund",
-  "sheet": "DerivativeHDFC Floating Rate De",
+  "sheet": "DerivativeHDFC Floating Interes",
   "scheme_name": null,
   "benchmark_raw": null,
   "label": null,
@@ -12273,54 +13473,6 @@
  },
  {
   "amc": "HDFC Mutual Fund",
-  "sheet": "HMIPLT",
-  "scheme_name": "HDFC Hybrid Debt Fund",
-  "benchmark_raw": null,
-  "label": null,
-  "how": null
- },
- {
-  "amc": "HDFC Mutual Fund",
-  "sheet": "DerivativeHDFC Hybrid Debt Fund",
-  "scheme_name": null,
-  "benchmark_raw": null,
-  "label": null,
-  "how": null
- },
- {
-  "amc": "HDFC Mutual Fund",
-  "sheet": "HDFCPM",
-  "scheme_name": "HDFC Hybrid Equity Fund",
-  "benchmark_raw": null,
-  "label": null,
-  "how": null
- },
- {
-  "amc": "HDFC Mutual Fund",
-  "sheet": "DerivativeHDFC Hybrid Equity Fu",
-  "scheme_name": null,
-  "benchmark_raw": null,
-  "label": null,
-  "how": null
- },
- {
-  "amc": "HDFC Mutual Fund",
-  "sheet": "HDFCIN",
-  "scheme_name": "HDFC Income Fund",
-  "benchmark_raw": null,
-  "label": null,
-  "how": null
- },
- {
-  "amc": "HDFC Mutual Fund",
-  "sheet": "DerivativeHDFC Income Fund",
-  "scheme_name": null,
-  "benchmark_raw": null,
-  "label": null,
-  "how": null
- },
- {
-  "amc": "HDFC Mutual Fund",
   "sheet": "HDFCDPEFOF",
   "scheme_name": "HDFC Income Plus Arbitrage Active FOF",
   "benchmark_raw": null,
@@ -12353,16 +13505,16 @@
  },
  {
   "amc": "HDFC Mutual Fund",
-  "sheet": "HDFCT2",
-  "scheme_name": "HDFC Large Cap Fund",
+  "sheet": "HDFCLARGEF",
+  "scheme_name": "HDFC Large & Mid Cap Fund",
   "benchmark_raw": null,
   "label": null,
   "how": null
  },
  {
   "amc": "HDFC Mutual Fund",
-  "sheet": "HDFCLARGEF",
-  "scheme_name": "HDFC Large and Mid Cap Fund",
+  "sheet": "HDFCT2",
+  "scheme_name": "HDFC Large Cap Fund",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -12378,30 +13530,14 @@
  {
   "amc": "HDFC Mutual Fund",
   "sheet": "HDFCLONGDF",
-  "scheme_name": "HDFC Long Duration Debt Fund",
+  "scheme_name": "HDFC Long Term Fund",
   "benchmark_raw": null,
   "label": null,
   "how": null
  },
  {
   "amc": "HDFC Mutual Fund",
-  "sheet": "DerivativeHDFC Long Duration De",
-  "scheme_name": null,
-  "benchmark_raw": null,
-  "label": null,
-  "how": null
- },
- {
-  "amc": "HDFC Mutual Fund",
-  "sheet": "HDFCIG",
-  "scheme_name": "HDFC Low Duration Fund",
-  "benchmark_raw": null,
-  "label": null,
-  "how": null
- },
- {
-  "amc": "HDFC Mutual Fund",
-  "sheet": "DerivativeHDFC Low Duration Fun",
+  "sheet": "DerivativeHDFC Long Term Fund",
   "scheme_name": null,
   "benchmark_raw": null,
   "label": null,
@@ -12426,14 +13562,30 @@
  {
   "amc": "HDFC Mutual Fund",
   "sheet": "HIFSTP",
-  "scheme_name": "HDFC Medium Term Debt Fund",
+  "scheme_name": "HDFC Medium Term Fund",
   "benchmark_raw": null,
   "label": null,
   "how": null
  },
  {
   "amc": "HDFC Mutual Fund",
-  "sheet": "DerivativeHDFC Medium Term Debt",
+  "sheet": "DerivativeHDFC Medium Term Fund",
+  "scheme_name": null,
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "HDFC Mutual Fund",
+  "sheet": "HDFCIN",
+  "scheme_name": "HDFC Medium to Long Term Fund",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "HDFC Mutual Fund",
+  "sheet": "DerivativeHDFC Medium to Long T",
   "scheme_name": null,
   "benchmark_raw": null,
   "label": null,
@@ -12457,7 +13609,39 @@
  },
  {
   "amc": "HDFC Mutual Fund",
+  "sheet": "MY2005",
+  "scheme_name": "HDFC Multi Asset Allocation Fund",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "HDFC Mutual Fund",
+  "sheet": "DerivativeMY2005",
+  "scheme_name": "HDFC Multi-Asset Allocation Fund",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "HDFC Mutual Fund",
+  "sheet": "DerivativeHDFC Multi Asset Allo",
+  "scheme_name": null,
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "HDFC Mutual Fund",
   "sheet": "HDFCMULCAP",
+  "scheme_name": "HDFC Multi Cap Fund",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "HDFC Mutual Fund",
+  "sheet": "DerivativeHDFCMULCAP",
   "scheme_name": "HDFC Multi Cap Fund",
   "benchmark_raw": null,
   "label": null,
@@ -12467,30 +13651,6 @@
   "amc": "HDFC Mutual Fund",
   "sheet": "HDFCAALFOF",
   "scheme_name": "HDFC Multi-Asset Active FOF",
-  "benchmark_raw": null,
-  "label": null,
-  "how": null
- },
- {
-  "amc": "HDFC Mutual Fund",
-  "sheet": "MY2005",
-  "scheme_name": "HDFC Multi-Asset Allocation Fund",
-  "benchmark_raw": null,
-  "label": null,
-  "how": null
- },
- {
-  "amc": "HDFC Mutual Fund",
-  "sheet": "DerivativeHDFC Multi-Asset Allo",
-  "scheme_name": "360 ONE PRIME LIMITED (3M TBill+ 3.90%) NCD ISD 290526 MAT 250728(step up & down)",
-  "benchmark_raw": null,
-  "label": null,
-  "how": null
- },
- {
-  "amc": "HDFC Mutual Fund",
-  "sheet": "DerivativeMY2005",
-  "scheme_name": null,
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -12729,6 +13889,14 @@
  },
  {
   "amc": "HDFC Mutual Fund",
+  "sheet": "HDFCMETFOF",
+  "scheme_name": "HDFC Nifty Metal ETF FOF",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "HDFC Mutual Fund",
   "sheet": "HDFCQ30ETF",
   "scheme_name": "HDFC Nifty100 Quality 30 ETF",
   "benchmark_raw": null,
@@ -12778,7 +13946,7 @@
  {
   "amc": "HDFC Mutual Fund",
   "sheet": "HDFCRETEQP",
-  "scheme_name": "HDFC Retirement Savings Fund - Equity Plan",
+  "scheme_name": "HDFC Retirement Fund - Equity Plan",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -12786,6 +13954,14 @@
  {
   "amc": "HDFC Mutual Fund",
   "sheet": "HDFCRETHDP",
+  "scheme_name": "HDFC Retirement Fund - Hybrid-Debt Plan",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "HDFC Mutual Fund",
+  "sheet": "Derivative HDFCRETHDP",
   "scheme_name": "HDFC Retirement Savings Fund - Hybrid-Debt Plan",
   "benchmark_raw": null,
   "label": null,
@@ -12793,16 +13969,8 @@
  },
  {
   "amc": "HDFC Mutual Fund",
-  "sheet": "DerivativeHDFCRETHDP",
-  "scheme_name": null,
-  "benchmark_raw": null,
-  "label": null,
-  "how": null
- },
- {
-  "amc": "HDFC Mutual Fund",
   "sheet": "HDFCRETHEP",
-  "scheme_name": "HDFC Retirement Savings Fund - Hybrid-Equity Plan",
+  "scheme_name": "HDFC Retirement Fund - Hybrid-Equity Plan",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -12818,15 +13986,15 @@
  {
   "amc": "HDFC Mutual Fund",
   "sheet": "HDFCSO",
-  "scheme_name": "HDFC Short Term Debt Fund",
+  "scheme_name": "HDFC Short Term Fund",
   "benchmark_raw": null,
   "label": null,
   "how": null
  },
  {
   "amc": "HDFC Mutual Fund",
-  "sheet": "DerivativeHDFC Short Term Debt ",
-  "scheme_name": null,
+  "sheet": "DerivativeHDFC Short Term Fund",
+  "scheme_name": "9.10% Cholamandalam Invt & Fin Co. Ltd Series SD72 (Sub Debt) NCD Mat 270631",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -12874,7 +14042,23 @@
  {
   "amc": "HDFC Mutual Fund",
   "sheet": "DerivativeHDFC Ultra Short Term",
-  "scheme_name": "8.95% Vastu Finserve India Pvt. Ltd SR I (Step-Up & Step-Down) NCD ISD 030726 MAT 030728",
+  "scheme_name": null,
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "HDFC Mutual Fund",
+  "sheet": "HDFCIG",
+  "scheme_name": "HDFC Ultra Short to Short Term Fund",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "HDFC Mutual Fund",
+  "sheet": "DerivativeHDFC Ultra Short to S",
+  "scheme_name": null,
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -12883,6 +14067,70 @@
   "amc": "HDFC Mutual Fund",
   "sheet": "HDFCCB",
   "scheme_name": "HDFC Value Fund",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "HDFC Mutual Fund",
+  "sheet": "Portfolio Overlap - Equity Fund",
+  "scheme_name": "HDFC Banking & Financial Services Fund",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "HDFC Mutual Fund",
+  "sheet": "Portfolio Overlap - Debt Funds",
+  "scheme_name": "HDFC Banking and PSU Debt Fund",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "HDFC Mutual Fund",
+  "sheet": "Portfolio Overlap - Hybrid Fund",
+  "scheme_name": "HDFC Multi-Asset Allocation Fund",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "1DGROWTH",
+  "scheme_name": "Mirae Asset Nifty 1D Rate Liquid ETF - Growth",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "200EWETF",
+  "scheme_name": "Mirae Asset BSE 200 Equal Weight ETF",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "200EWFOF",
+  "scheme_name": "Mirae Asset BSE 200 Equal Weight ETF Fund of Fund",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "50EW",
+  "scheme_name": "Mirae Asset Nifty50 Equal Weight ETF",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "912IBXFS",
+  "scheme_name": "Mirae Asset CRISIL-IBX Financial Services 9-12 Months Debt Index Fund",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -12897,6 +14145,62 @@
  },
  {
   "amc": "Mirae Asset Mutual Fund",
+  "sheet": "ALPHAFOF",
+  "scheme_name": "Mirae Asset Nifty200 Alpha 30 ETF Fund of Fund",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "B2CETF",
+  "scheme_name": "Mirae Asset Nifty India New Age Consumption ETF",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "B2CETFOF",
+  "scheme_name": "Mirae Asset Nifty India New Age Consumption ETF Fund of Fund",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "DEFENCE",
+  "scheme_name": "Mirae Asset BSE India Defence ETF",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "DEFENFOF",
+  "scheme_name": "Mirae Asset BSE India Defence ETF FOF",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "DIVIDEND",
+  "scheme_name": "Mirae Asset BSE 500 Dividend Leaders 50 ETF",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "ENERGY",
+  "scheme_name": "Mirae Asset Nifty Energy ETF",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
   "sheet": "EVETF",
   "scheme_name": "Mirae Asset Nifty EV and New Age Automotive ETF",
   "benchmark_raw": null,
@@ -12905,8 +14209,208 @@
  },
  {
   "amc": "Mirae Asset Mutual Fund",
+  "sheet": "GLSLFOF",
+  "scheme_name": "Mirae Asset Gold Silver Passive FoF",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "HEALTH",
+  "scheme_name": "Mirae Asset Nifty 500 Healthcare ETF",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "HYBETF",
+  "scheme_name": "Mirae Asset Nifty200 Momentum 30 Plus 8-13 yr G-Sec 50:50 ETF",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "HYBIF",
+  "scheme_name": "Mirae Asset Nifty200 Momentum 30 Plus 8-13yr G-Sec 75:25 Index Fund",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "INFRA",
+  "scheme_name": "Mirae Asset Infrastructure Fund",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "INFRAETF",
+  "scheme_name": "Mirae Asset Nifty India Infrastructure & Logistics ETF",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "INTERNET",
+  "scheme_name": "Mirae Asset Nifty India Internet ETF",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "IPAFOF",
+  "scheme_name": "Mirae Asset Income plus Arbitrage Active FoF",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "IPOETF",
+  "scheme_name": "Mirae Asset BSE Select IPO ETF",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "IPOFOF",
+  "scheme_name": "Mirae Asset BSE Select IPO ETF Fund of Fund",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "ITETF",
+  "scheme_name": "Mirae Asset Nifty IT ETF",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "LM250",
+  "scheme_name": "Mirae Asset Nifty LargeMidcap 250 Index Fund",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "LMSD",
+  "scheme_name": "MIRAE ASSET BSE LARGEMID (60:40) STABLE DIVIDEND 50 ETF",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "MAAF",
+  "scheme_name": "Mirae Asset Arbitrage Fund",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "MAAIF",
+  "scheme_name": "Mirae Asset Global X Artificial Intelligence & Technology ETF Fund of Fund",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "MABAF",
+  "scheme_name": "Mirae Asset Balanced Advantage Fund",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "MABFF",
+  "scheme_name": "Mirae Asset Banking and Financial Services Fund",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
   "sheet": "MABPF",
-  "scheme_name": "Mirae Asset Banking and PSU Fund",
+  "scheme_name": "Mirae Asset Banking and PSU Debt Fund",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "MACBF",
+  "scheme_name": "Mirae Asset Corporate Bond Fund",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "MACIF",
+  "scheme_name": "Mirae Asset Crisil IBX Gilt Index - April 2033 Index Fund",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "MACMF",
+  "scheme_name": "Mirae Asset Liquid Fund",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "MAEAF",
+  "scheme_name": "Mirae Asset Diversified Equity Allocator Passive FOF",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "MAEBF",
+  "scheme_name": "Mirae Asset Large & Midcap Fund",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "MAESF",
+  "scheme_name": "Mirae Asset Equity Savings Fund",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "MAETF",
+  "scheme_name": "Mirae Asset Nifty 100 ESG Sector Leaders ETF",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "MAFCF",
+  "scheme_name": "Mirae Asset Flexi Cap Fund",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -12915,6 +14419,206 @@
   "amc": "Mirae Asset Mutual Fund",
   "sheet": "MAFF",
   "scheme_name": "Mirae Asset Focused Fund",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "MAFGF",
+  "scheme_name": "Mirae Asset Gold ETF",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "MAFPF",
+  "scheme_name": "Mirae Asset NYSE FANG + ETF Fund of Fund",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "MAFTF",
+  "scheme_name": "Mirae Asset NYSE FANG+ ETF",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "MAGEF",
+  "scheme_name": "Mirae Asset Global Electric & Autonomous Vehicles Equity Passive FOF",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "MAHCF",
+  "scheme_name": "Mirae Asset Healthcare Fund",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "MAHSF",
+  "scheme_name": "Mirae Asset Hang Seng TECH ETF Fund of Fund",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "MAHTF",
+  "scheme_name": "Mirae Asset Hang Seng TECH ETF",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "MAIPF",
+  "scheme_name": "Mirae Asset Aggressive Hybrid Fund",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "MALDF",
+  "scheme_name": "Mirae Asset Long Term Fund",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "MAMAAF",
+  "scheme_name": "Mirae Asset Multi Asset Allocation Fund",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "MAMCF",
+  "scheme_name": "Mirae Asset Midcap Fund",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "MAMFOF",
+  "scheme_name": "Mirae Asset Nifty India Manufacturing ETF Fund of Fund",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "MAMMF",
+  "scheme_name": "Mirae Asset Money Market Fund",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "MAMPF",
+  "scheme_name": "Mirae Asset Multicap Fund",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "MAN1DLTF",
+  "scheme_name": "Mirae Asset Nifty 1D Rate Liquid ETF - IDCW",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "MAN50ETF",
+  "scheme_name": "Mirae Asset Nifty 50 ETF",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "MANBT",
+  "scheme_name": "Mirae Asset Nifty Bank ETF",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "MANG813F",
+  "scheme_name": "Mirae Asset Nifty 8-13 yr G-Sec ETF",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "MANJF",
+  "scheme_name": "Mirae Asset Nifty SDL Jun 2027 Index Fund",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "MANMF",
+  "scheme_name": "Mirae Asset Nifty Midcap 150 ETF",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "MANNF",
+  "scheme_name": "Mirae Asset Nifty Next 50 ETF",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "MANSJ28F",
+  "scheme_name": "Mirae Asset Nifty SDL June 2028 Index Fund",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "MANTF",
+  "scheme_name": "Mirae Asset Nifty Financial Services ETF",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "MANV30F",
+  "scheme_name": "Mirae Asset Nifty 100 Low Volatility 30 ETF",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "MAONF",
+  "scheme_name": "Mirae Asset Overnight Fund",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -12937,6 +14641,22 @@
  },
  {
   "amc": "Mirae Asset Mutual Fund",
+  "sheet": "MASHT",
+  "scheme_name": "Mirae Asset Short Term Fund",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "MASLF",
+  "scheme_name": "Mirae Asset Nifty 100 ESG Sector Leaders Fund of Fund",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
   "sheet": "MASPF",
   "scheme_name": "Mirae Asset S&P 500 Top 50 ETF Fund of Fund",
   "benchmark_raw": null,
@@ -12945,8 +14665,104 @@
  },
  {
   "amc": "Mirae Asset Mutual Fund",
+  "sheet": "MATPF",
+  "scheme_name": "Mirae Asset S&P 500 Top 50 ETF",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "MATSF",
+  "scheme_name": "Mirae Asset ELSS Tax Saver Fund",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "MAUSF",
+  "scheme_name": "Mirae Asset Ultra Short-Term Fund",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
   "sheet": "MDBF",
-  "scheme_name": "Mirae Asset Dynamic Bond Fund",
+  "scheme_name": "Mirae Asset Dynamic Term Fund",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "METALETF",
+  "scheme_name": "Mirae Asset Nifty Metal ETF",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "METALFOF",
+  "scheme_name": "Mirae Asset Nifty Metal ETF FOF",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "MGOLDFOF",
+  "scheme_name": "Mirae Asset Gold ETF Fund of Fund",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "MICCF",
+  "scheme_name": "Mirae Asset Great Consumer Fund",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "MIDMFOF",
+  "scheme_name": "Mirae Asset BSE Midcap 150 Momentum 30 ETF FOF",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "MIDMOM",
+  "scheme_name": "Mirae Asset BSE Midcap 150 Momentum 30 ETF",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "MIDSMALL",
+  "scheme_name": "Mirae Asset Nifty Midsmallcap400 Momentum Quality 100 ETF",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "MIIOF",
+  "scheme_name": "Mirae Asset Large Cap Fund",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "MILPF",
+  "scheme_name": "Mirae Asset Ultra Short to Short Term Fund",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -12961,8 +14777,104 @@
  },
  {
   "amc": "Mirae Asset Mutual Fund",
+  "sheet": "MTETF",
+  "scheme_name": "Mirae Asset Nifty India Manufacturing ETF",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
   "sheet": "MULTIETF",
   "scheme_name": "Mirae Asset Nifty500 Multicap 50:25:25 ETF",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "N50IF",
+  "scheme_name": "Mirae Asset Nifty 50 Index Fund",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "PSUBETF",
+  "scheme_name": "Mirae Asset Nifty PSU Bank ETF",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "SENSEX",
+  "scheme_name": "Mirae Asset BSE Sensex ETF",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "SILVRFOF",
+  "scheme_name": "Mirae Asset Silver ETF FOF",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "SMARTFOF",
+  "scheme_name": "Mirae Asset Multi Factor Passive FOF",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "SML250",
+  "scheme_name": "Mirae Asset Nifty Smallcap 250 ETF",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "SMQETF",
+  "scheme_name": "Mirae Asset Nifty Smallcap 250 Momentum Quality 100 ETF",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "SMQFOF",
+  "scheme_name": "Mirae Asset Nifty Smallcap 250 Momentum Quality 100 ETF Fund of Fund",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "TM750",
+  "scheme_name": "Mirae Asset Nifty Total Market Index Fund",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "TOP20ETF",
+  "scheme_name": "Mirae Asset Nifty Top 20 Equal Weight ETF",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Mirae Asset Mutual Fund",
+  "sheet": "VALUE50",
+  "scheme_name": "Mirae Asset Nifty 500 Value 50 ETF",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -12978,7 +14890,7 @@
  {
   "amc": "Invesco Mutual Fund",
   "sheet": "IBCF",
-  "scheme_name": null,
+  "scheme_name": "Fund allocation towards various sectors",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -12994,7 +14906,7 @@
  {
   "amc": "Invesco Mutual Fund",
   "sheet": "IICOMF",
-  "scheme_name": null,
+  "scheme_name": "Invesco India Consumption Fund",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -13010,7 +14922,7 @@
  {
   "amc": "Invesco Mutual Fund",
   "sheet": "RCF",
-  "scheme_name": null,
+  "scheme_name": "Invesco India Contra Fund",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -13026,7 +14938,7 @@
  {
   "amc": "Invesco Mutual Fund",
   "sheet": "RTP",
-  "scheme_name": null,
+  "scheme_name": "Fund allocation towards various sectors",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -13042,7 +14954,7 @@
  {
   "amc": "Invesco Mutual Fund",
   "sheet": "IESGEF",
-  "scheme_name": null,
+  "scheme_name": "Fund allocation towards various sectors",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -13058,7 +14970,7 @@
  {
   "amc": "Invesco Mutual Fund",
   "sheet": "RBF",
-  "scheme_name": null,
+  "scheme_name": "Invesco India Financial Services Fund",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -13074,7 +14986,7 @@
  {
   "amc": "Invesco Mutual Fund",
   "sheet": "IFCF",
-  "scheme_name": null,
+  "scheme_name": "Fund allocation towards various sectors",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -13090,7 +15002,7 @@
  {
   "amc": "Invesco Mutual Fund",
   "sheet": "IFEF",
-  "scheme_name": null,
+  "scheme_name": "Fund allocation towards various sectors",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -13106,7 +15018,7 @@
  {
   "amc": "Invesco Mutual Fund",
   "sheet": "RIF",
-  "scheme_name": null,
+  "scheme_name": "Invesco India Infrastructure Fund",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -13122,7 +15034,7 @@
  {
   "amc": "Invesco Mutual Fund",
   "sheet": "RGF",
-  "scheme_name": null,
+  "scheme_name": "Fund allocation towards various sectors",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -13138,7 +15050,7 @@
  {
   "amc": "Invesco Mutual Fund",
   "sheet": "RBLF",
-  "scheme_name": null,
+  "scheme_name": "Fund allocation towards various sectors",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -13154,7 +15066,7 @@
  {
   "amc": "Invesco Mutual Fund",
   "sheet": "IMFGF",
-  "scheme_name": null,
+  "scheme_name": "Invesco India Manufacturing Fund",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -13170,7 +15082,7 @@
  {
   "amc": "Invesco Mutual Fund",
   "sheet": "RMCF",
-  "scheme_name": null,
+  "scheme_name": "Fund allocation towards various sectors",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -13186,7 +15098,7 @@
  {
   "amc": "Invesco Mutual Fund",
   "sheet": "RMSCF",
-  "scheme_name": null,
+  "scheme_name": "Fund allocation towards various sectors",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -13202,7 +15114,7 @@
  {
   "amc": "Invesco Mutual Fund",
   "sheet": "RPSUEF",
-  "scheme_name": null,
+  "scheme_name": "Invesco India PSU Equity Fund",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -13218,7 +15130,7 @@
  {
   "amc": "Invesco Mutual Fund",
   "sheet": "ISCF",
-  "scheme_name": null,
+  "scheme_name": "Fund allocation towards various sectors",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -13234,7 +15146,7 @@
  {
   "amc": "Invesco Mutual Fund",
   "sheet": "ITECHF",
-  "scheme_name": null,
+  "scheme_name": "Fund allocation towards various sectors",
   "benchmark_raw": null,
   "label": null,
   "how": null
