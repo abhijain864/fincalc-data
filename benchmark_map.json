@@ -88,7 +88,7 @@
   "NIFTY 500 TRI": {
    "nse": "NIFTY 500",
    "how": "exact",
-   "schemes": 39
+   "schemes": 41
   },
   "NIFTY BANK TRI": {
    "nse": "NIFTY BANK",
@@ -1375,21 +1375,6 @@
    "how": "exact",
    "schemes": 1
   },
-  "Nifty PSE Index - TRI": {
-   "nse": "NIFTY PSE",
-   "how": "exact",
-   "schemes": 1
-  },
-  "Nifty Smallcap 250 Momentum Quality 100 Index TRI": {
-   "nse": "NIFTY SMALLCAP250 MOMENTUM QUALITY 100",
-   "how": "exact",
-   "schemes": 1
-  },
-  "Nifty Smallcap 250 Momentum Quality 100 Total Return Index": {
-   "nse": "NIFTY SMALLCAP250 MOMENTUM QUALITY 100",
-   "how": "exact",
-   "schemes": 1
-  },
   "Nifty 100 Index TRI*": {
    "nse": "NIFTY 100",
    "how": "exact",
@@ -1457,18 +1442,18 @@
   "NIFTY REALTY TR INDEX": 1,
   "NIFTY 200 INDEX TR": 1,
   "Nifty RealtyIndex - TRI": 1,
-  "Nifty Private Bank Index Fund": 1
+  "Groww Nifty Private Bank Index Fund": 2
  },
  "buckets": {
-  "CRISIL (licensed)": 187,
-  "BSE family (needs bseindia)": 124,
-  "MAPPED exact": 573,
+  "CRISIL (licensed)": 186,
+  "BSE family (needs bseindia)": 125,
+  "MAPPED exact": 572,
   "composite blend (synthesise from legs)": 40,
   "commodity price (not an index)": 36,
   "international index": 38,
-  "NIFTY debt/ES tier (absent from NSE catalogue)": 83,
+  "NIFTY debt/ES tier (absent from NSE catalogue)": 84,
   "MAPPED fuzzy": 11,
-  "UNRESOLVED": 6,
-  "fund-of-fund (chain to that fund's NAV)": 4
+  "UNRESOLVED": 7,
+  "fund-of-fund (chain to that fund's NAV)": 5
  }
 }

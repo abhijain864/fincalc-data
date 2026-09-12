@@ -9637,38 +9637,6 @@
    "how": "exact",
    "sheets": 1
   },
-  "Baroda BNP Paribas Low Duration Fund": {
-   "codes": [
-    150164,
-    150165,
-    150166,
-    150167,
-    150168,
-    150169,
-    150170,
-    150171
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Baroda BNP Paribas Dynamic Bond Fund": {
-   "codes": [
-    150173,
-    150174,
-    150175,
-    150176,
-    150177,
-    150178,
-    150179,
-    150180,
-    150181,
-    150182,
-    150183,
-    150184
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
   "Baroda BNP Paribas Corporate Bond Fund": {
    "codes": [
     150232,
@@ -9679,16 +9647,6 @@
     150237,
     150238,
     150239
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Baroda BNP Paribas NIFTY SDL December 2026 Index Fund": {
-   "codes": [
-    151279,
-    151280,
-    151281,
-    151283
    ],
    "how": "exact",
    "sheets": 1
@@ -10011,53 +9969,12 @@
    "how": "exact",
    "sheets": 1
   },
-  "Baroda BNP Paribas Short Duration Fund": {
-   "codes": [
-    113036,
-    113037,
-    119399,
-    119400,
-    140463,
-    140465
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
   "Baroda BNP Paribas Banking & Financial Services Fund": {
    "codes": [
     117547,
     117549,
     119333,
     119334
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Baroda BNP Paribas Credit Risk Fund": {
-   "codes": [
-    133486,
-    133488,
-    133517,
-    133518,
-    133520,
-    133524,
-    148330,
-    148331,
-    148332,
-    148333,
-    148334,
-    148335
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Baroda BNP Paribas Ultra Short Duration Fund": {
-   "codes": [
-    143464,
-    143507,
-    143508,
-    143509,
-    143511
    ],
    "how": "exact",
    "sheets": 1
@@ -10233,14 +10150,14 @@
    "how": "exact",
    "sheets": 1
   },
-  "NJ ELSS Tax Saver Scheme": {
+  "NJ ELSS Tax Saver Fund": {
    "codes": [
-    151609,
-    151610,
-    151611,
-    151612
+    107287,
+    107288,
+    120493,
+    120494
    ],
-   "how": "exact",
+   "how": "fuzzy",
    "sheets": 1
   },
   "NJ Flexi Cap Fund": {
@@ -10486,13 +10403,12 @@
    "how": "exact",
    "sheets": 1
   },
-  "CANARA ROBECO INCOME FUND": {
+  "CANARA ROBECO INFRASTRUCTURE FUND (Formerly Known As CANARA ROBECO INFRASTRUCTURE)": {
    "codes": [
-    101587,
-    101588,
-    101589,
-    118281,
-    118282
+    103389,
+    103390,
+    118267,
+    118268
    ],
    "how": "exact",
    "sheets": 1
@@ -10589,16 +10505,6 @@
     151822,
     151823,
     151824
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "CANARA ROBECO MID CAP FUND": {
-   "codes": [
-    150816,
-    150817,
-    150818,
-    150819
    ],
    "how": "exact",
    "sheets": 1
@@ -11723,7 +11629,12 @@
   "Index Name": 1,
   "Scheme Risk-O-Meter": 48,
   "TATA NIFTY SDL PLUS AAA PSU BOND DEC 2027 60 40 INDEX FUND": 1,
+  "Baroda BNP Paribas Ultra Short to Short Term Fund": 1,
+  "Baroda BNP Paribas Dynamic Term Fund": 1,
   "BBP Income Plus Arbitrage Active FOF": 1,
+  "Baroda BNP Paribas Services Fund": 1,
+  "Baroda BNP Paribas Short Term Fund": 1,
+  "Baroda BNP Paribas Ultra Short Term Fund": 1,
   "IB01-Groww Large Cap Fund": 1,
   "IB02-Groww Liquid Fund": 1,
   "IB03-Groww Aggressive Hybrid Fund": 1,
@@ -11785,8 +11696,12 @@
   "IB70-Groww Nifty Smallcap 250Mom Qlty 100 ETF": 1,
   "IB71-Groww Nifty Smallcap 250Mom Qlty100 Indx": 1,
   "IB72-Groww Nifty Cements ETF": 1,
+  "NJ Momentum Fund": 1,
+  "NJ Value Fund": 1,
+  "ZERODHA ARBITRAGE FUND": 1,
   "ZERODHA LIFE CYCLE FUND 2036": 1,
   "ZERODHA LIFE CYCLE FUND 2041": 1,
+  "CANARA ROBECO ELSS - TAX SAVER FUND (Formerly Known As CANARA ROBECO ELSS TAX SAVER)": 1,
   "HDFC Charity Fund for Cancer Cure": 1,
   "360 ONE PRIME LIMITED (3M TBill+ 3.90%) NCD ISD 290526 MAT 250728(step up & down)": 2,
   "HDFC Multi-Asset Allocation Fund": 1,
