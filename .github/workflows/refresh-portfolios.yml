@@ -178,5 +178,14 @@ jobs:
             echo "No change in portfolio tables; nothing to commit."
           else
             git commit -m "chore: portfolio refresh $(date -u +%Y-%m-%dT%H:%MZ)"
-            git push
+            # Both refresh jobs commit to this repo and they publish DISJOINT
+            # files, but a long build can still lose the race: portfolios checked
+            # out at 15:58, built for 26 minutes, and by 16:24 metrics had already
+            # pushed -- so the push was rejected and 26 minutes of good tables
+            # were thrown away. Rebase onto whatever landed meanwhile and retry.
+            for attempt in 1 2 3; do
+              git push && break
+              echo "  push rejected (attempt $attempt); rebasing onto origin/main"
+              git pull --rebase origin main
+            done
           fi
