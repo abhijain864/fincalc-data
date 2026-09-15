@@ -17,6 +17,8 @@ name: Refresh portfolio tables
 #   industries.min.json.gz  (~70 KB)  industry weights + AUM/holdings scalars
 #   portfolios.min.json.gz  (~1 MB)   per-stock rows with ISIN, qty, value
 #   ter.min.json.gz         (~25 KB)  expense ratio by scheme code (AMFI)
+#   bse_tri.min.json.gz               BSE total-return, RECONSTRUCTED not
+#                                     published -- see tri_kind in the payload
 #   benchmarks.json                   scheme -> stated benchmark
 #   scheme_codes.json                 scheme name -> AMFI codes
 #   archive/portfolios-YYYY-MM.*      half-yearly snapshots, kept forever
@@ -82,7 +84,28 @@ jobs:
           uv run --with-editable . --with openpyxl --with xlrd \
             python scripts/build_benchmarks.py $ARGS
 
-      - name: Map benchmarks to NSE indices
+      # BSE's counterpart to build_tri.py, and it runs HERE rather than next to
+      # it because build_benchmark_map.py reads the BSE table to resolve BSE
+      # benchmark names. Whole history arrives in one request per index, so this
+      # is minutes, not hours. Gated on skip_tri because index history is index
+      # history; when skipped, the mapping falls back to the committed table.
+      #
+      # What it writes is NOT a published total-return series: BSE has none. It
+      # is reconstructed from the close and the dividend yield, and says so in
+      # `tri_kind` on every row. Anything that merges this with tri.min.json.gz
+      # must carry that flag through to the answer.
+      - name: Backfill BSE index history and reconstructed TRI
+        if: ${{ github.event.inputs.skip_tri != 'true' }}
+        continue-on-error: true
+        working-directory: fincalc-mcp
+        run: |
+          set -euo pipefail
+          uv run --with-editable . python scripts/build_bse_indices.py
+
+      # Resolves against both catalogues -- NSE published, BSE reconstructed --
+      # and records which one answered in `source`/`tri_kind`. So it must run
+      # after both index builds above.
+      - name: Map benchmarks to NSE and BSE indices
         working-directory: fincalc-mcp
         run: |
           set -euo pipefail
@@ -124,7 +147,20 @@ jobs:
         working-directory: fincalc-mcp
         run: |
           set -euo pipefail
-          uv run --with-editable . python scripts/build_tri.py
+          # --missing: a full rebuild is ~850 POSTs to refetch history that has
+          # not changed since 2005. Incremental costs one index per index the
+          # map gained, and refuses to write if the merge lost anything.
+          uv run --with-editable . python scripts/build_tri.py --missing
+
+      # Cheap local join, no network: refreshes `has_series` now that the NSE
+      # table has whatever this run added. Without it the flag describes last
+      # month's table.
+      - name: Refresh benchmark map has_series flags
+        if: ${{ github.event.inputs.skip_tri != 'true' }}
+        working-directory: fincalc-mcp
+        run: |
+          set -euo pipefail
+          uv run --with-editable . python scripts/build_benchmark_map.py
 
       # A run that lost most of its coverage is an upstream problem, not a real
       # change in what funds disclose. Publishing it would silently degrade
@@ -161,8 +197,9 @@ jobs:
           # published copy stays. Portfolios are the exception -- the guard above
           # has already refused to let a degraded build get this far.
           for f in industries.min.json.gz portfolios.min.json.gz ter.min.json.gz \
-                   tri.min.json.gz benchmarks.json scheme_codes.json \
-                   benchmark_map.json nse_indices.json; do
+                   tri.min.json.gz bse_tri.min.json.gz benchmarks.json \
+                   scheme_codes.json benchmark_map.json nse_indices.json \
+                   bse_indices.json; do
             if [ -f "$f" ]; then
               cp "$f" "$GITHUB_WORKSPACE/$f"
             else
