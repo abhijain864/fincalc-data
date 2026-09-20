@@ -74,6 +74,33 @@ jobs:
           set -euo pipefail
           uv run --with-editable . python scripts/discover_amc_packs.py
 
+      # The six AMCs that render their disclosure page with JS. Three need a
+      # scripted UI walk (Bandhan's file URLs carry per-upload hex ids that
+      # change monthly; JM and Jio BlackRock hide monthly files behind pickers),
+      # and three only need the page rendered.
+      #
+      # This was tried the cheap way first and it does not exist: capturing each
+      # site's own API the way the factsheet sources were captured gets 0 of 3.
+      # JM's API returns encrypted payloads, Bandhan's file URL does not exist
+      # until a fund is clicked, and Jio BlackRock uses Next.js server actions
+      # whose ids change every deploy. See PLAN.md.
+      #
+      # continue-on-error and a timeout are both load-bearing: this is a scripted
+      # walk over sites that can change their DOM without warning, and a hung
+      # picker must not burn the job. discover_js_packs.py MERGES into the
+      # registry, so an AMC that fails here keeps the URL it already had.
+      - name: Discover JS-rendered pack URLs (browser)
+        continue-on-error: true
+        timeout-minutes: 25
+        working-directory: fincalc-mcp
+        run: |
+          set -euo pipefail
+          # Real Chrome first: HDFC's edge 403s the bundled chromium build.
+          # The script tries the chrome channel and falls back on its own.
+          uv run --with playwright python -m playwright install --with-deps chrome chromium
+          uv run --with-editable . --with playwright \
+            python scripts/discover_js_packs.py --bandhan --jm --jioblk
+
       # Runs BEFORE build_benchmarks.py, which merges what this writes as a
       # gap-fill. Ten fund houses state no benchmark anywhere in the SEBI
       # workbook -- Baroda BNP Paribas renders theirs inside a raster image --
