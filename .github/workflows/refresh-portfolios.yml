@@ -86,8 +86,10 @@ jobs:
       # previous factsheet_benchmarks.json stays and build_benchmarks.py merges
       # that instead -- stale by a month, which for a field that changes once a
       # decade is not a problem.
+      # NOT gated on `limit`. That input caps how many AMC packs are parsed; this
+      # step reads a fixed list of factsheets and is what a capped smoke run most
+      # needs to exercise. A capped run never reaches the publish step anyway.
       - name: Read benchmarks from AMC factsheets
-        if: ${{ (github.event.inputs.limit || '0') == '0' }}
         continue-on-error: true
         working-directory: fincalc-mcp
         run: |
