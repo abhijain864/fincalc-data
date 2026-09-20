@@ -74,6 +74,30 @@ jobs:
           set -euo pipefail
           uv run --with-editable . python scripts/discover_amc_packs.py
 
+      # Runs BEFORE build_benchmarks.py, which merges what this writes as a
+      # gap-fill. Ten fund houses state no benchmark anywhere in the SEBI
+      # workbook -- Baroda BNP Paribas renders theirs inside a raster image --
+      # and the monthly factsheet is the document that carries the field by
+      # design. Equity benchmark coverage 84% -> 96%.
+      #
+      # continue-on-error is not optional: this reaches 13 separate AMC websites
+      # and four private APIs, and one of them changing shape must never cost
+      # the run its 2,596 workbook-sourced benchmark rows. If it fails, the
+      # previous factsheet_benchmarks.json stays and build_benchmarks.py merges
+      # that instead -- stale by a month, which for a field that changes once a
+      # decade is not a problem.
+      - name: Read benchmarks from AMC factsheets
+        if: ${{ (github.event.inputs.limit || '0') == '0' }}
+        continue-on-error: true
+        working-directory: fincalc-mcp
+        run: |
+          set -euo pipefail
+          uv run --with-editable . --with pypdf \
+            python scripts/build_factsheet_benchmarks.py --refresh-registry \
+              --amc Baroda --amc Samco --amc Helios --amc "Wealth Company" \
+              --amc "Old Bridge" --amc Unifi --amc Capitalmind --amc Trust \
+              --amc Mirae --amc WhiteOak --amc PPFAS --amc "LIC Mutual" --amc Nippon
+
       - name: Extract benchmarks and scheme names
         working-directory: fincalc-mcp
         run: |
