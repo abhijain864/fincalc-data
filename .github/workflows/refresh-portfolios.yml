@@ -74,6 +74,17 @@ jobs:
           set -euo pipefail
           uv run --with-editable . python scripts/discover_amc_packs.py
 
+      # Diagnostic, not a gate. Four AMCs serve a laptop and refuse this runner,
+      # so "works locally" proves nothing about them. This says which, in one
+      # line each, with a known-good control.
+      - name: Probe AMC reachability from the runner
+        continue-on-error: true
+        timeout-minutes: 5
+        working-directory: fincalc-mcp
+        run: |
+          set -euo pipefail
+          uv run --with-editable . python scripts/discover_amc_packs.py --probe
+
       # The six AMCs that render their disclosure page with JS. Three need a
       # scripted UI walk (Bandhan's file URLs carry per-upload hex ids that
       # change monthly; JM and Jio BlackRock hide monthly files behind pickers),
