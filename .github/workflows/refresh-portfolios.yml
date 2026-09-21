@@ -110,6 +110,18 @@ jobs:
           set -euo pipefail
           uv run --with playwright python -m playwright install --with-deps chrome chromium
 
+      # The question urllib cannot answer: those four return 403 to urllib here
+      # but Chrome reaches five other AMCs from this same runner. Placed right
+      # after the browser install so the answer lands early in the log.
+      - name: Probe AMC reachability with a browser
+        continue-on-error: true
+        timeout-minutes: 8
+        working-directory: fincalc-mcp
+        run: |
+          set -euo pipefail
+          uv run --with-editable . --with playwright \
+            python scripts/discover_js_packs.py --probe
+
       # ONE STEP PER AMC, deliberately. Run together in a single step, Bandhan
       # ate the whole budget -- it walks 80 funds at roughly 18s each, hit the
       # timeout at fund 78, and JM and Jio BlackRock never ran at all. Splitting
