@@ -42,6 +42,16 @@ jobs:
 
       - name: Build metrics table
         working-directory: fincalc-mcp
+        # Read the benchmark tables from THIS repo's checkout, not the CDN. The
+        # alpha/beta columns depend on three tables that live here, and jsDelivr
+        # caches for up to 24h -- a build that fetched them over the CDN could
+        # publish metrics computed against yesterday's benchmark map while the
+        # commit that changed it sat in the same run. The checkout is by
+        # definition the version being published alongside.
+        env:
+          FINCALC_BENCH_MAP_PATH: ${{ github.workspace }}/benchmark_series.min.json.gz
+          FINCALC_TRI_PATH: ${{ github.workspace }}/tri.min.json.gz
+          FINCALC_BSE_TRI_PATH: ${{ github.workspace }}/bse_tri.min.json.gz
         run: |
           set -euo pipefail
           LIMIT="${{ github.event.inputs.limit || '0' }}"
