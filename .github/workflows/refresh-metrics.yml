@@ -56,15 +56,25 @@ jobs:
           set -euo pipefail
           LIMIT="${{ github.event.inputs.limit || '0' }}"
           if [ "$LIMIT" != "0" ]; then
-            echo "TEST RUN: first $LIMIT funds"
+            # A limited run writes a DEV file and is never published. It used to
+            # write metrics.min.json.gz and the publish step copied it out
+            # unconditionally -- and build_metrics skips its own publish guards
+            # when --limit is set (by design: a limited run is a dev run), so a
+            # 40-fund "TEST RUN" would have replaced the live 2,000-fund table
+            # with the safety net deliberately disarmed. Test runs now prove the
+            # build works without being able to break what is live.
+            echo "TEST RUN: first $LIMIT funds (dev file, NOT published)"
             uv run --with-editable . python scripts/build_metrics.py \
-              --limit "$LIMIT" --out src/fincalc_mcp/data/metrics.min.json.gz
+              --limit "$LIMIT" --out src/fincalc_mcp/data/metrics.dev.json.gz
+            gzip -dc src/fincalc_mcp/data/metrics.dev.json.gz \
+              | python3 -c "import json,sys; d=json.load(sys.stdin); c=d['columns']; r=d['rows']; i=c.index('bench'); print(f'dev table: {len(r)} funds, {len(c)} columns, {sum(1 for x in r if x[i])} with a benchmark')"
           else
             echo "FULL RUN: whole universe"
             uv run --with-editable . python scripts/build_metrics.py
           fi
 
       - name: Publish metrics.min.json.gz to fincalc-data
+        if: ${{ (github.event.inputs.limit || '0') == '0' }}
         run: |
           set -euo pipefail
           cp fincalc-mcp/src/fincalc_mcp/data/metrics.min.json.gz metrics.min.json.gz
