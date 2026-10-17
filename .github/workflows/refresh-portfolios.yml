@@ -283,6 +283,20 @@ jobs:
           set -euo pipefail
           uv run --with-editable . python scripts/build_benchmark_map.py
 
+      # MUST run after build_benchmark_map.py, because it reads that map plus
+      # benchmarks.json and scheme_codes.json -- all three of which this workflow
+      # rewrites. Nothing rebuilt it before, so the join aged silently: the
+      # 14 Oct run rewrote all three inputs and the published join stayed on the
+      # 11 Oct version, which still had Motilal's BSE Top 10 Banks ETF pointed at
+      # NIFTY PSE and Groww's Nifty PSU Bank fund at NIFTY MIDCAP 150. Those are
+      # the numbers alpha and beta are computed against, so a stale join is not a
+      # cosmetic lag -- it is a wrong answer that looks right.
+      - name: Resolve each AMFI code to its benchmark series
+        working-directory: fincalc-mcp
+        run: |
+          set -euo pipefail
+          uv run --with-editable . python scripts/build_benchmark_series.py
+
       # A run that lost most of its coverage is an upstream problem, not a real
       # change in what funds disclose. Publishing it would silently degrade
       # every composition screen, so fail instead and keep serving last month.
@@ -320,7 +334,7 @@ jobs:
           for f in industries.min.json.gz portfolios.min.json.gz ter.min.json.gz \
                    tri.min.json.gz bse_tri.min.json.gz benchmarks.json \
                    scheme_codes.json benchmark_map.json nse_indices.json \
-                   bse_indices.json; do
+                   bse_indices.json benchmark_series.min.json.gz; do
             if [ -f "$f" ]; then
               cp "$f" "$GITHUB_WORKSPACE/$f"
             else
