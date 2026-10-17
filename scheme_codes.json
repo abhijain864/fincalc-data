@@ -1,5 +1,744 @@
 {
  "map": {
+  "Angel One Gold ETF": {
+   "codes": [
+    153826
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Angel One Gold ETF FOF": {
+   "codes": [
+    153827,
+    153828
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "AngelOne Nifty 1D Rate Liquid ETF GROWTH": {
+   "codes": [
+    153451
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Angel One Nifty 50 ETF": {
+   "codes": [
+    153531
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Angel One Nifty 50 Index Fund": {
+   "codes": [
+    153529,
+    153530
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Angel One Nifty Total Market ETF": {
+   "codes": [
+    153332
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Angel One Nifty Total Market Index Fund": {
+   "codes": [
+    153330,
+    153331
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Angel One Nifty Total Market Momentum Quality 50 ETF": {
+   "codes": [
+    153957
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Angel One Nifty Total Market Momentum Quality 50 Index Fund": {
+   "codes": [
+    153955,
+    153956
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Angel One Silver ETF": {
+   "codes": [
+    154205
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Angel One Silver ETF FOF": {
+   "codes": [
+    154206,
+    154207
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "WhiteOak Capital Aggressive Hybrid Fund": {
+   "codes": [
+    154392,
+    154393
+   ],
+   "how": "exact",
+   "sheets": 2
+  },
+  "WhiteOak Capital Arbitrage Fund": {
+   "codes": [
+    152849,
+    152850
+   ],
+   "how": "exact",
+   "sheets": 2
+  },
+  "WhiteOak Capital Balanced Advantage Fund": {
+   "codes": [
+    151267,
+    151268
+   ],
+   "how": "exact",
+   "sheets": 2
+  },
+  "WhiteOak Capital Balanced Hybrid Fund": {
+   "codes": [
+    152132,
+    152133
+   ],
+   "how": "exact",
+   "sheets": 2
+  },
+  "WhiteOak Capital Banking & Financial Services Fund": {
+   "codes": [
+    152321,
+    152322
+   ],
+   "how": "exact",
+   "sheets": 2
+  },
+  "WhiteOak Capital Consumption Opportunities Fund": {
+   "codes": [
+    154161,
+    154162
+   ],
+   "how": "exact",
+   "sheets": 2
+  },
+  "WhiteOak Capital Digital Bharat Fund": {
+   "codes": [
+    152914,
+    152915
+   ],
+   "how": "exact",
+   "sheets": 2
+  },
+  "WhiteOak Capital ELSS Tax Saver Fund": {
+   "codes": [
+    150586,
+    150587,
+    150588,
+    150589
+   ],
+   "how": "exact",
+   "sheets": 2
+  },
+  "WhiteOak Capital ESG Best-In-Class Strategy Fund": {
+   "codes": [
+    152962,
+    152963
+   ],
+   "how": "exact",
+   "sheets": 2
+  },
+  "WhiteOak Capital Equity Savings Fund": {
+   "codes": [
+    153355,
+    153356
+   ],
+   "how": "exact",
+   "sheets": 2
+  },
+  "WhiteOak Capital Flexi Cap Fund": {
+   "codes": [
+    150346,
+    150347,
+    150348,
+    150349
+   ],
+   "how": "exact",
+   "sheets": 2
+  },
+  "WhiteOak Capital Large & Mid Cap Fund": {
+   "codes": [
+    152225,
+    152226
+   ],
+   "how": "exact",
+   "sheets": 2
+  },
+  "WhiteOak Capital Large Cap Fund": {
+   "codes": [
+    150797,
+    150798,
+    150799,
+    150800
+   ],
+   "how": "exact",
+   "sheets": 2
+  },
+  "WhiteOak Capital Liquid Fund": {
+   "codes": [
+    145963,
+    145964,
+    145965,
+    145966,
+    145967,
+    145968,
+    145969,
+    145970,
+    145971,
+    145972
+   ],
+   "how": "exact",
+   "sheets": 2
+  },
+  "WhiteOak Capital Mid Cap Fund": {
+   "codes": [
+    150582,
+    150583,
+    150584,
+    150585
+   ],
+   "how": "exact",
+   "sheets": 2
+  },
+  "WhiteOak Capital Multi Asset Allocation Fund": {
+   "codes": [
+    151745,
+    151746
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "WhiteOak Capital Multi Cap Fund": {
+   "codes": [
+    152071,
+    152072
+   ],
+   "how": "exact",
+   "sheets": 2
+  },
+  "WhiteOak Capital Pharma and Healthcare Fund": {
+   "codes": [
+    152348,
+    152349
+   ],
+   "how": "fuzzy",
+   "sheets": 1
+  },
+  "WhiteOak Capital Quality Equity Fund": {
+   "codes": [
+    153189,
+    153190
+   ],
+   "how": "exact",
+   "sheets": 2
+  },
+  "WhiteOak Capital Special Opportunities Fund": {
+   "codes": [
+    152643,
+    152644
+   ],
+   "how": "exact",
+   "sheets": 2
+  },
+  "UNION ACTIVE MOMENTUM FUND": {
+   "codes": [
+    153109,
+    153110,
+    153111,
+    153112
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "UNION AGGRESSIVE HYBRID FUND": {
+   "codes": [
+    148590,
+    148591,
+    148592,
+    148593
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "UNION ARBITRAGE FUND": {
+   "codes": [
+    146294,
+    146295,
+    146296,
+    146297
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "UNION BALANCED ADVANTAGE FUND": {
+   "codes": [
+    142035,
+    142036,
+    142037,
+    142038
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "UNION BUSINESS CYCLE FUND": {
+   "codes": [
+    152409,
+    152410,
+    152411,
+    152412
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "UNION CHILDREN'S FUND": {
+   "codes": [
+    152217,
+    152218,
+    152219,
+    152220
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "UNION CONSUMPTION FUND": {
+   "codes": [
+    154020,
+    154021,
+    154022,
+    154023
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "UNION CORPORATE BOND FUND": {
+   "codes": [
+    143239,
+    143240,
+    143241,
+    143242
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "UNION DIVERSIFIED EQUITY ALL CAP ACTIVE FOF": {
+   "codes": [
+    153822,
+    153823,
+    153824,
+    153825
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "UNION ELSS TAX SAVER FUND (FORMERLY UNION TAX SAVER (ELSS) FUND)": {
+   "codes": [
+    116051,
+    116052,
+    119306,
+    119307
+   ],
+   "how": "fund-optional",
+   "sheets": 1
+  },
+  "UNION EQUITY SAVINGS FUND": {
+   "codes": [
+    144310,
+    144311,
+    144312,
+    144313
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "UNION FLEXI CAP FUND": {
+   "codes": [
+    115270,
+    115290,
+    119292,
+    119293
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "UNION FOCUSED FUND": {
+   "codes": [
+    147490,
+    147491,
+    147492,
+    147493
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "UNION GILT FUND": {
+   "codes": [
+    150405,
+    150406,
+    150407,
+    150408,
+    150456,
+    150457
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "UNION GOLD ETF": {
+   "codes": [
+    153337
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "UNION GOLD ETF FUND OF FUND": {
+   "codes": [
+    153338,
+    153339,
+    153340,
+    153341
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "UNION INCOME PLUS ARBITRAGE ACTIVE FOF": {
+   "codes": [
+    153573,
+    153574,
+    153575,
+    153576
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "UNION INNOVATION & OPPORTUNITIES FUND": {
+   "codes": [
+    151903,
+    151904,
+    151905,
+    151906
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "UNION LARGE & MIDCAP FUND": {
+   "codes": [
+    147748,
+    147749,
+    147750,
+    147751
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "UNION LARGECAP FUND": {
+   "codes": [
+    141247,
+    141248,
+    141249,
+    141250
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "UNION LIQUID FUND": {
+   "codes": [
+    115398,
+    115399,
+    115400,
+    115401,
+    115402,
+    119301,
+    119302,
+    119303,
+    119304,
+    119305,
+    142342,
+    142343,
+    142344,
+    142345
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "UNION MIDCAP FUND": {
+   "codes": [
+    148071,
+    148072,
+    148073,
+    148074
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "UNION MONEY MARKET FUND": {
+   "codes": [
+    149116,
+    149117,
+    149118,
+    149119,
+    149120,
+    149121,
+    149122,
+    149123
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "UNION MULTI ASSET ALLOCATION FUND": {
+   "codes": [
+    152784,
+    152785,
+    152786,
+    152787
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "UNION MULTICAP FUND": {
+   "codes": [
+    150855,
+    150856,
+    150857,
+    150858
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "UNION OVERNIGHT FUND^^": {
+   "codes": [
+    146997,
+    146998,
+    147000,
+    147002,
+    147003,
+    147006,
+    149451,
+    149452,
+    149453,
+    149454
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "UNION RETIREMENT FUND": {
+   "codes": [
+    150552,
+    150553,
+    150554,
+    150555
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "UNION SHORT TERM FUND": {
+   "codes": [
+    117280,
+    117281,
+    117282,
+    117283,
+    117284,
+    119318,
+    119319,
+    119320,
+    119321,
+    119322
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "UNION SMALL CAP FUND": {
+   "codes": [
+    129646,
+    129647,
+    129648,
+    129649
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "UNION VALUE FUND (FORMERLY UNION VALUE DISCOVERY FUND)": {
+   "codes": [
+    145471,
+    145472,
+    145473,
+    145474
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Navi Aggressive Hybrid Fund": {
+   "codes": [
+    143162,
+    143163,
+    143166,
+    143167,
+    143185,
+    143186,
+    143189,
+    143192,
+    143195,
+    143197,
+    143198,
+    143199
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Navi BSE Sensex Index Fund": {
+   "codes": [
+    152061,
+    152062
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Navi ELSS Tax Saver Nifty 50 Index Fund": {
+   "codes": [
+    151471,
+    151472,
+    151473,
+    151474
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Navi Flexi Cap Fund": {
+   "codes": [
+    143787,
+    143788,
+    143789,
+    143790,
+    143791,
+    143792,
+    143793,
+    143794,
+    143795,
+    143796,
+    143797,
+    143798
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Navi Large & Midcap Fund": {
+   "codes": [
+    135677,
+    135678,
+    135679,
+    135680,
+    141410,
+    141411,
+    141414,
+    141415
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Navi Liquid Fund": {
+   "codes": [
+    112636,
+    112645,
+    112646,
+    112647,
+    119161,
+    119162,
+    119163,
+    119164,
+    139386,
+    140437
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Navi Nasdaq100 US Specific Equity Passive FOF": {
+   "codes": [
+    149910,
+    149911
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Navi Nifty 50 Index Fund": {
+   "codes": [
+    149039,
+    149040
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Navi Nifty Bank Index Fund": {
+   "codes": [
+    149804,
+    149805
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Navi Nifty IT Index Fund": {
+   "codes": [
+    152535,
+    152536
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Navi Nifty India Manufacturing Index Fund": {
+   "codes": [
+    150515,
+    150516
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Navi Nifty MidSmallcap 400 Index Fund": {
+   "codes": [
+    154026,
+    154027
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Navi Nifty Midcap 150 Index fund": {
+   "codes": [
+    149892,
+    149893
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Navi Nifty Next 50 Index Fund": {
+   "codes": [
+    149447,
+    149448
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Navi Total Stock Market US Specific Equity Passive FoF": {
+   "codes": [
+    149830,
+    149831
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
   "360 ONE Liquid Fund": {
    "codes": [
     125259,
@@ -2443,6 +3182,24 @@
    ],
    "how": "exact",
    "sheets": 2
+  },
+  "Capitalmind Arbitrage Fund": {
+   "codes": [
+    154233,
+    154234,
+    154235,
+    154236
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Capitalmind Liquid Fund": {
+   "codes": [
+    154010,
+    154011
+   ],
+   "how": "exact",
+   "sheets": 1
   },
   "DSP Credit Risk Fund": {
    "codes": [
@@ -7359,6 +8116,93 @@
    "how": "exact",
    "sheets": 1
   },
+  "LIC MF Banking & PSU Fund": {
+   "codes": [
+    105822,
+    105823,
+    105856,
+    105857,
+    120336,
+    120337,
+    120338,
+    120339
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "LIC MF ELSS TAX SAVER": {
+   "codes": [
+    100864,
+    100865,
+    120269,
+    120270
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "LIC MF Low Duration Fund": {
+   "codes": [
+    101829,
+    101830,
+    111675,
+    111676,
+    120315,
+    120316,
+    120317,
+    120318
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "LIC MF Medium to Long Duration Fund": {
+   "codes": [
+    100314,
+    100315,
+    120278,
+    120279,
+    151986,
+    151988,
+    151989,
+    151990
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "LIC MF Nifty 8 13 yr G Sec ETF": {
+   "codes": [
+    133307
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "LIC MF Short Duration Fund": {
+   "codes": [
+    145951,
+    145952,
+    145953,
+    145954,
+    151955,
+    151956,
+    151959,
+    151960
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "LIC MF Ultra Short Duration Fund": {
+   "codes": [
+    147766,
+    147767,
+    147768,
+    147769,
+    147770,
+    147771,
+    147772,
+    147773
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
   "MAHINDRA MANULIFE LIQUID FUND": {
    "codes": [
     139534,
@@ -9136,6 +9980,136 @@
    "how": "exact",
    "sheets": 1
   },
+  "Nippon India Banking and PSU Fund": {
+   "codes": [
+    134545,
+    134547,
+    134548,
+    134549,
+    134550,
+    134551,
+    134552,
+    134553,
+    134554,
+    134555,
+    134556
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Nippon India CRISIL IBX AAA Financial Services Jan 2028 Index Fund": {
+   "codes": [
+    152996,
+    152997,
+    152998,
+    152999
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Nippon India Credit Risk Fund": {
+   "codes": [
+    112938,
+    112939,
+    112941,
+    118780,
+    118781,
+    132871,
+    132873,
+    148094,
+    148095,
+    148096,
+    148097,
+    148098,
+    148100,
+    148101,
+    148258,
+    148259,
+    148260,
+    148261,
+    148262,
+    148263,
+    148264
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Nippon India Diversified Equity Flexicap Passive FoF": {
+   "codes": [
+    148641,
+    148642,
+    148643,
+    148644
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Nippon India MNC Fund": {
+   "codes": [
+    153690,
+    153691,
+    153692,
+    153693
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Nippon India Nifty 1D Rate Liquid ETF": {
+   "codes": [
+    153725
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Nippon India Nifty 500 Low Volatility 50 Index Fund": {
+   "codes": [
+    153473,
+    153474,
+    153475
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Nippon India Nifty 500 Momentum 50 Index Fund": {
+   "codes": [
+    152881,
+    152882,
+    152883,
+    152884
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Nippon India Nifty AAA CPSE Bond Plus SDL Apr 2027 Maturity 60:40 Index Fund": {
+   "codes": [
+    150008,
+    150009,
+    150011,
+    150012
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Nippon India Nifty Auto Index Fund": {
+   "codes": [
+    153064,
+    153065,
+    153066,
+    153067
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Nippon India Nifty Realty Index Fund": {
+   "codes": [
+    153060,
+    153061,
+    153062,
+    153063
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
   "Old Bridge Flexi Cap Fund": {
    "codes": [
     154225,
@@ -9145,6 +10119,26 @@
    ],
    "how": "exact",
    "sheets": 2
+  },
+  "Old Bridge Arbitrage Fund": {
+   "codes": [
+    153977,
+    153979,
+    153980,
+    153981
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Old Bridge Focused Fund": {
+   "codes": [
+    152358,
+    152359,
+    152361,
+    152363
+   ],
+   "how": "exact",
+   "sheets": 1
   },
   "Parag Parikh Flexi Cap Fund": {
    "codes": [
@@ -12543,84 +13537,18 @@
    "how": "exact",
    "sheets": 2
   },
-  "Angel One Gold ETF FOF": {
+  "Unifi Flexi Cap Fund": {
    "codes": [
-    153827,
-    153828
+    153542,
+    153543
    ],
    "how": "exact",
    "sheets": 1
   },
-  "Angel One Gold ETF": {
+  "Unifi Liquid Fund": {
    "codes": [
-    153826
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "AngelOne Nifty 1D Rate Liquid ETF GROWTH": {
-   "codes": [
-    153451
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Angel One Nifty 50 ETF": {
-   "codes": [
-    153531
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Angel One Nifty 50 Index Fund": {
-   "codes": [
-    153529,
-    153530
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Angel One Nifty Total Market ETF": {
-   "codes": [
-    153332
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Angel One Nifty Total Market Index Fund": {
-   "codes": [
-    153330,
-    153331
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Angel One Nifty Total Market Momentum Quality 50 ETF": {
-   "codes": [
-    153957
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Angel One Nifty Total Market Momentum Quality 50 Index Fund": {
-   "codes": [
-    153955,
-    153956
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Angel One Silver ETF FOF": {
-   "codes": [
-    154206,
-    154207
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Angel One Silver ETF": {
-   "codes": [
-    154205
+    153570,
+    153571
    ],
    "how": "exact",
    "sheets": 1
@@ -13041,6 +13969,60 @@
    ],
    "how": "exact",
    "sheets": 2
+  },
+  "Baroda BNP Paribas Banking and Financial Services Fund": {
+   "codes": [
+    117547,
+    117549,
+    119333,
+    119334
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Baroda BNP Paribas Best in Class Strategy Fund": {
+   "codes": [
+    154191,
+    154193,
+    154194,
+    154195
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Baroda BNP Paribas Large and Mid Cap Fund": {
+   "codes": [
+    148471,
+    148472,
+    148474,
+    148475
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Baroda BNP Paribas Short Duration Fund": {
+   "codes": [
+    113036,
+    113037,
+    119399,
+    119400,
+    140463,
+    140465
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Baroda BNP Paribas Ultra Short Duration Fund": {
+   "codes": [
+    143464,
+    143507,
+    143508,
+    143509,
+    143510,
+    143511
+   ],
+   "how": "exact",
+   "sheets": 1
   },
   "Groww Large Cap Fund": {
    "codes": [
@@ -13824,6 +14806,15 @@
    ],
    "how": "exact",
    "sheets": 2
+  },
+  "Samco Overnight Fund": {
+   "codes": [
+    150631,
+    150632,
+    153021
+   ],
+   "how": "exact",
+   "sheets": 1
   },
   "ZERODHA BSE SENSEX INDEX FUND": {
    "codes": [
@@ -15475,7 +16466,7 @@
     153986
    ],
    "how": "exact",
-   "sheets": 1
+   "sheets": 2
   },
   "Mirae Asset Nifty India Infrastructure & Logistics ETF": {
    "codes": [
@@ -15561,7 +16552,7 @@
     150474
    ],
    "how": "exact",
-   "sheets": 1
+   "sheets": 2
   },
   "Mirae Asset Banking and Financial Services Fund": {
    "codes": [
@@ -15581,7 +16572,7 @@
     148758
    ],
    "how": "exact",
-   "sheets": 1
+   "sheets": 2
   },
   "Mirae Asset Crisil IBX Gilt Index - April 2033 Index Fund": {
    "codes": [
@@ -15635,7 +16626,7 @@
     118835
    ],
    "how": "exact",
-   "sheets": 1
+   "sheets": 2
   },
   "Mirae Asset Equity Savings Fund": {
    "codes": [
@@ -15645,7 +16636,7 @@
     145696
    ],
    "how": "exact",
-   "sheets": 1
+   "sheets": 2
   },
   "Mirae Asset Nifty 100 ESG Sector Leaders ETF": {
    "codes": [
@@ -15662,7 +16653,7 @@
     151415
    ],
    "how": "exact",
-   "sheets": 1
+   "sheets": 2
   },
   "Mirae Asset Focused Fund": {
    "codes": [
@@ -15672,7 +16663,7 @@
     147206
    ],
    "how": "exact",
-   "sheets": 1
+   "sheets": 2
   },
   "Mirae Asset Gold ETF": {
    "codes": [
@@ -15712,7 +16703,7 @@
     143786
    ],
    "how": "exact",
-   "sheets": 1
+   "sheets": 2
   },
   "Mirae Asset Hang Seng TECH ETF Fund of Fund": {
    "codes": [
@@ -15757,7 +16748,7 @@
     147480
    ],
    "how": "exact",
-   "sheets": 1
+   "sheets": 2
   },
   "Mirae Asset Nifty India Manufacturing ETF Fund Of Fund": {
    "codes": [
@@ -15778,7 +16769,7 @@
     154462
    ],
    "how": "exact",
-   "sheets": 1
+   "sheets": 2
   },
   "Mirae Asset Multicap Fund": {
    "codes": [
@@ -15788,7 +16779,7 @@
     151813
    ],
    "how": "exact",
-   "sheets": 1
+   "sheets": 2
   },
   "Mirae Asset Nifty 1D Rate Liquid ETF - IDCW": {
    "codes": [
@@ -15879,7 +16870,7 @@
     147743
    ],
    "how": "exact",
-   "sheets": 1
+   "sheets": 2
   },
   "Mirae Asset Small Cap Fund": {
    "codes": [
@@ -15889,7 +16880,7 @@
     153199
    ],
    "how": "exact",
-   "sheets": 1
+   "sheets": 2
   },
   "Mirae Asset Silver ETF": {
    "codes": [
@@ -15985,7 +16976,7 @@
     118826
    ],
    "how": "exact",
-   "sheets": 1
+   "sheets": 2
   },
   "Mirae Asset Nifty MidSmallcap400 Momentum Quality 100 ETF Fund of Fund": {
    "codes": [
@@ -16102,6 +17093,34 @@
    ],
    "how": "exact",
    "sheets": 2
+  },
+  "Mirae Asset Long Duration Fund": {
+   "codes": [
+    153105,
+    153106,
+    153107,
+    153108
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Mirae Asset Nifty 1D Rate Liquid ETF": {
+   "codes": [
+    151908,
+    153045
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Mirae Asset Short Duration Fund": {
+   "codes": [
+    142640,
+    142641,
+    142642,
+    142643
+   ],
+   "how": "exact",
+   "sheets": 1
   },
   "Invesco India - Invesco EQQQ NASDAQ-100 ETF Fund of Fund***": {
    "codes": [
@@ -17749,162 +18768,6 @@
    "how": "exact",
    "sheets": 1
   },
-  "Navi Aggressive Hybrid Fund": {
-   "codes": [
-    143162,
-    143163,
-    143166,
-    143167,
-    143185,
-    143186,
-    143189,
-    143192,
-    143195,
-    143197,
-    143198,
-    143199
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Navi BSE Sensex Index Fund": {
-   "codes": [
-    152061,
-    152062
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Navi ELSS Tax Saver Nifty 50 Index Fund": {
-   "codes": [
-    151471,
-    151472,
-    151473,
-    151474
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Navi Flexi Cap Fund": {
-   "codes": [
-    143787,
-    143788,
-    143789,
-    143790,
-    143791,
-    143792,
-    143793,
-    143794,
-    143795,
-    143796,
-    143797,
-    143798
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Navi Large & Midcap Fund": {
-   "codes": [
-    135677,
-    135678,
-    135679,
-    135680,
-    141410,
-    141411,
-    141414,
-    141415
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Navi Liquid Fund": {
-   "codes": [
-    112636,
-    112645,
-    112646,
-    112647,
-    119161,
-    119162,
-    119163,
-    119164,
-    139386,
-    140437
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Navi Nasdaq100 US Specific Equity Passive FOF": {
-   "codes": [
-    149910,
-    149911
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Navi Nifty 50 Index Fund": {
-   "codes": [
-    149039,
-    149040
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Navi Nifty Bank Index Fund": {
-   "codes": [
-    149804,
-    149805
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Navi Nifty IT Index Fund": {
-   "codes": [
-    152535,
-    152536
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Navi Nifty India Manufacturing Index Fund": {
-   "codes": [
-    150515,
-    150516
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Navi Nifty MidSmallcap 400 Index Fund": {
-   "codes": [
-    154026,
-    154027
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Navi Nifty Midcap 150 Index fund": {
-   "codes": [
-    149892,
-    149893
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Navi Nifty Next 50 Index Fund": {
-   "codes": [
-    149447,
-    149448
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Navi Total Stock Market US Specific Equity Passive FoF": {
-   "codes": [
-    149830,
-    149831
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
   "JioBlackRock Arbitrage Fund": {
    "codes": [
     154076
@@ -18039,362 +18902,6 @@
    "how": "fuzzy",
    "sheets": 1
   },
-  "Baroda BNP Paribas Banking and Financial Services Fund": {
-   "codes": [
-    117547,
-    117549,
-    119333,
-    119334
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Baroda BNP Paribas Best in Class Strategy Fund": {
-   "codes": [
-    154191,
-    154193,
-    154194,
-    154195
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Baroda BNP Paribas Large and Mid Cap Fund": {
-   "codes": [
-    148471,
-    148472,
-    148474,
-    148475
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Baroda BNP Paribas Short Duration Fund": {
-   "codes": [
-    113036,
-    113037,
-    119399,
-    119400,
-    140463,
-    140465
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Baroda BNP Paribas Ultra Short Duration Fund": {
-   "codes": [
-    143464,
-    143507,
-    143508,
-    143509,
-    143510,
-    143511
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Capitalmind Arbitrage Fund": {
-   "codes": [
-    154233,
-    154234,
-    154235,
-    154236
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Capitalmind Liquid Fund": {
-   "codes": [
-    154010,
-    154011
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "LIC MF Banking & PSU Fund": {
-   "codes": [
-    105822,
-    105823,
-    105856,
-    105857,
-    120336,
-    120337,
-    120338,
-    120339
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "LIC MF ELSS TAX SAVER": {
-   "codes": [
-    100864,
-    100865,
-    120269,
-    120270
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "LIC MF Low Duration Fund": {
-   "codes": [
-    101829,
-    101830,
-    111675,
-    111676,
-    120315,
-    120316,
-    120317,
-    120318
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "LIC MF Medium to Long Duration Fund": {
-   "codes": [
-    100314,
-    100315,
-    120278,
-    120279,
-    151986,
-    151988,
-    151989,
-    151990
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "LIC MF Nifty 8 13 yr G Sec ETF": {
-   "codes": [
-    133307
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "LIC MF Short Duration Fund": {
-   "codes": [
-    145951,
-    145952,
-    145953,
-    145954,
-    151955,
-    151956,
-    151959,
-    151960
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "LIC MF Ultra Short Duration Fund": {
-   "codes": [
-    147766,
-    147767,
-    147768,
-    147769,
-    147770,
-    147771,
-    147772,
-    147773
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Mirae Asset Long Duration Fund": {
-   "codes": [
-    107700,
-    107701,
-    107702,
-    107704,
-    107705,
-    118840,
-    118841,
-    118842,
-    118843,
-    118844,
-    153105,
-    153106,
-    153107,
-    153108
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Mirae Asset Nifty 1D Rate Liquid ETF": {
-   "codes": [
-    151908,
-    153045
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Mirae Asset Short Duration Fund": {
-   "codes": [
-    142640,
-    142641,
-    142642,
-    142643
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Nippon India Banking and PSU Fund": {
-   "codes": [
-    134545,
-    134547,
-    134548,
-    134549,
-    134550,
-    134551,
-    134552,
-    134553,
-    134554,
-    134555,
-    134556
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Nippon India CRISIL IBX AAA Financial Services Jan 2028 Index Fund": {
-   "codes": [
-    152996,
-    152997,
-    152998,
-    152999
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Nippon India Credit Risk Fund": {
-   "codes": [
-    112938,
-    112939,
-    112941,
-    118780,
-    118781,
-    132871,
-    132873,
-    148094,
-    148095,
-    148096,
-    148097,
-    148098,
-    148100,
-    148101,
-    148258,
-    148259,
-    148260,
-    148261,
-    148262,
-    148263,
-    148264
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Nippon India Diversified Equity Flexicap Passive FoF": {
-   "codes": [
-    148641,
-    148642,
-    148643,
-    148644
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Nippon India MNC Fund": {
-   "codes": [
-    153690,
-    153691,
-    153692,
-    153693
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Nippon India Nifty 1D Rate Liquid ETF": {
-   "codes": [
-    153725
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Nippon India Nifty 500 Low Volatility 50 Index Fund": {
-   "codes": [
-    153473,
-    153474,
-    153475
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Nippon India Nifty 500 Momentum 50 Index Fund": {
-   "codes": [
-    152881,
-    152882,
-    152883,
-    152884
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Nippon India Nifty AAA CPSE Bond Plus SDL Apr 2027 Maturity 60:40 Index Fund": {
-   "codes": [
-    150008,
-    150009,
-    150011,
-    150012
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Nippon India Nifty Auto Index Fund": {
-   "codes": [
-    153064,
-    153065,
-    153066,
-    153067
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Nippon India Nifty Realty Index Fund": {
-   "codes": [
-    153060,
-    153061,
-    153062,
-    153063
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Old Bridge Arbitrage Fund": {
-   "codes": [
-    153977,
-    153979,
-    153980,
-    153981
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Old Bridge Focused Fund": {
-   "codes": [
-    152358,
-    152359,
-    152361,
-    152363
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Samco Overnight Fund": {
-   "codes": [
-    150631,
-    150632,
-    153021
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
   "THE WEALTH COMPANY ARBITRAGE FUND": {
    "codes": [
     153891,
@@ -18486,162 +18993,200 @@
    "how": "exact",
    "sheets": 1
   },
-  "Unifi Flexi Cap Fund": {
+  "Mirae Asset Banking and PSU Fund": {
    "codes": [
-    153542,
-    153543
+    148416,
+    148417,
+    148418,
+    148419
    ],
    "how": "exact",
    "sheets": 1
   },
-  "Unifi Liquid Fund": {
+  "Mirae Asset Dynamic Bond Fund": {
    "codes": [
-    153570,
-    153571
+    140769,
+    140770,
+    140771,
+    140772
    ],
    "how": "exact",
    "sheets": 1
   },
-  "WhiteOak Capital Aggressive Hybrid Fund": {
+  "Mirae Asset Low Duration Fund": {
    "codes": [
-    154392,
-    154393
+    107700,
+    107701,
+    107702,
+    107704,
+    107705,
+    118840,
+    118841,
+    118842,
+    118843,
+    118844
    ],
    "how": "exact",
    "sheets": 1
   },
-  "WhiteOak Capital Arbitrage Fund": {
+  "Mirae Asset Ultra Short Duration Fund": {
    "codes": [
-    152849,
-    152850
+    148529,
+    148530,
+    148531,
+    148532
    ],
    "how": "exact",
    "sheets": 1
   },
-  "WhiteOak Capital Balanced Advantage Fund": {
+  "Nippon India Dynamic Bond Fund": {
    "codes": [
-    151267,
-    151268
+    102849,
+    102851,
+    117974,
+    118747,
+    118749,
+    118750
    ],
    "how": "exact",
    "sheets": 1
   },
-  "WhiteOak Capital Balanced Hybrid Fund": {
+  "Nippon India Floater Fund": {
    "codes": [
-    152132,
-    152133
+    102673,
+    102675,
+    102676,
+    102677,
+    112942,
+    118654,
+    118655,
+    118656,
+    118660,
+    118661,
+    124589,
+    124590
    ],
    "how": "exact",
    "sheets": 1
   },
-  "WhiteOak Capital Banking & Financial Services Fund": {
+  "Nippon India Low Duration Fund": {
    "codes": [
-    152321,
-    152322
+    111743,
+    111744,
+    111745,
+    111746,
+    111747,
+    111748,
+    111749,
+    111750,
+    111751,
+    111752,
+    111753,
+    111754,
+    118702,
+    118703,
+    118704,
+    118705,
+    118706,
+    118709,
+    125264,
+    125265
    ],
    "how": "exact",
    "sheets": 1
   },
-  "WhiteOak Capital Consumption Opportunities Fund": {
+  "Nippon India Medium Duration Fund": {
    "codes": [
-    154161,
-    154162
+    130037,
+    130050,
+    130052,
+    130053,
+    130054,
+    130055,
+    130056,
+    148283,
+    148284,
+    148285,
+    148286,
+    148287,
+    148288,
+    148289,
+    148290
    ],
    "how": "exact",
    "sheets": 1
   },
-  "WhiteOak Capital Digital Bharat Fund": {
+  "Nippon India Medium to Long Duration Fund": {
    "codes": [
-    152914,
-    152915
+    100383,
+    100384,
+    100385,
+    100386,
+    100387,
+    100388,
+    118679,
+    118680,
+    118681,
+    118683,
+    118684,
+    118687
    ],
    "how": "exact",
    "sheets": 1
   },
-  "WhiteOak Capital ELSS Tax Saver Fund": {
+  "Nippon India Nivesh Lakshya Long Duration Fund": {
    "codes": [
-    150586,
-    150587,
-    150588,
-    150589
+    143701,
+    143702,
+    143703,
+    143704,
+    143705,
+    143706,
+    143707,
+    143708,
+    143709,
+    143711,
+    143712
    ],
    "how": "exact",
    "sheets": 1
   },
-  "WhiteOak Capital ESG Best-In-Class Strategy Fund": {
+  "Nippon India Short Duration Fund": {
    "codes": [
-    152962,
-    152963
+    101665,
+    101667,
+    101669,
+    118796,
+    118797,
+    118800,
+    125268,
+    125269
    ],
    "how": "exact",
    "sheets": 1
   },
-  "WhiteOak Capital Equity Savings Fund": {
+  "Nippon India Ultra Short Duration Fund": {
    "codes": [
-    153355,
-    153356
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "WhiteOak Capital Flexi Cap Fund": {
-   "codes": [
-    150346,
-    150347,
-    150348,
-    150349
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "WhiteOak Capital Large & Mid Cap Fund": {
-   "codes": [
-    152225,
-    152226
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "WhiteOak Capital Large Cap Fund": {
-   "codes": [
-    150797,
-    150798,
-    150799,
-    150800
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "WhiteOak Capital Liquid Fund": {
-   "codes": [
-    145963,
-    145964,
-    145965,
-    145966,
-    145967,
-    145968,
-    145969,
-    145970,
-    145971,
-    145972
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "WhiteOak Capital Mid Cap Fund": {
-   "codes": [
-    150582,
-    150583,
-    150584,
-    150585
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "WhiteOak Capital Multi Cap Fund": {
-   "codes": [
-    152071,
-    152072
+    143493,
+    143494,
+    143495,
+    143496,
+    143497,
+    143498,
+    143499,
+    143500,
+    143501,
+    143502,
+    147673,
+    147674,
+    147675,
+    147676,
+    147677,
+    147678,
+    147679,
+    147680,
+    147681,
+    147682
    ],
    "how": "exact",
    "sheets": 1
@@ -18653,25 +19198,14 @@
    ],
    "how": "exact",
    "sheets": 1
-  },
-  "WhiteOak Capital Quality Equity Fund": {
-   "codes": [
-    153189,
-    153190
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "WhiteOak Capital Special Opportunities Fund": {
-   "codes": [
-    152643,
-    152644
-   ],
-   "how": "exact",
-   "sheets": 1
   }
  },
  "unmatched": {
+  "WhiteOak Capital Dividend Yield Fund": 1,
+  "WhiteOak Capital Ultra Short Term Fund": 1,
+  "UNION DYNAMIC TERM FUND": 1,
+  "UNION ULTRA SHORT TO SHORT TERM FUND": 1,
+  "Navi Nifty REITs and Realty Index Fund": 1,
   "360 ONE Dynamic Term Fund": 1,
   "Abakkus Large & Mid Cap Fund": 1,
   "Aditya Birla Sun Life Pure Value Fund": 2,
@@ -18809,6 +19343,7 @@
   "Services - Jan 2028 Index Fund": 1,
   "Index Fund": 2,
   "Volatility 50 Index Fund": 1,
+  "Nippon India Index Fund": 1,
   "SBI Aggressive Hybrid Fund": 1,
   "SBI Medium to Long Term Fund (Erstwhile known as SBI Magnum Income Fund)": 1,
   "SBI Medium Term Fund (Erstwhile known as SBI Magnum Medium Duration Fund)": 1,
@@ -19002,7 +19537,6 @@
   "Wealth Company Liquid Fund": 1,
   "Wealth Company Mid cap fund": 1,
   "WEALTH COMPANY MULTIASSET ALLOC FUND": 1,
-  "WEALTH COMPANY MULTI CAP FUND": 1,
-  "Nippon India Index Fund": 1
+  "WEALTH COMPANY MULTI CAP FUND": 1
  }
 }
