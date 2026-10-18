@@ -368,3 +368,18 @@ jobs:
               git pull --rebase origin main
             done
           fi
+
+      # jsDelivr caches the @main alias for up to 12h, so a pushed table is not
+      # what the tools see until it is purged -- see refresh-metrics.yml. Warn
+      # only: the commit is already published and the cache expires on its own.
+      - name: Purge jsDelivr cache
+        if: ${{ (github.event.inputs.limit || '0') == '0' }}
+        run: |
+          set -uo pipefail
+          for f in industries.min.json.gz portfolios.min.json.gz ter.min.json.gz \
+                   tri.min.json.gz bse_tri.min.json.gz benchmarks.json \
+                   scheme_codes.json benchmark_map.json nse_indices.json \
+                   bse_indices.json benchmark_series.min.json.gz; do
+            curl -fsS --retry 3 "https://purge.jsdelivr.net/gh/${{ github.repository }}@main/$f" >/dev/null \
+              && echo "purged $f" || echo "::warning::jsDelivr purge failed for $f"
+          done

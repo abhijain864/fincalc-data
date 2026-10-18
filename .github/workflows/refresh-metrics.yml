@@ -119,3 +119,26 @@ jobs:
               git pull --rebase origin main
             done
           fi
+
+      # The tools read these files through jsDelivr's @main alias, which caches
+      # the branch -> commit resolution for up to 12h. Without a purge, the 18 Oct
+      # run pushed a fresh table and the CDN kept serving the 11 Oct one -- and a
+      # reconnected MCP loaded the stale copy into memory for its whole life.
+      # A purge or verify failure warns rather than fails: the commit is already
+      # published, and the cache expires on its own.
+      - name: Purge jsDelivr cache
+        if: ${{ (github.event.inputs.limit || '0') == '0' }}
+        run: |
+          set -uo pipefail
+          for f in metrics.min.json.gz schemes.min.json.gz; do
+            curl -fsS --retry 3 "https://purge.jsdelivr.net/gh/${{ github.repository }}@main/$f" >/dev/null \
+              && echo "purged $f" || echo "::warning::jsDelivr purge failed for $f"
+          done
+          want=$(gzip -dc metrics.min.json.gz | python3 -c "import json,sys; print(json.load(sys.stdin)['generated'])")
+          for i in $(seq 1 12); do
+            got=$(curl -fsS "https://cdn.jsdelivr.net/gh/${{ github.repository }}@main/metrics.min.json.gz" \
+                  | gzip -dc | python3 -c "import json,sys; print(json.load(sys.stdin)['generated'])" || true)
+            [ "$got" = "$want" ] && { echo "CDN serves metrics generated $want"; exit 0; }
+            sleep 10
+          done
+          echo "::warning::CDN still serves metrics generated '$got', expected '$want'"
