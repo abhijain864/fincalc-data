@@ -40,6 +40,25 @@ jobs:
       - name: Set up uv
         uses: astral-sh/setup-uv@v5
 
+      # The AMFI scheme list is the universe every other table joins on: the
+      # metrics build takes its funds from it, and the monthly portfolio join maps
+      # pack names to codes through it. It was built once (8 Jul 2026) and never
+      # again, so every fund launched since was invisible -- the packs had the
+      # funds, the join had no code to give them. Rebuilt here, weekly, straight
+      # into this checkout. A failure keeps the published copy rather than
+      # failing the run: last week's list is stale, not wrong.
+      - name: Refresh AMFI scheme list
+        working-directory: fincalc-mcp
+        run: |
+          set -uo pipefail
+          if uv run --with-editable . python scripts/refresh.py \
+               --out "$GITHUB_WORKSPACE/schemes.min.json.gz"; then
+            echo "scheme list refreshed"
+          else
+            echo "::warning::scheme list refresh failed or was refused; building on the published copy"
+            git -C "$GITHUB_WORKSPACE" checkout -- schemes.min.json.gz
+          fi
+
       - name: Build metrics table
         working-directory: fincalc-mcp
         # Read the benchmark tables from THIS repo's checkout, not the CDN. The
@@ -52,6 +71,9 @@ jobs:
           FINCALC_BENCH_MAP_PATH: ${{ github.workspace }}/benchmark_series.min.json.gz
           FINCALC_TRI_PATH: ${{ github.workspace }}/tri.min.json.gz
           FINCALC_BSE_TRI_PATH: ${{ github.workspace }}/bse_tri.min.json.gz
+          # The list refreshed one step up -- through the CDN this would be
+          # jsDelivr's copy, up to a day old.
+          FINCALC_SCHEMES_PATH: ${{ github.workspace }}/schemes.min.json.gz
         run: |
           set -euo pipefail
           LIMIT="${{ github.event.inputs.limit || '0' }}"
@@ -73,7 +95,7 @@ jobs:
             uv run --with-editable . python scripts/build_metrics.py
           fi
 
-      - name: Publish metrics.min.json.gz to fincalc-data
+      - name: Publish metrics.min.json.gz and schemes.min.json.gz to fincalc-data
         if: ${{ (github.event.inputs.limit || '0') == '0' }}
         run: |
           set -euo pipefail
@@ -81,9 +103,9 @@ jobs:
           ls -la metrics.min.json.gz
           git config user.name "fincalc-ci"
           git config user.email "fincalc-ci@users.noreply.github.com"
-          git add metrics.min.json.gz
+          git add metrics.min.json.gz schemes.min.json.gz
           if git diff --cached --quiet; then
-            echo "No change in metrics table; nothing to commit."
+            echo "No change in metrics table or scheme list; nothing to commit."
           else
             git commit -m "chore: metrics refresh $(date -u +%Y-%m-%dT%H:%MZ)"
             # Both refresh jobs commit to this repo and they publish DISJOINT

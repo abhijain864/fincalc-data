@@ -53,6 +53,13 @@ jobs:
   build:
     runs-on: ubuntu-latest
     timeout-minutes: 180
+    env:
+      # build_scheme_codes and build_ter join pack names to AMFI codes through
+      # the scheme list. Read it from this checkout (refreshed weekly by
+      # refresh-metrics), not the CDN: jsDelivr's copy can be a day old, and a
+      # stale list is how every fund launched after 8 Jul 2026 landed in
+      # scheme_codes' `unmatched` instead of getting its portfolio.
+      FINCALC_SCHEMES_PATH: ${{ github.workspace }}/schemes.min.json.gz
     steps:
       - name: Checkout fincalc-data (this repo)
         uses: actions/checkout@v4
