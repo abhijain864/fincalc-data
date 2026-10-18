@@ -45,8 +45,9 @@ on:
 permissions:
   contents: write
 
+# Shared with refresh-metrics.yml, which also publishes the benchmark series.
 concurrency:
-  group: refresh-portfolios
+  group: fincalc-data-publish
   cancel-in-progress: false
 
 jobs:
@@ -228,6 +229,11 @@ jobs:
         working-directory: fincalc-mcp
         run: |
           set -euo pipefail
+          # Seed from the PUBLISHED table: the weekly metrics job refreshes it
+          # in fincalc-data, and the package's copy is whatever was last
+          # committed to fincalc-mcp. Indices BSE does not serve are carried
+          # forward from it rather than dropped.
+          cp "$GITHUB_WORKSPACE/bse_tri.min.json.gz" src/fincalc_mcp/data/
           uv run --with-editable . python scripts/build_bse_indices.py
 
       # Resolves against both catalogues -- NSE published, BSE reconstructed --
@@ -268,17 +274,20 @@ jobs:
           set -euo pipefail
           uv run --with-editable . --with openpyxl python scripts/build_ter.py
 
-      # Index history barely changes and the fetch is slow, so it is opt-in.
+      # Gated on skip_tri; the weekly metrics job extends these anyway.
       - name: Backfill benchmark TRI series (NSE)
         if: ${{ github.event.inputs.skip_tri != 'true' }}
         continue-on-error: true
         working-directory: fincalc-mcp
         run: |
           set -euo pipefail
-          # --missing: a full rebuild is ~850 POSTs to refetch history that has
-          # not changed since 2005. Incremental costs one index per index the
-          # map gained, and refuses to write if the merge lost anything.
-          uv run --with-editable . python scripts/build_tri.py --missing
+          # --update: a full rebuild is ~850 POSTs to refetch history that has
+          # not changed since 2005. This fetches each index the map gained in
+          # full, extends every held one to today, and refuses to write if the
+          # merge lost anything. (--missing alone never extended a held index.)
+          # Seeded from the published table, as for BSE above.
+          cp "$GITHUB_WORKSPACE/tri.min.json.gz" src/fincalc_mcp/data/
+          uv run --with-editable . python scripts/build_tri.py --update
 
       # Cheap local join, no network: refreshes `has_series` now that the NSE
       # table has whatever this run added. Without it the flag describes last

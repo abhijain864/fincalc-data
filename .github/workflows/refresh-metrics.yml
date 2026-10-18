@@ -16,10 +16,12 @@ on:
         default: "0"
 
 permissions:
-  contents: write               # commit metrics.min.json.gz back to this repo
+  contents: write               # commit the refreshed tables back to this repo
 
-concurrency:                    # never let two refreshes overlap
-  group: refresh-metrics
+# Shared with refresh-portfolios.yml: both publish the benchmark series now, so
+# they must take turns rather than race to push the same files.
+concurrency:
+  group: fincalc-data-publish
   cancel-in-progress: false
 
 jobs:
@@ -59,6 +61,44 @@ jobs:
             git -C "$GITHUB_WORKSPACE" checkout -- schemes.min.json.gz
           fi
 
+      # Benchmark index series, extended to today in THIS checkout, so the build
+      # below measures alpha over the same window as the fund returns. They used
+      # to refresh only in the monthly portfolio job, in a mode that fetched new
+      # indices but never extended held ones: in October every NSE series still
+      # ended 4 Sep and every BSE one 15 Sep, six weeks behind the NAVs.
+      # Each refresh that fails keeps the published table -- a stale series is
+      # an answer with a date on it; a missing one silently drops alphas.
+      - name: Refresh benchmark index series (NSE published, BSE reconstructed)
+        if: ${{ (github.event.inputs.limit || '0') == '0' }}
+        working-directory: fincalc-mcp
+        run: |
+          set -uo pipefail
+          if uv run --with-editable . python scripts/build_tri.py --update \
+               --map "$GITHUB_WORKSPACE/benchmark_map.json" \
+               --table "$GITHUB_WORKSPACE/tri.min.json.gz"; then
+            echo "NSE TRI extended"
+          else
+            echo "::warning::NSE TRI refresh failed; building on the published table"
+            git -C "$GITHUB_WORKSPACE" checkout -- tri.min.json.gz
+          fi
+          # Whole history per index in one request; carries forward any index
+          # BSE did not serve this run rather than dropping it.
+          if uv run --with-editable . python scripts/build_bse_indices.py \
+               --tri-out "$GITHUB_WORKSPACE/bse_tri.min.json.gz"; then
+            echo "BSE TRI rebuilt"
+          else
+            echo "::warning::BSE TRI refresh failed; building on the published table"
+            git -C "$GITHUB_WORKSPACE" checkout -- bse_tri.min.json.gz
+          fi
+          python3 - <<'PY'
+          import gzip, json, os
+          from collections import Counter
+          for f in ("tri.min.json.gz", "bse_tri.min.json.gz"):
+              s = json.load(gzip.open(os.path.join(os.environ["GITHUB_WORKSPACE"], f)))["series"]
+              ends = Counter(max(v) for v in s.values()).most_common(3)
+              print(f"{f}: {len(s)} indices, most recent ends {ends}")
+          PY
+
       - name: Build metrics table
         working-directory: fincalc-mcp
         # Read the benchmark tables from THIS repo's checkout, not the CDN. The
@@ -95,7 +135,7 @@ jobs:
             uv run --with-editable . python scripts/build_metrics.py
           fi
 
-      - name: Publish metrics.min.json.gz and schemes.min.json.gz to fincalc-data
+      - name: Publish metrics, scheme list and benchmark series to fincalc-data
         if: ${{ (github.event.inputs.limit || '0') == '0' }}
         run: |
           set -euo pipefail
@@ -103,9 +143,9 @@ jobs:
           ls -la metrics.min.json.gz
           git config user.name "fincalc-ci"
           git config user.email "fincalc-ci@users.noreply.github.com"
-          git add metrics.min.json.gz schemes.min.json.gz
+          git add metrics.min.json.gz schemes.min.json.gz tri.min.json.gz bse_tri.min.json.gz
           if git diff --cached --quiet; then
-            echo "No change in metrics table or scheme list; nothing to commit."
+            echo "No change in metrics, scheme list or benchmark series; nothing to commit."
           else
             git commit -m "chore: metrics refresh $(date -u +%Y-%m-%dT%H:%MZ)"
             # Both refresh jobs commit to this repo and they publish DISJOINT
@@ -130,7 +170,7 @@ jobs:
         if: ${{ (github.event.inputs.limit || '0') == '0' }}
         run: |
           set -uo pipefail
-          for f in metrics.min.json.gz schemes.min.json.gz; do
+          for f in metrics.min.json.gz schemes.min.json.gz tri.min.json.gz bse_tri.min.json.gz; do
             curl -fsS --retry 3 "https://purge.jsdelivr.net/gh/${{ github.repository }}@main/$f" >/dev/null \
               && echo "purged $f" || echo "::warning::jsDelivr purge failed for $f"
           done
