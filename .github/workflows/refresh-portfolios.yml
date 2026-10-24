@@ -241,9 +241,18 @@ jobs:
       # after both index builds above.
       - name: Map benchmarks to NSE and BSE indices
         working-directory: fincalc-mcp
+        # The NSE catalogue is a list of index NAMES, which changes a few times a
+        # year, and a committed copy ships with the build code. On 24 Oct
+        # niftyindices.com sent every request to /sitefinity/status (its CMS
+        # maintenance page) in a redirect loop, and this step being fatal threw
+        # away the whole run before a single holding was extracted. A failure
+        # now maps against the committed catalogue instead.
         run: |
           set -euo pipefail
-          uv run --with-editable . python scripts/build_nse_indices.py
+          if ! uv run --with-editable . python scripts/build_nse_indices.py; then
+            echo "::warning::NSE index catalogue refresh failed; mapping against the committed copy"
+            git checkout -- src/fincalc_mcp/data/nse_indices.json
+          fi
           uv run --with-editable . python scripts/build_benchmark_map.py
 
       - name: Join scheme names to AMFI codes
