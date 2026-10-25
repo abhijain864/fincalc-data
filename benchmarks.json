@@ -6985,18 +6985,186 @@
  },
  {
   "amc": "LIC Mutual Fund",
-  "sheet": "Sheet1",
-  "scheme_name": "LIC MF Medium to Long Term Fund",
+  "sheet": "LEULIS",
+  "scheme_name": "LIC MF UNIT LINKED INSURANCE SCHEME",
   "benchmark_raw": null,
   "label": null,
   "how": null
  },
  {
   "amc": "LIC Mutual Fund",
-  "sheet": "LDBOND",
-  "scheme_name": "LIC MF Medium to Long Term Fund",
-  "benchmark_raw": "i . e . CRISIL Medium to Long Duration Debt A-III Index",
-  "label": "As per AMFI Tier I Benchmark i . e . CRI",
+  "sheet": "LEEQTF",
+  "scheme_name": "LIC MF FLEXI CAP FUND",
+  "benchmark_raw": "Nifty 500 TRI",
+  "label": "As per AMFI Tier I Benchmark i.e. Nifty ",
+  "how": "inline"
+ },
+ {
+  "amc": "LIC Mutual Fund",
+  "sheet": "LEMIDF",
+  "scheme_name": "LIC MF LARGE & MID CAP FUND",
+  "benchmark_raw": "Nifty Large Midcap 250 TRI",
+  "label": "As per AMFI Tier I Benchmark i.e. Nifty ",
+  "how": "inline"
+ },
+ {
+  "amc": "LIC Mutual Fund",
+  "sheet": "LEBFSF",
+  "scheme_name": "LIC MF BANKING AND FINANCIAL SERVICES FUND",
+  "benchmark_raw": "Nifty Financial Services TRI",
+  "label": "As per AMFI Tier I Benchmark i.e. Nifty ",
+  "how": "inline"
+ },
+ {
+  "amc": "LIC Mutual Fund",
+  "sheet": "LEMUCF",
+  "scheme_name": "LIC MF MULTI CAP FUND",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "LIC Mutual Fund",
+  "sheet": "LEDDYF",
+  "scheme_name": "LIC MF DIVIDEND YIELD FUND",
+  "benchmark_raw": "NIFTY 500 TRI",
+  "label": "As per AMFI Tier I Benchmark i.e. NIFTY ",
+  "how": "inline"
+ },
+ {
+  "amc": "LIC Mutual Fund",
+  "sheet": "LEFE30",
+  "scheme_name": "LIC MF FOCUSED FUND",
+  "benchmark_raw": "Nifty 500 TRI",
+  "label": "As per AMFI Tier I Benchmark i.e. Nifty ",
+  "how": "inline"
+ },
+ {
+  "amc": "LIC Mutual Fund",
+  "sheet": "LEEMCF",
+  "scheme_name": "LIC MF MID CAP FUND",
+  "benchmark_raw": "Nifty Midcap 150 TRI",
+  "label": "As per AMFI Tier I Benchmark i.e. Nifty ",
+  "how": "inline"
+ },
+ {
+  "amc": "LIC Mutual Fund",
+  "sheet": "LEDHCF",
+  "scheme_name": "LIC MF HEALTHCARE FUND",
+  "benchmark_raw": "BSE Health Care TRI",
+  "label": "As per AMFI Tier I Benchmark i.e. BSE He",
+  "how": "inline"
+ },
+ {
+  "amc": "LIC Mutual Fund",
+  "sheet": "LEESCF",
+  "scheme_name": "LIC MF SMALL CAP FUND",
+  "benchmark_raw": "Nifty Smallcap 250 TRI",
+  "label": "As per AMFI Tier I Benchmark i.e. Nifty ",
+  "how": "inline"
+ },
+ {
+  "amc": "LIC Mutual Fund",
+  "sheet": "LEGROW",
+  "scheme_name": "LIC MF LARGE CAP FUND",
+  "benchmark_raw": "i.e NIFTY 100 TRI",
+  "label": "As per AMFI Tier I Benchmark i.e NIFTY 1",
+  "how": "inline"
+ },
+ {
+  "amc": "LIC Mutual Fund",
+  "sheet": "LELTVF",
+  "scheme_name": "LIC MF VALUE FUND",
+  "benchmark_raw": "Nifty 500 TRI",
+  "label": "As per AMFI Tier I Benchmark i.e. Nifty ",
+  "how": "inline"
+ },
+ {
+  "amc": "LIC Mutual Fund",
+  "sheet": "LEMFGF",
+  "scheme_name": "LIC MF MANUFACTURING FUND",
+  "benchmark_raw": "Riskometer i.e. Nifty India Manufacturing Index (TRI)",
+  "label": "As per AMFI Tier 1 Benchmark Riskometer ",
+  "how": "inline"
+ },
+ {
+  "amc": "LIC Mutual Fund",
+  "sheet": "LECOSF",
+  "scheme_name": "LIC MF CONSUMPTION FUND",
+  "benchmark_raw": "Riskometer i.e. Nifty India Consumption Total Return Index (TRI)",
+  "label": "As per AMFI Tier 1 Benchmark Riskometer ",
+  "how": "inline"
+ },
+ {
+  "amc": "LIC Mutual Fund",
+  "sheet": "LETECF",
+  "scheme_name": "LIC MF TECHNOLOGY FUND",
+  "benchmark_raw": "Riskometer i.e. BSE TECK (TRI)",
+  "label": "As per AMFI Tier 1 Benchmark Riskometer ",
+  "how": "inline"
+ },
+ {
+  "amc": "LIC Mutual Fund",
+  "sheet": "LETAXP",
+  "scheme_name": "LIC MF ELSS Tax Saver Fund ( Erstwhile LIC MF ELSS Tax Saver )",
+  "benchmark_raw": "Nifty 500 TRI",
+  "label": "As per AMFI Tier I Benchmark i.e. Nifty ",
+  "how": "inline"
+ },
+ {
+  "amc": "LIC Mutual Fund",
+  "sheet": "LEINFA",
+  "scheme_name": "LIC MF INFRASTRUCTURE FUND",
+  "benchmark_raw": "Nifty Infrastructure TRI",
+  "label": "As per AMFI Tier I Benchmark i.e. Nifty ",
+  "how": "inline"
+ },
+ {
+  "amc": "LIC Mutual Fund",
+  "sheet": "LEBALF",
+  "scheme_name": "LIC MF AGGRESSIVE HYBRID FUND",
+  "benchmark_raw": "CRISIL Hybrid 35+65 Aggressive Index",
+  "label": "As per AMFI Tier I Benchmark i.e. CRISIL",
+  "how": "inline"
+ },
+ {
+  "amc": "LIC Mutual Fund",
+  "sheet": "LEARBF",
+  "scheme_name": "LIC MF ARBITRAGE FUND",
+  "benchmark_raw": "Nifty 50 Arbitrage Index",
+  "label": "As per AMFI Tier I Benchmark i.e. Nifty ",
+  "how": "inline"
+ },
+ {
+  "amc": "LIC Mutual Fund",
+  "sheet": "LEBADF",
+  "scheme_name": "LIC MF BALANCED ADVANTAGE FUND",
+  "benchmark_raw": "i . e . Nifty 50 Hybrid Composite Debt 50:50 Index",
+  "label": "As per AMFI Tier I Benchmark i . e . Nif",
+  "how": "inline"
+ },
+ {
+  "amc": "LIC Mutual Fund",
+  "sheet": "LEEQSF",
+  "scheme_name": "LIC MF EQUITY SAVINGS FUND",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "LIC Mutual Fund",
+  "sheet": "LEMAAF",
+  "scheme_name": "LIC MF MULTI ASSET ALLOCATION FUND",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "LIC Mutual Fund",
+  "sheet": "LDMIPF",
+  "scheme_name": "LIC MF CONSERVATIVE HYBRID FUND",
+  "benchmark_raw": "CRISIL Hybrid 85+15 Conservative Index",
+  "label": "As per AMFI Tier I Benchmark i.e. CRISIL",
   "how": "inline"
  },
  {
@@ -7009,34 +7177,82 @@
  },
  {
   "amc": "LIC Mutual Fund",
-  "sheet": "LDGSEC",
-  "scheme_name": "LIC MF GILT FUND",
-  "benchmark_raw": "Nifty All Duration G-Sec Index",
-  "label": "As per AMFI Tier I Benchmark i.e. Nifty ",
-  "how": "inline"
+  "sheet": "LETF50",
+  "scheme_name": "LIC MF NIFTY 50 ETF",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
  },
  {
   "amc": "LIC Mutual Fund",
-  "sheet": "LDINPF",
-  "scheme_name": "LIC MF Banking & PSU Debt Fund",
-  "benchmark_raw": "i . e . Nifty Banking & PSU Debt Index AII",
-  "label": "As per AMFI Tier I Benchmark i . e . Nif",
-  "how": "inline"
+  "sheet": "LETFSX",
+  "scheme_name": "LIC MF BSE SENSEX ETF",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
  },
  {
   "amc": "LIC Mutual Fund",
-  "sheet": "LDMIPF",
-  "scheme_name": "LIC MF CONSERVATIVE HYBRID FUND",
-  "benchmark_raw": "CRISIL Hybrid 85+15 Conservative Index",
-  "label": "As per AMFI Tier I Benchmark i.e. CRISIL",
-  "how": "inline"
+  "sheet": "LET100",
+  "scheme_name": "LIC MF NIFTY 100 ETF",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
  },
  {
   "amc": "LIC Mutual Fund",
-  "sheet": "LDMNMF",
-  "scheme_name": "LIC MF Money Market Fund",
-  "benchmark_raw": "i . e . NIFTY Money Market Index A-I",
-  "label": "As per AMFI Tier I Benchmark i . e . NIF",
+  "sheet": "LENI50",
+  "scheme_name": "LIC MF NIFTY NEXT 50 INDEX FUND",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "LIC Mutual Fund",
+  "sheet": "LEGOLD",
+  "scheme_name": "LIC MF GOLD EXCHANGE TRADED FUND",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "LIC Mutual Fund",
+  "sheet": "LEGFOF",
+  "scheme_name": "LIC MF GOLD ETF FUND OF FUND",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "LIC Mutual Fund",
+  "sheet": "LEMETF",
+  "scheme_name": "LIC MF NIFTY MIDCAP 100 ETF",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "LIC Mutual Fund",
+  "sheet": "LEINSX",
+  "scheme_name": "LIC MF BSE SENSEX INDEX FUND",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "LIC Mutual Fund",
+  "sheet": "LEINNF",
+  "scheme_name": "LIC MF NIFTY 50 INDEX FUND",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "LIC Mutual Fund",
+  "sheet": "LDSTDF",
+  "scheme_name": "LIC MF Short Term Fund",
+  "benchmark_raw": "i . e . CRISIL Short Duration Debt A-II Index",
+  "label": "As per AMFI Tier I Benchmark i . e . CRI",
   "how": "inline"
  },
  {
@@ -7049,22 +7265,6 @@
  },
  {
   "amc": "LIC Mutual Fund",
-  "sheet": "LDSAPF",
-  "scheme_name": "LIC MF Ultra Short to Short Term Fund",
-  "benchmark_raw": "CRISIL Low Duration Debt A-I Index",
-  "label": "As per AMFI Tier I Benchmark i.e. CRISIL",
-  "how": "inline"
- },
- {
-  "amc": "LIC Mutual Fund",
-  "sheet": "LDSTDF",
-  "scheme_name": "LIC MF Short Term Fund",
-  "benchmark_raw": "i . e . CRISIL Short Duration Debt A-II Index",
-  "label": "As per AMFI Tier I Benchmark i . e . CRI",
-  "how": "inline"
- },
- {
-  "amc": "LIC Mutual Fund",
   "sheet": "LDUSTF",
   "scheme_name": "LIC MF Ultra Short Term Fund",
   "benchmark_raw": "i . e . CRISIL Ultra Short Duration Debt A_x0002_I Index",
@@ -7073,10 +7273,58 @@
  },
  {
   "amc": "LIC Mutual Fund",
+  "sheet": "LDMNMF",
+  "scheme_name": "LIC MF Money Market Fund",
+  "benchmark_raw": "i . e . NIFTY Money Market Index A-I",
+  "label": "As per AMFI Tier I Benchmark i . e . NIF",
+  "how": "inline"
+ },
+ {
+  "amc": "LIC Mutual Fund",
+  "sheet": "LDBOND",
+  "scheme_name": "LIC MF Medium to Long Term Fund",
+  "benchmark_raw": "i . e . CRISIL Medium to Long Duration Debt A-III Index",
+  "label": "As per AMFI Tier I Benchmark i . e . CRI",
+  "how": "inline"
+ },
+ {
+  "amc": "LIC Mutual Fund",
+  "sheet": "LDGSEC",
+  "scheme_name": "LIC MF GILT FUND",
+  "benchmark_raw": "Nifty All Duration G-Sec Index",
+  "label": "As per AMFI Tier I Benchmark i.e. Nifty ",
+  "how": "inline"
+ },
+ {
+  "amc": "LIC Mutual Fund",
   "sheet": "LLIQDF",
   "scheme_name": "LIC MF Liquid Fund",
   "benchmark_raw": "i . e . CRISIL Liquid Debt A-I Index",
   "label": "As per AMFI Tier I Benchmark i . e . CRI",
+  "how": "inline"
+ },
+ {
+  "amc": "LIC Mutual Fund",
+  "sheet": "LDSAPF",
+  "scheme_name": "LIC MF Ultra Short to Short Term Fund",
+  "benchmark_raw": "CRISIL Low Duration Debt A-I Index",
+  "label": "As per AMFI Tier I Benchmark i.e. CRISIL",
+  "how": "inline"
+ },
+ {
+  "amc": "LIC Mutual Fund",
+  "sheet": "LDINPF",
+  "scheme_name": "LIC MF Banking & PSU Debt Fund",
+  "benchmark_raw": "i . e . Nifty Banking & PSU Debt Index AII",
+  "label": "As per AMFI Tier I Benchmark i . e . Nif",
+  "how": "inline"
+ },
+ {
+  "amc": "LIC Mutual Fund",
+  "sheet": "LECHID",
+  "scheme_name": "LIC MF CHILDREN\u2019S FUND",
+  "benchmark_raw": "CRISIL Hybrid 35+65 - Aggressive Index",
+  "label": "As per AMFI Tier I Benchmark i.e. CRISIL",
   "how": "inline"
  },
  {
@@ -7293,6 +7541,726 @@
   "scheme_name": "MAHINDRA MANULIFE INNOVATION OPPORTUNITIES FUND",
   "benchmark_raw": "NIFTY 500 TRI",
   "label": "AS PER AMFI TIER I BENCHMARK I.E. NIFTY ",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO01",
+  "scheme_name": "Motilal Oswal Nifty 50 ETF",
+  "benchmark_raw": "NIFTY 50 TRI",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO02",
+  "scheme_name": "Motilal Oswal Nifty Midcap 100 ETF",
+  "benchmark_raw": "NIFTY MIDCAP 100 - TRI",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO03",
+  "scheme_name": "Motilal Oswal Nasdaq 100 ETF",
+  "benchmark_raw": "NASDAQ-100 TRI",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO05",
+  "scheme_name": "Motilal Oswal Focused Fund",
+  "benchmark_raw": "NIFTY 500 - TRI",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO06",
+  "scheme_name": "Motilal Oswal Ultra Short Term Fund",
+  "benchmark_raw": "CRISIL ULTRA SHORT DURATION FUND AI INDEX",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO07",
+  "scheme_name": "Motilal Oswal Midcap Fund",
+  "benchmark_raw": "NIFTY MIDCAP 150 INDEX - TRI",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO08",
+  "scheme_name": "Motilal Oswal Flexicap Fund",
+  "benchmark_raw": "NIFTY 500 - TRI",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO09",
+  "scheme_name": "Motilal Oswal ELSS Tax Saver Fund",
+  "benchmark_raw": "NIFTY 500 - TRI",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO10",
+  "scheme_name": "Motilal Oswal Balanced Advantage Fund",
+  "benchmark_raw": "CRISIL HYBRID 50+ 50 MODERATE INDEX",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO13",
+  "scheme_name": "Motilal Oswal Nasdaq 100 Fund of Fund",
+  "benchmark_raw": "NASDAQ-100 TRI",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO15",
+  "scheme_name": "Motilal Oswal Liquid Fund",
+  "benchmark_raw": "CRISIL LIQUID FUND AI INDEX",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO16",
+  "scheme_name": "Motilal Oswal Nifty Midcap 150 Index Fund",
+  "benchmark_raw": "NIFTY MIDCAP 150 INDEX - TRI",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO17",
+  "scheme_name": "Motilal Oswal Nifty Smallcap 250 Index Fund",
+  "benchmark_raw": "NIFTY SMALLCAP 250 INDEX- TRI",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO18",
+  "scheme_name": "Motilal Oswal Nifty 500 Index Fund",
+  "benchmark_raw": "NIFTY 500 - TRI",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO19",
+  "scheme_name": "Motilal Oswal Nifty Bank Index Fund",
+  "benchmark_raw": "NIFTY BANK INDEX- TRI",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO20",
+  "scheme_name": "Motilal Oswal Large and Midcap Fund",
+  "benchmark_raw": "NIFTY LARGEMIDCAP 250 INDEX - TRI",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO21",
+  "scheme_name": "Motilal Oswal Nifty 50 Index Fund",
+  "benchmark_raw": "NIFTY 50 TRI",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO22",
+  "scheme_name": "Motilal Oswal Nifty Next 50 Index Fund",
+  "benchmark_raw": "NIFTY NEXT 50 INDEX- TRI",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO23",
+  "scheme_name": "Motilal Oswal S&P 500 Index Fund",
+  "benchmark_raw": "S&P 500 INDEX TRI",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO25",
+  "scheme_name": "Motilal Oswal Nifty 5 year Benchmark G-Sec ETF",
+  "benchmark_raw": "NIFTY 5 YR BENCHMARK G-SEC INDEX",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO26",
+  "scheme_name": "Motilal Oswal Multi Asset Passive Fund of Fund",
+  "benchmark_raw": "60% NIFTY 500 TRI + 30% NIFTY COMPOSITE DEBT INDEX + 10% DOMESTIC PRICE OF GOLD & SILVER",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO27",
+  "scheme_name": "Motilal Oswal Asset Allocation Passive Fund of Fund - Conservative",
+  "benchmark_raw": null,
+  "label": null,
+  "how": null
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO28",
+  "scheme_name": "Motilal Oswal 5 Year G-Sec Fund of Fund",
+  "benchmark_raw": "NIFTY 5 YR BENCHMARK G-SEC INDEX",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO30",
+  "scheme_name": "Motilal Oswal Nasdaq Q50 ETF",
+  "benchmark_raw": "NASDAQ Q50 TRI",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO31",
+  "scheme_name": "Motilal Oswal Nifty 200 Momentum 30 ETF",
+  "benchmark_raw": "NIFTY 200 MOMENTUM 30 TRI",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO32",
+  "scheme_name": "Motilal Oswal Nifty 200 Momentum 30 Index Fund",
+  "benchmark_raw": "NIFTY 200 MOMENTUM 30 TRI",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO33",
+  "scheme_name": "Motilal Oswal BSE Low Volatility ETF",
+  "benchmark_raw": "BSE LOW VOLATILITY TOTAL RETURN INDEX",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO34",
+  "scheme_name": "Motilal Oswal BSE low Volatility Index Fund",
+  "benchmark_raw": "BSE LOW VOLATILITY TOTAL RETURN INDEX",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO35",
+  "scheme_name": "Motilal Oswal BSE Financials ex Bank 30 Index Fund",
+  "benchmark_raw": "BSE FINANCIALS EX BANK 30 - TRI",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO36",
+  "scheme_name": "Motilal Oswal BSE Healthcare ETF",
+  "benchmark_raw": "BSE HEALTHCARE - TRI",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO37",
+  "scheme_name": "Motilal Oswal BSE Enhanced Value ETF",
+  "benchmark_raw": "BSE ENHANCED VALUE - TRI",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO38",
+  "scheme_name": "Motilal Oswal BSE Enhanced Value Index Fund",
+  "benchmark_raw": "BSE ENHANCED VALUE - TRI",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO39",
+  "scheme_name": "Motilal Oswal BSE Quality ETF",
+  "benchmark_raw": "BSE QUALITY - TRI",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO40",
+  "scheme_name": "Motilal Oswal BSE Quality Index Fund",
+  "benchmark_raw": "BSE QUALITY - TRI",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO41",
+  "scheme_name": "Motilal Oswal Gold and Silver Passive Fund of Funds",
+  "benchmark_raw": "DOMESTIC PRICE OF GOLD AND SILVER",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO43",
+  "scheme_name": "Motilal Oswal Nifty Microcap 250 Index Fund",
+  "benchmark_raw": "NIFTY MICROCAP 250 TOTAL RETURN INDEX",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO44",
+  "scheme_name": "Motilal Oswal Developed Market Ex US ETFs Overseas Equity Passive FOF",
+  "benchmark_raw": "S&P DEVELOPED EX-U.S. BMI TOTAL RETURN INDEX",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO45",
+  "scheme_name": "Motilal Oswal Nifty 500 ETF",
+  "benchmark_raw": "NIFTY 500 TOTAL RETURN INDEX",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO46",
+  "scheme_name": "MOTILAL OSWAL SMALL CAP FUND",
+  "benchmark_raw": "NIFTY SMALLCAP 250 TRI",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO47",
+  "scheme_name": "MOTILAL OSWAL LARGE CAP FUND",
+  "benchmark_raw": "NIFTY 100 TRI INDEX",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO48",
+  "scheme_name": "Motilal Oswal Nifty Realty ETF",
+  "benchmark_raw": "NIFTY REALTY TR INDEX",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO49",
+  "scheme_name": "Motilal Oswal Nifty Smallcap 250 ETF",
+  "benchmark_raw": "NIFTY SMALLCAP 250 TR INDEX",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO50",
+  "scheme_name": "Motilal Oswal Quant Fund",
+  "benchmark_raw": "NIFTY 200 INDEX TR",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO51",
+  "scheme_name": "Motilal Oswal Multi Cap Fund",
+  "benchmark_raw": "NIFTY 500 MULTICAP 50:25:25 INDEX TR",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO52",
+  "scheme_name": "Motilal Oswal Nifty India Defence Index Fund",
+  "benchmark_raw": "NIFTY INDIA DEFENCE TOTAL RETURN INDEX",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO53",
+  "scheme_name": "Motilal Oswal Manufacturing Fund",
+  "benchmark_raw": "NIFTY INDIA MANUFACTURING TOTAL RETURN INDEX",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO54",
+  "scheme_name": "Motilal Oswal Business Cycle Fund",
+  "benchmark_raw": "NIFTY 500 TRI",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO55",
+  "scheme_name": "Motilal Oswal Nifty India Defence ETF",
+  "benchmark_raw": "NIFTY INDIA DEFENCE TOTAL RETURN INDEX",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO56",
+  "scheme_name": "Motilal Oswal Nifty 500 Momentum 50 Index Fund",
+  "benchmark_raw": "NIFTY 500 MOMENTUM 50 TOTAL RETURN INDEX",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO57",
+  "scheme_name": "Motilal Oswal Nifty 500 Momentum 50 ETF",
+  "benchmark_raw": "NIFTY 500 MOMENTUM 50 TOTAL RETURN INDEX",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO58",
+  "scheme_name": "Motilal Oswal Digital India Fund",
+  "benchmark_raw": "BSE TECK TRI",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO59",
+  "scheme_name": "Motilal Oswal Nifty MidSmall Fin Servs Index Fund",
+  "benchmark_raw": "NIFTY MIDSMALL FINANCIAL SERVICES TOTAL RETURN INDEX",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO60",
+  "scheme_name": "Motilal Oswal Nifty MidSmall India Consumption Index Fund",
+  "benchmark_raw": "NIFTY MIDSMALL INDIA CONSUMPTION TOTAL RETURN INDEX",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO61",
+  "scheme_name": "Motilal Oswal Nifty MidSmall Healthcare Index Fund",
+  "benchmark_raw": "NIFTY MIDSMALL HEALTHCARE TOTAL RETURN INDEX",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO62",
+  "scheme_name": "Motilal Oswal Nifty MidSmall IT and Telecom Index Fund",
+  "benchmark_raw": "NIFTY MIDSMALL IT AND TELECOM TOTAL RETURN INDEX",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO63",
+  "scheme_name": "Motilal Oswal Nifty Capital Market Index Fund",
+  "benchmark_raw": "NIFTY CAPITAL MARKET TOTAL RETURN INDEX",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO64",
+  "scheme_name": "Motilal Oswal Arbitrage Fund",
+  "benchmark_raw": "NIFTY 50 ARBITRAGE INDEX TOTAL RETURN INDEX",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO65",
+  "scheme_name": "Motilal Oswal Innovation Opportunities Fund",
+  "benchmark_raw": "NIFTY 500 TOTAL RETURN INDEX",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO66",
+  "scheme_name": "Motilal Oswal Active Momentum Fund",
+  "benchmark_raw": "NIFTY 500 TOTAL RETURN INDEX",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO67",
+  "scheme_name": "Motilal Oswal Nifty Capital Market ETF",
+  "benchmark_raw": "NIFTY CAPITAL MARKET TOTAL RETURN INDEX",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO68",
+  "scheme_name": "Motilal Oswal Infrastructure Fund",
+  "benchmark_raw": "NIFTY INFRASTRUCTURE TOTAL RETURN INDEX",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO69",
+  "scheme_name": "Motilal Oswal Nifty 50 Equal Weight ETF",
+  "benchmark_raw": "NIFTY 50 EQUAL WEIGHT TOTAL RETURN INDEX",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO70",
+  "scheme_name": "Motilal Oswal Nifty Next 50 ETF",
+  "benchmark_raw": "NIFTY NEXT 50 TOTAL RETURN INDEX",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO71",
+  "scheme_name": "Motilal Oswal BSE India Infrastructure ETF",
+  "benchmark_raw": "BSE INDIA INFRASTRUCTURE TOTAL RETURN INDEX",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO72",
+  "scheme_name": "Motilal Oswal Services Fund",
+  "benchmark_raw": "NIFTY SERVICES SECTOR TOTAL RETURN INDEX",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO73",
+  "scheme_name": "Motilal Oswal Nifty India Manufacturing ETF",
+  "benchmark_raw": "NIFTY INDIA MANUFACTURING TOTAL RETURN INDEX",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO74",
+  "scheme_name": "Motilal Oswal Nifty PSE ETF",
+  "benchmark_raw": "NIFTY PSE TOTAL RETURN INDEX",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO75",
+  "scheme_name": "Motilal Oswal Nifty India Tourism ETF",
+  "benchmark_raw": "NIFTY INDIA TOURISM TOTAL RETURN INDEX",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO76",
+  "scheme_name": "Motilal Oswal Nifty Midcap 150 Momentum 50 ETF",
+  "benchmark_raw": "NIFTY MIDCAP 150 MOMENTUM 50 TOTAL RETURN INDEX",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO77",
+  "scheme_name": "Motilal Oswal Nifty Alpha 50 ETF",
+  "benchmark_raw": "NIFTY ALPHA 50 TOTAL RETURN INDEX",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO78",
+  "scheme_name": "Motilal Oswal BSE 1000 Index Fund",
+  "benchmark_raw": "BSE 1000 TOTAL RETURN INDEX",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO79",
+  "scheme_name": "Motilal Oswal Gold ETF",
+  "benchmark_raw": "DOMESTIC PRICE OF PHYSICAL GOLD",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO80",
+  "scheme_name": "Motilal Oswal Special Opportunities Fund",
+  "benchmark_raw": "NIFTY 500 TOTAL RETURN INDEX",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO81",
+  "scheme_name": "Motilal Oswal Silver ETF",
+  "benchmark_raw": "DOMESTIC PRICE OF PHYSICAL SILVER",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO82",
+  "scheme_name": "Motilal Oswal Consumption Fund",
+  "benchmark_raw": "NIFTY INDIA CONSUMPTION TRI",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO83",
+  "scheme_name": "Motilal Oswal Nifty 100 ETF",
+  "benchmark_raw": "NIFTY 100 TOTAL RETURN INDEX",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO84",
+  "scheme_name": "Motilal Oswal Nifty Energy ETF",
+  "benchmark_raw": "NIFTY ENERGY TOTAL RETURN INDEX",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO85",
+  "scheme_name": "Motilal Oswal BSE Select IPO ETF",
+  "benchmark_raw": "BSE SELECT IPO TOTAL RETURN INDEX",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO86",
+  "scheme_name": "Motilal Oswal Nifty Services Sector ETF",
+  "benchmark_raw": "NIFTY SERVICES SECTOR TOTAL RETURN INDEX",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO87",
+  "scheme_name": "Motilal Oswal Nifty MNC ETF",
+  "benchmark_raw": "NIFTY MNC TOTAL RETURN INDEX",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO88",
+  "scheme_name": "Motilal Oswal Diversified Eq Flexicap Passive FOF",
+  "benchmark_raw": "NIFTY 500 TOTAL RETURN INDEX",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO89",
+  "scheme_name": "Motilal Oswal Financial Services Fund",
+  "benchmark_raw": "NIFTY FINANCIAL SERVICES TOTAL RETURN INDEX",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO90",
+  "scheme_name": "Motilal Oswal Multi Factor Passive Fund of Funds",
+  "benchmark_raw": "NIFTY 500 TOTAL RETURN INDEX",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO91",
+  "scheme_name": "Motilal Oswal BSE Top 10 Banks ETF",
+  "benchmark_raw": "BSE TOP 10 BANKS - TRI",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO92",
+  "scheme_name": "MOTILAL OSWAL CONTRA FUND",
+  "benchmark_raw": "NIFTY 500 TOTAL RETURN INDEX",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO93",
+  "scheme_name": "Motilal Oswal BSE Clean Environment Index Fund",
+  "benchmark_raw": "BSE CLEAN ENVIRONMENT TOTAL RETURN INDEX",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO94",
+  "scheme_name": "Motilal Oswal BSE Midcap 150 Momentum 30 Index Fund",
+  "benchmark_raw": "BSE MIDCAP 150 MOMENTUM 30 - TRI",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO95",
+  "scheme_name": "Motilal Oswal Nifty Metal ETF",
+  "benchmark_raw": "NIFTY METAL - TRI",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO96",
+  "scheme_name": "Motilal Oswal Nifty Oil & Gas ETF",
+  "benchmark_raw": "NIFTY OIL & GAS - TRI",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Motilal Oswal Mutual Fund",
+  "sheet": "YO97",
+  "scheme_name": "MOTILAL OSWAL QUALITY FUND",
+  "benchmark_raw": "NIFTY 500 TOTAL RETURN INDEX",
+  "label": "BENCHMARK NAME",
   "how": "inline"
  },
  {
@@ -12059,14 +13027,6 @@
   "amc": "UTI Mutual Fund",
   "sheet": "EXPOSURE",
   "scheme_name": "SCHEME: UTI - Unit Linked Insurance Plan",
-  "benchmark_raw": null,
-  "label": null,
-  "how": null
- },
- {
-  "amc": "Unifi Mutual Fund",
-  "sheet": "Unifi Dynamic Asset Allocation ",
-  "scheme_name": "Unifi Dynamic Asset Allocation Fund",
   "benchmark_raw": null,
   "label": null,
   "how": null
@@ -17633,6 +18593,14 @@
  },
  {
   "amc": "Bandhan Mutual Fund",
+  "sheet": "IDF020",
+  "scheme_name": "Bandhan Value Fund",
+  "benchmark_raw": "BSE 500",
+  "label": "BENCHMARK NAME",
+  "how": "inline"
+ },
+ {
+  "amc": "Bandhan Mutual Fund",
   "sheet": "IDF294",
   "scheme_name": "Bandhan Retirement Fund",
   "benchmark_raw": "CRISIL HYBRID 50+50 - MODERATE INDEX",
@@ -18148,14 +19116,6 @@
   "sheet": "IDF313",
   "scheme_name": "Bandhan CRISIL-IBX Financial Services 3-6 Months Debt Index Fund",
   "benchmark_raw": "CRISIL-IBX FINANCIAL SERVICES 3-6 MONTHS DEBT INDEX",
-  "label": "BENCHMARK NAME",
-  "how": "inline"
- },
- {
-  "amc": "Bandhan Mutual Fund",
-  "sheet": "IDF020",
-  "scheme_name": "Bandhan Value Fund",
-  "benchmark_raw": "BSE 500",
   "label": "BENCHMARK NAME",
   "how": "inline"
  },
@@ -19824,804 +20784,54 @@
   "carried": true
  },
  {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO01",
-  "scheme_name": "Motilal Oswal Nifty 50 ETF",
-  "benchmark_raw": "NIFTY 50 TRI",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO02",
-  "scheme_name": "Motilal Oswal Nifty Midcap 100 ETF",
-  "benchmark_raw": "NIFTY MIDCAP 100 - TRI",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO03",
-  "scheme_name": "Motilal Oswal Nasdaq 100 ETF",
-  "benchmark_raw": "NASDAQ-100 TRI",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO05",
-  "scheme_name": "Motilal Oswal Focused Fund",
-  "benchmark_raw": "NIFTY 500 - TRI",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO06",
-  "scheme_name": "Motilal Oswal Ultra Short Term Fund",
-  "benchmark_raw": "CRISIL ULTRA SHORT DURATION FUND AI INDEX",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO07",
-  "scheme_name": "Motilal Oswal Midcap Fund",
-  "benchmark_raw": "NIFTY MIDCAP 150 INDEX - TRI",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO08",
-  "scheme_name": "Motilal Oswal Flexicap Fund",
-  "benchmark_raw": "NIFTY 500 - TRI",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO09",
-  "scheme_name": "Motilal Oswal ELSS Tax Saver Fund",
-  "benchmark_raw": "NIFTY 500 - TRI",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO10",
-  "scheme_name": "Motilal Oswal Balanced Advantage Fund",
-  "benchmark_raw": "CRISIL HYBRID 50+ 50 MODERATE INDEX",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO13",
-  "scheme_name": "Motilal Oswal Nasdaq 100 Fund of Fund",
-  "benchmark_raw": "NASDAQ-100 TRI",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO15",
-  "scheme_name": "Motilal Oswal Liquid Fund",
-  "benchmark_raw": "CRISIL LIQUID FUND AI INDEX",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO16",
-  "scheme_name": "Motilal Oswal Nifty Midcap 150 Index Fund",
-  "benchmark_raw": "NIFTY MIDCAP 150 INDEX - TRI",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO17",
-  "scheme_name": "Motilal Oswal Nifty Smallcap 250 Index Fund",
-  "benchmark_raw": "NIFTY SMALLCAP 250 INDEX- TRI",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO18",
-  "scheme_name": "Motilal Oswal Nifty 500 Index Fund",
-  "benchmark_raw": "NIFTY 500 - TRI",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO19",
-  "scheme_name": "Motilal Oswal Nifty Bank Index Fund",
-  "benchmark_raw": "NIFTY BANK INDEX- TRI",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO20",
-  "scheme_name": "Motilal Oswal Large and Midcap Fund",
-  "benchmark_raw": "NIFTY LARGEMIDCAP 250 INDEX - TRI",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO21",
-  "scheme_name": "Motilal Oswal Nifty 50 Index Fund",
-  "benchmark_raw": "NIFTY 50 TRI",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO22",
-  "scheme_name": "Motilal Oswal Nifty Next 50 Index Fund",
-  "benchmark_raw": "NIFTY NEXT 50 INDEX- TRI",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO23",
-  "scheme_name": "Motilal Oswal S&P 500 Index Fund",
-  "benchmark_raw": "S&P 500 INDEX TRI",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO25",
-  "scheme_name": "Motilal Oswal Nifty 5 year Benchmark G-Sec ETF",
-  "benchmark_raw": "NIFTY 5 YR BENCHMARK G-SEC INDEX",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO26",
-  "scheme_name": "Motilal Oswal Multi Asset Passive Fund of Fund",
-  "benchmark_raw": "60% Nifty 500 TRI + 30% Nifty Composite Debt Index + 10% Domestic Price of Gold & Silver",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO27",
-  "scheme_name": "Motilal Oswal Asset Allocation Passive Fund of Fund - Conservative",
+  "amc": "Unifi Mutual Fund",
+  "sheet": "Unifi Dynamic Asset Allocation ",
+  "scheme_name": "Unifi Dynamic Asset Allocation Fund",
   "benchmark_raw": null,
   "label": null,
   "how": null,
   "carried": true
  },
  {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO28",
-  "scheme_name": "Motilal Oswal 5 Year G-Sec Fund of Fund",
-  "benchmark_raw": "NIFTY 5 YR BENCHMARK G-SEC INDEX",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO30",
-  "scheme_name": "Motilal Oswal Nasdaq Q50 ETF",
-  "benchmark_raw": "NASDAQ Q50 INDEX TRI",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO31",
-  "scheme_name": "Motilal Oswal Nifty 200 Momentum 30 ETF",
-  "benchmark_raw": "NIFTY 200 MOMENTUM 30 TRI",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO32",
-  "scheme_name": "Motilal Oswal Nifty 200 Momentum 30 Index Fund",
-  "benchmark_raw": "NIFTY 200 MOMENTUM 30 TRI",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO33",
-  "scheme_name": "Motilal Oswal S&P BSE Low Volatility ETF",
-  "benchmark_raw": "BSE LOW VOLATILITY TOTAL RETURN INDEX",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO34",
-  "scheme_name": "Motilal Oswal S & P BSE low Volatility Index Fund",
-  "benchmark_raw": "BSE LOW VOLATILITY TOTAL RETURN INDEX",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO35",
-  "scheme_name": "Motilal Oswal S&P BSE Financials ex Bank 30 Index Fund",
-  "benchmark_raw": "BSE FINANCIALS EX BANK 30 - TRI",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO36",
-  "scheme_name": "Motilal Oswal S&P BSE Healthcare ETF",
-  "benchmark_raw": "BSE HEALTHCARE - TRI",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO37",
-  "scheme_name": "Motilal Oswal S&P BSE Enhanced Value ETF",
-  "benchmark_raw": "BSE ENHANCED VALUE - TRI",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO38",
-  "scheme_name": "Motilal Oswal S&P BSE Enhanced Value Index Fund",
-  "benchmark_raw": "BSE ENHANCED VALUE - TRI",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO39",
-  "scheme_name": "Motilal Oswal S&P BSE Quality ETF",
-  "benchmark_raw": "BSE QUALITY - TRI",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO40",
-  "scheme_name": "Motilal Oswal S&P BSE Quality Index Fund",
-  "benchmark_raw": "BSE QUALITY - TRI",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO41",
-  "scheme_name": "Motilal Oswal Gold and Silver Passive Fund of Funds",
-  "benchmark_raw": "Domestic price of gold and silver",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO43",
-  "scheme_name": "Motilal Oswal Nifty Microcap 250 Index Fund",
-  "benchmark_raw": "NIFTY MICROCAP 250 TOTAL RETURN INDEX",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO44",
-  "scheme_name": "Motilal Oswal Developed Market Ex US ETFs Overseas Equity Passive FOF",
-  "benchmark_raw": "S&P DEVELOPED EX-U.S. BMI TOTAL RETURN INDEX",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO45",
-  "scheme_name": "Motilal Oswal Nifty 500 ETF",
-  "benchmark_raw": "NIFTY 500 TOTAL RETURN INDEX",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO46",
-  "scheme_name": "MOTILAL OSWAL SMALL CAP FUND",
-  "benchmark_raw": "NIFTY SMALLCAP 250 TRI",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO47",
-  "scheme_name": "MOTILAL OSWAL LARGE CAP FUND",
-  "benchmark_raw": "NIFTY 100 TRI INDEX",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO48",
-  "scheme_name": "Motilal Oswal Nifty Realty ETF",
-  "benchmark_raw": "NIFTY REALTY TR INDEX",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO49",
-  "scheme_name": "Motilal Oswal Nifty Smallcap 250 ETF",
-  "benchmark_raw": "NIFTY SMALLCAP 250 TR INDEX",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO50",
-  "scheme_name": "Motilal Oswal Quant Fund",
-  "benchmark_raw": "NIFTY 200 INDEX TR",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO51",
-  "scheme_name": "Motilal Oswal Multi Cap Fund",
-  "benchmark_raw": "NIFTY 500 MULTICAP 50:25:25 INDEX TR",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO52",
-  "scheme_name": "Motilal Oswal Nifty India Defence Index Fund",
-  "benchmark_raw": "NIFTY INDIA DEFENCE TOTAL RETURN INDEX",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO53",
-  "scheme_name": "Motilal Oswal Manufacturing Fund",
-  "benchmark_raw": "NIFTY INDIA MANUFACTURING TOTAL RETURN INDEX",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO54",
-  "scheme_name": "Motilal Oswal Business Cycle Fund",
-  "benchmark_raw": "NIFTY 500 TRI",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO55",
-  "scheme_name": "Motilal Oswal Nifty India Defence ETF",
-  "benchmark_raw": "NIFTY INDIA DEFENCE TOTAL RETURN INDEX",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO56",
-  "scheme_name": "Motilal Oswal Nifty 500 Momentum 50 Index Fund",
-  "benchmark_raw": "NIFTY 500 MOMENTUM 50 TOTAL RETURN INDEX",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO57",
-  "scheme_name": "Motilal Oswal Nifty 500 Momentum 50 ETF",
-  "benchmark_raw": "NIFTY 500 MOMENTUM 50 TOTAL RETURN INDEX",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO58",
-  "scheme_name": "Motilal Oswal Digital India Fund",
-  "benchmark_raw": "BSE TECK TRI",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO59",
-  "scheme_name": "Motilal Oswal Nifty MidSmall Fin Servs Index Fund",
-  "benchmark_raw": "NIFTY MIDSMALL FINANCIAL SERVICES TOTAL RETURN INDEX",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO60",
-  "scheme_name": "Motilal Oswal Nifty MidSmall India Consumption Index Fund",
-  "benchmark_raw": "NIFTY MIDSMALL INDIA CONSUMPTION TOTAL RETURN INDEX",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO61",
-  "scheme_name": "Motilal Oswal Nifty MidSmall Healthcare Index Fund",
-  "benchmark_raw": "NIFTY MIDSMALL HEALTHCARE TOTAL RETURN INDEX",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO62",
-  "scheme_name": "Motilal Oswal Nifty MidSmall IT and Telecom Index Fund",
-  "benchmark_raw": "NIFTY MIDSMALL IT AND TELECOM TOTAL RETURN INDEX",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO63",
-  "scheme_name": "Motilal Oswal Nifty Capital Market Index Fund",
-  "benchmark_raw": "NIFTY CAPITAL MARKET TOTAL RETURN INDEX",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO64",
-  "scheme_name": "Motilal Oswal Arbitrage Fund",
-  "benchmark_raw": "NIFTY 50 ARBITRAGE INDEX TOTAL RETURN INDEX",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO65",
-  "scheme_name": "Motilal Oswal Innovation Opportunities Fund",
-  "benchmark_raw": "NIFTY 500 TOTAL RETURN INDEX",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO66",
-  "scheme_name": "Motilal Oswal Active Momentum Fund",
-  "benchmark_raw": "NIFTY 500 TOTAL RETURN INDEX",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO67",
-  "scheme_name": "Motilal Oswal Nifty Capital Market ETF",
-  "benchmark_raw": "NIFTY CAPITAL MARKET TOTAL RETURN INDEX",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO68",
-  "scheme_name": "Motilal Oswal Infrastructure Fund",
-  "benchmark_raw": "NIFTY INFRASTRUCTURE TOTAL RETURN INDEX",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO69",
-  "scheme_name": "Motilal Oswal Nifty 50 Equal Weight ETF",
-  "benchmark_raw": "NIFTY 50 EQUAL WEIGHT TOTAL RETURN INDEX",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO70",
-  "scheme_name": "Motilal Oswal Nifty Next 50 ETF",
-  "benchmark_raw": "NIFTY NEXT 50 TOTAL RETURN INDEX",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO71",
-  "scheme_name": "Motilal Oswal BSE India Infrastructure ETF",
-  "benchmark_raw": "BSE INDIA INFRASTRUCTURE TOTAL RETURN INDEX",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO72",
-  "scheme_name": "Motilal Oswal Services Fund",
-  "benchmark_raw": "NIFTY SERVICES SECTOR TOTAL RETURN INDEX",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO73",
-  "scheme_name": "Motilal Oswal Nifty India Manufacturing ETF",
-  "benchmark_raw": "NIFTY INDIA MANUFACTURING TOTAL RETURN INDEX",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO74",
-  "scheme_name": "Motilal Oswal Nifty PSE ETF",
-  "benchmark_raw": "NIFTY PSE TOTAL RETURN INDEX",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO75",
-  "scheme_name": "Motilal Oswal Nifty India Tourism ETF",
-  "benchmark_raw": "NIFTY INDIA TOURISM TOTAL RETURN INDEX",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO76",
-  "scheme_name": "Motilal Oswal Nifty Midcap 150 Momentum 50 ETF",
-  "benchmark_raw": "NIFTY MIDCAP 150 MOMENTUM 50 TOTAL RETURN INDEX",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO77",
-  "scheme_name": "Motilal Oswal Nifty Alpha 50 ETF",
-  "benchmark_raw": "NIFTY ALPHA 50 TOTAL RETURN INDEX",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO78",
-  "scheme_name": "Motilal Oswal BSE 1000 Index Fund",
-  "benchmark_raw": "BSE 1000 TOTAL RETURN INDEX",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO79",
-  "scheme_name": "Motilal Oswal Gold ETF",
-  "benchmark_raw": "DOMESTIC PRICE OF PHYSICAL GOLD",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO80",
-  "scheme_name": "Motilal Oswal Special Opportunities Fund",
-  "benchmark_raw": "NIFTY 500 TOTAL RETURN INDEX",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO81",
-  "scheme_name": "Motilal Oswal Silver ETF",
-  "benchmark_raw": "DOMESTIC PRICE OF PHYSICAL SILVER",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO82",
-  "scheme_name": "Motilal Oswal Consumption Fund",
-  "benchmark_raw": "NIFTY INDIA CONSUMPTION TRI",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO83",
-  "scheme_name": "Motilal Oswal Nifty 100 ETF",
-  "benchmark_raw": "NIFTY 100 TOTAL RETURN INDEX",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO84",
-  "scheme_name": "Motilal Oswal Nifty Energy ETF",
-  "benchmark_raw": "NIFTY ENERGY TOTAL RETURN INDEX",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO85",
-  "scheme_name": "Motilal Oswal BSE Select IPO ETF",
-  "benchmark_raw": "BSE SELECT IPO TOTAL RETURN INDEX",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO86",
-  "scheme_name": "Motilal Oswal Nifty Services Sector ETF",
-  "benchmark_raw": "NIFTY SERVICES SECTOR TOTAL RETURN INDEX",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO87",
-  "scheme_name": "Motilal Oswal Nifty MNC ETF",
-  "benchmark_raw": "NIFTY MNC TOTAL RETURN INDEX",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO88",
-  "scheme_name": "Motilal Oswal Diversified Eq Flexicap Passive FOF",
-  "benchmark_raw": "NIFTY 500 TOTAL RETURN INDEX",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO89",
-  "scheme_name": "Motilal Oswal Financial Services Fund",
-  "benchmark_raw": "NIFTY FINANCIAL SERVICES TOTAL RETURN INDEX",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO90",
-  "scheme_name": "Motilal Oswal Multi Factor Passive Fund of Funds",
-  "benchmark_raw": "NIFTY 500 TOTAL RETURN INDEX",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO91",
-  "scheme_name": "Motilal Oswal BSE Top 10 Banks ETF",
-  "benchmark_raw": "BSE TOP 10 BANKS TOTAL RETURN INDEX",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO92",
-  "scheme_name": "MOTILAL OSWAL CONTRA FUND",
-  "benchmark_raw": "NIFTY 500 TOTAL RETURN INDEX",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO93",
-  "scheme_name": "Motilal Oswal BSE Clean Environment Index Fund",
-  "benchmark_raw": "BSE CLEAN ENVIRONMENT TOTAL RETURN INDEX",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO94",
-  "scheme_name": "Motilal Oswal BSE Midcap 150 Momentum 30 Index Fund",
-  "benchmark_raw": "BSE MIDCAP 150 MOMENTUM 30 TOTAL RETURN INDEX",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO95",
-  "scheme_name": "Motilal Oswal Nifty Metal ETF",
-  "benchmark_raw": "NIFTY METAL TOTAL RETURN INDEX",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
-  "carried": true
- },
- {
-  "amc": "Motilal Oswal Mutual Fund",
-  "sheet": "YO96",
-  "scheme_name": "Motilal Oswal Nifty Oil & Gas ETF",
-  "benchmark_raw": "NIFTY OIL & GAS TOTAL RETURN INDEX",
-  "label": "BENCHMARK NAME",
-  "how": "inline",
+  "amc": "Unifi Mutual Fund",
+  "sheet": "(factsheet)",
+  "scheme_name": "Unifi Dynamic Asset Allocation Fund",
+  "benchmark_raw": "CRISIL Hybrid 50+50 Moderate Index (TRI",
+  "label": "(factsheet)",
+  "how": "factsheet",
+  "codes": [
+   153376
+  ],
+  "document": "https://unifimf.com/wp-content/uploads/fund-sheets/Unifi-MF-Factsheet-Sep-2026.pdf",
+  "match": "exact",
+  "carried": true
+ },
+ {
+  "amc": "Unifi Mutual Fund",
+  "sheet": "(factsheet)",
+  "scheme_name": "Unifi Flexi Cap Fund",
+  "benchmark_raw": "Nifty 500 TRI",
+  "label": "(factsheet)",
+  "how": "factsheet",
+  "codes": [
+   153543
+  ],
+  "document": "https://unifimf.com/wp-content/uploads/fund-sheets/Unifi-MF-Factsheet-Sep-2026.pdf",
+  "match": "exact",
+  "carried": true
+ },
+ {
+  "amc": "Unifi Mutual Fund",
+  "sheet": "(factsheet)",
+  "scheme_name": "Unifi Liquid Fund",
+  "benchmark_raw": "Nifty Liquid Index A-I (TRI",
+  "label": "(factsheet)",
+  "how": "factsheet",
+  "codes": [
+   153570
+  ],
+  "document": "https://unifimf.com/wp-content/uploads/fund-sheets/Unifi-MF-Factsheet-Sep-2026.pdf",
+  "match": "exact",
   "carried": true
  },
  {
@@ -21355,19 +21565,6 @@
  {
   "amc": "LIC Mutual Fund",
   "sheet": "(factsheet)",
-  "scheme_name": "LIC MF AGGRESSIVE HYBRID FUND",
-  "benchmark_raw": "Crisil Hybrid 35 + 65",
-  "label": "(factsheet)",
-  "how": "factsheet",
-  "codes": [
-   120261
-  ],
-  "document": "https://www.licmf.com/assets/downloads/monthly_fact_sheet/2026-2027/10/lic-mf-factsheet-30th-september-2026-275881603.pdf",
-  "match": "exact"
- },
- {
-  "amc": "LIC Mutual Fund",
-  "sheet": "(factsheet)",
   "scheme_name": "LIC MF BSE SENSEX ETF",
   "benchmark_raw": "BSE Sensex TRI",
   "label": "(factsheet)",
@@ -21381,38 +21578,12 @@
  {
   "amc": "LIC Mutual Fund",
   "sheet": "(factsheet)",
-  "scheme_name": "LIC MF FLEXI CAP FUND",
-  "benchmark_raw": "Nifty 500 TRI",
-  "label": "(factsheet)",
-  "how": "factsheet",
-  "codes": [
-   120264
-  ],
-  "document": "https://www.licmf.com/assets/downloads/monthly_fact_sheet/2026-2027/10/lic-mf-factsheet-30th-september-2026-275881603.pdf",
-  "match": "exact"
- },
- {
-  "amc": "LIC Mutual Fund",
-  "sheet": "(factsheet)",
   "scheme_name": "LIC MF GOLD ETF FUND OF FUND",
   "benchmark_raw": "Domestic Price of Gold",
   "label": "(factsheet)",
   "how": "factsheet",
   "codes": [
    151974
-  ],
-  "document": "https://www.licmf.com/assets/downloads/monthly_fact_sheet/2026-2027/10/lic-mf-factsheet-30th-september-2026-275881603.pdf",
-  "match": "exact"
- },
- {
-  "amc": "LIC Mutual Fund",
-  "sheet": "(factsheet)",
-  "scheme_name": "LIC MF LARGE CAP FUND",
-  "benchmark_raw": "Nifty 100 TRI",
-  "label": "(factsheet)",
-  "how": "factsheet",
-  "codes": [
-   120267
   ],
   "document": "https://www.licmf.com/assets/downloads/monthly_fact_sheet/2026-2027/10/lic-mf-factsheet-30th-september-2026-275881603.pdf",
   "match": "exact"
@@ -22404,45 +22575,6 @@
    152939
   ],
   "document": "https://trustmf.com/Content/2026/10/TRUSTMF Fact_20261009124740.pdf",
-  "match": "exact"
- },
- {
-  "amc": "Unifi Mutual Fund",
-  "sheet": "(factsheet)",
-  "scheme_name": "Unifi Dynamic Asset Allocation Fund",
-  "benchmark_raw": "CRISIL Hybrid 50+50 Moderate Index (TRI",
-  "label": "(factsheet)",
-  "how": "factsheet",
-  "codes": [
-   153376
-  ],
-  "document": "https://unifimf.com/wp-content/uploads/fund-sheets/Unifi-MF-Factsheet-Sep-2026.pdf",
-  "match": "exact"
- },
- {
-  "amc": "Unifi Mutual Fund",
-  "sheet": "(factsheet)",
-  "scheme_name": "Unifi Flexi Cap Fund",
-  "benchmark_raw": "Nifty 500 TRI",
-  "label": "(factsheet)",
-  "how": "factsheet",
-  "codes": [
-   153543
-  ],
-  "document": "https://unifimf.com/wp-content/uploads/fund-sheets/Unifi-MF-Factsheet-Sep-2026.pdf",
-  "match": "exact"
- },
- {
-  "amc": "Unifi Mutual Fund",
-  "sheet": "(factsheet)",
-  "scheme_name": "Unifi Liquid Fund",
-  "benchmark_raw": "Nifty Liquid Index A-I (TRI",
-  "label": "(factsheet)",
-  "how": "factsheet",
-  "codes": [
-   153570
-  ],
-  "document": "https://unifimf.com/wp-content/uploads/fund-sheets/Unifi-MF-Factsheet-Sep-2026.pdf",
   "match": "exact"
  }
 ]

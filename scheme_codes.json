@@ -7962,49 +7962,216 @@
    "how": "exact",
    "sheets": 2
   },
-  "LIC MF Medium to Long Term Fund": {
+  "LIC MF FLEXI CAP FUND": {
    "codes": [
-    100314,
-    100315,
-    120278,
-    120279,
-    151986,
-    151988,
-    151989,
-    151990
-   ],
-   "how": "exact",
-   "sheets": 2
-  },
-  "LIC MF Nifty 8-13 yr G-Sec ETF": {
-   "codes": [
-    133307
+    100312,
+    100313,
+    120263,
+    120264
    ],
    "how": "exact",
    "sheets": 1
   },
-  "LIC MF GILT FUND": {
+  "LIC MF LARGE & MID CAP FUND": {
    "codes": [
-    100316,
-    100317,
-    100318,
-    100319,
-    120282,
-    120283
+    133709,
+    133710,
+    133711,
+    133712
    ],
    "how": "exact",
    "sheets": 1
   },
-  "LIC MF Banking & PSU Debt Fund": {
+  "LIC MF BANKING AND FINANCIAL SERVICES FUND": {
    "codes": [
-    105822,
-    105823,
-    105856,
-    105857,
-    120336,
-    120337,
-    120338,
-    120339
+    133908,
+    134015,
+    134016,
+    134017
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "LIC MF MULTI CAP FUND": {
+   "codes": [
+    150659,
+    150660,
+    150661,
+    150662
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "LIC MF DIVIDEND YIELD FUND": {
+   "codes": [
+    152019,
+    152020,
+    152021,
+    152022
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "LIC MF FOCUSED FUND": {
+   "codes": [
+    152007,
+    152008,
+    152009,
+    152010
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "LIC MF MID CAP FUND": {
+   "codes": [
+    151999,
+    152000,
+    152001,
+    152002
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "LIC MF HEALTHCARE FUND": {
+   "codes": [
+    152023,
+    152024,
+    152025,
+    152026
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "LIC MF SMALL CAP FUND": {
+   "codes": [
+    152003,
+    152004,
+    152005,
+    152006
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "LIC MF LARGE CAP FUND": {
+   "codes": [
+    100332,
+    106871,
+    120267,
+    120268
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "LIC MF VALUE FUND": {
+   "codes": [
+    152015,
+    152016,
+    152017,
+    152018
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "LIC MF MANUFACTURING FUND": {
+   "codes": [
+    152920,
+    152921,
+    152922,
+    152923
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "LIC MF CONSUMPTION FUND": {
+   "codes": [
+    153948,
+    153949,
+    153950,
+    153951
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "LIC MF TECHNOLOGY FUND": {
+   "codes": [
+    154244,
+    154245,
+    154246,
+    154247
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "LIC MF ELSS Tax Saver Fund ( Erstwhile LIC MF ELSS Tax Saver )": {
+   "codes": [
+    100864,
+    100865,
+    120269,
+    120270
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "LIC MF INFRASTRUCTURE FUND": {
+   "codes": [
+    107763,
+    107764,
+    120350,
+    120351
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "LIC MF AGGRESSIVE HYBRID FUND": {
+   "codes": [
+    100321,
+    100323,
+    120260,
+    120261
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "LIC MF ARBITRAGE FUND": {
+   "codes": [
+    145890,
+    145891,
+    145892,
+    145893,
+    145894,
+    145895
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "LIC MF BALANCED ADVANTAGE FUND": {
+   "codes": [
+    149258,
+    149259,
+    149260,
+    149261
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "LIC MF EQUITY SAVINGS FUND": {
+   "codes": [
+    151949,
+    151950,
+    151951,
+    151952,
+    151953,
+    151954
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "LIC MF MULTI ASSET ALLOCATION FUND": {
+   "codes": [
+    153246,
+    153247,
+    153248,
+    153249
    ],
    "how": "exact",
    "sheets": 1
@@ -8021,12 +8188,96 @@
    "how": "exact",
    "sheets": 1
   },
-  "LIC MF Money Market Fund": {
+  "LIC MF Nifty 8-13 yr G-Sec ETF": {
    "codes": [
-    150391,
-    150392,
-    150393,
-    150394
+    133307
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "LIC MF NIFTY 50 ETF": {
+   "codes": [
+    135607
+   ],
+   "how": "exact",
+   "sheets": 2
+  },
+  "LIC MF BSE SENSEX ETF": {
+   "codes": [
+    135672
+   ],
+   "how": "exact",
+   "sheets": 2
+  },
+  "LIC MF NIFTY 100 ETF": {
+   "codes": [
+    136473
+   ],
+   "how": "exact",
+   "sheets": 2
+  },
+  "LIC MF NIFTY NEXT 50 INDEX FUND": {
+   "codes": [
+    151935,
+    151936,
+    151937,
+    151938
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "LIC MF GOLD EXCHANGE TRADED FUND": {
+   "codes": [
+    151961
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "LIC MF GOLD ETF FUND OF FUND": {
+   "codes": [
+    151973,
+    151974
+   ],
+   "how": "exact",
+   "sheets": 2
+  },
+  "LIC MF NIFTY MIDCAP 100 ETF": {
+   "codes": [
+    152404
+   ],
+   "how": "exact",
+   "sheets": 2
+  },
+  "LIC MF BSE SENSEX INDEX FUND": {
+   "codes": [
+    101198,
+    101199,
+    120308,
+    120312
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "LIC MF NIFTY 50 INDEX FUND": {
+   "codes": [
+    101200,
+    101201,
+    120307,
+    120309
+   ],
+   "how": "exact",
+   "sheets": 2
+  },
+  "LIC MF Short Term Fund": {
+   "codes": [
+    145951,
+    145952,
+    145953,
+    145954,
+    151955,
+    151956,
+    151959,
+    151960
    ],
    "how": "exact",
    "sheets": 1
@@ -8045,34 +8296,6 @@
    "how": "exact",
    "sheets": 1
   },
-  "LIC MF Ultra Short to Short Term Fund": {
-   "codes": [
-    101829,
-    101830,
-    111675,
-    111676,
-    120315,
-    120316,
-    120317,
-    120318
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "LIC MF Short Term Fund": {
-   "codes": [
-    145951,
-    145952,
-    145953,
-    145954,
-    151955,
-    151956,
-    151959,
-    151960
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
   "LIC MF Ultra Short Term Fund": {
    "codes": [
     147766,
@@ -8087,6 +8310,42 @@
    "how": "exact",
    "sheets": 1
   },
+  "LIC MF Money Market Fund": {
+   "codes": [
+    150391,
+    150392,
+    150393,
+    150394
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "LIC MF Medium to Long Term Fund": {
+   "codes": [
+    100314,
+    100315,
+    120278,
+    120279,
+    151986,
+    151988,
+    151989,
+    151990
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "LIC MF GILT FUND": {
+   "codes": [
+    100316,
+    100317,
+    100318,
+    100319,
+    120282,
+    120283
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
   "LIC MF Liquid Fund": {
    "codes": [
     101184,
@@ -8097,6 +8356,42 @@
     151928,
     151930,
     151932
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "LIC MF Ultra Short to Short Term Fund": {
+   "codes": [
+    101829,
+    101830,
+    111675,
+    111676,
+    120315,
+    120316,
+    120317,
+    120318
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "LIC MF Banking & PSU Debt Fund": {
+   "codes": [
+    105822,
+    105823,
+    105856,
+    105857,
+    120336,
+    120337,
+    120338,
+    120339
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "LIC MF CHILDREN\u2019S FUND": {
+   "codes": [
+    101271,
+    120285
    ],
    "how": "exact",
    "sheets": 1
@@ -8379,6 +8674,748 @@
     154120,
     154121,
     154122
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal Nifty 50 ETF": {
+   "codes": [
+    113069
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal Nifty Midcap 100 ETF": {
+   "codes": [
+    114456
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal Nasdaq 100 ETF": {
+   "codes": [
+    114984
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal Focused Fund": {
+   "codes": [
+    122387,
+    122388,
+    122389,
+    122390
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal Ultra Short Term Fund": {
+   "codes": [
+    124233,
+    124234,
+    124303,
+    124305,
+    124306,
+    124308,
+    124310,
+    124311,
+    124312,
+    124313,
+    124315,
+    124316
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal Midcap Fund": {
+   "codes": [
+    127039,
+    127040,
+    127042,
+    127044
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal Flexicap Fund": {
+   "codes": [
+    129046,
+    129047,
+    129048,
+    129049
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal ELSS Tax Saver Fund": {
+   "codes": [
+    133383,
+    133384,
+    133385,
+    133386
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal Balanced Advantage Fund": {
+   "codes": [
+    139863,
+    139865,
+    139866,
+    139870,
+    139871,
+    139872
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal Nasdaq 100 Fund of Fund": {
+   "codes": [
+    145551,
+    145552
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal Liquid Fund": {
+   "codes": [
+    145834,
+    145946,
+    146218,
+    146220,
+    146222,
+    146223,
+    146224,
+    146226,
+    146227,
+    146228,
+    146229,
+    146230,
+    147441,
+    147442,
+    147443,
+    147444
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal Nifty Midcap 150 Index Fund": {
+   "codes": [
+    147621,
+    147622
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal Nifty Smallcap 250 Index Fund": {
+   "codes": [
+    147623,
+    147624
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal Nifty 500 Index Fund": {
+   "codes": [
+    147625,
+    147626
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal Nifty Bank Index Fund": {
+   "codes": [
+    147619,
+    147620
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal Large and Midcap Fund": {
+   "codes": [
+    147701,
+    147703,
+    147704,
+    147706
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal Nifty 50 Index Fund": {
+   "codes": [
+    147794,
+    147795
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal Nifty Next 50 Index Fund": {
+   "codes": [
+    147796,
+    147797
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal S&P 500 Index Fund": {
+   "codes": [
+    148381,
+    148382
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal Nifty 5 year Benchmark G-Sec ETF": {
+   "codes": [
+    148620
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal Multi Asset Passive Fund of Fund": {
+   "codes": [
+    148747,
+    148748
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal 5 Year G-Sec Fund of Fund": {
+   "codes": [
+    149240,
+    149241
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal Nasdaq Q50 ETF": {
+   "codes": [
+    149438
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal Nifty 200 Momentum 30 ETF": {
+   "codes": [
+    149801
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal Nifty 200 Momentum 30 Index Fund": {
+   "codes": [
+    149799,
+    149800
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal BSE Low Volatility ETF": {
+   "codes": [
+    149921
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal BSE low Volatility Index Fund": {
+   "codes": [
+    149919,
+    149920
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal BSE Financials ex Bank 30 Index Fund": {
+   "codes": [
+    150443,
+    150444
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal BSE Healthcare ETF": {
+   "codes": [
+    150445
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal BSE Enhanced Value ETF": {
+   "codes": [
+    150517
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal BSE Enhanced Value Index Fund": {
+   "codes": [
+    150518,
+    150519
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal BSE Quality ETF": {
+   "codes": [
+    150520
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal BSE Quality Index Fund": {
+   "codes": [
+    150521,
+    150522
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal Gold and Silver Passive Fund of Funds": {
+   "codes": [
+    150641,
+    150642
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal Nifty Microcap 250 Index Fund": {
+   "codes": [
+    151814,
+    151815
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal Developed Market Ex US ETFs Overseas Equity Passive FOF": {
+   "codes": [
+    152090,
+    152091
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal Nifty 500 ETF": {
+   "codes": [
+    152106
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "MOTILAL OSWAL SMALL CAP FUND": {
+   "codes": [
+    152232,
+    152234,
+    152235,
+    152237
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "MOTILAL OSWAL LARGE CAP FUND": {
+   "codes": [
+    152351,
+    152352,
+    152353,
+    152354
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal Nifty Realty ETF": {
+   "codes": [
+    152541
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal Nifty Smallcap 250 ETF": {
+   "codes": [
+    152546
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal Quant Fund": {
+   "codes": [
+    152692,
+    152693,
+    152694,
+    152695
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal Multi Cap Fund": {
+   "codes": [
+    152649,
+    152650,
+    152651,
+    152652
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal Nifty India Defence Index Fund": {
+   "codes": [
+    152711,
+    152712
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal Manufacturing Fund": {
+   "codes": [
+    152760,
+    152761,
+    152762,
+    152763
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal Business Cycle Fund": {
+   "codes": [
+    152794,
+    152795,
+    152796,
+    152797
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal Nifty India Defence ETF": {
+   "codes": [
+    152846
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal Nifty 500 Momentum 50 Index Fund": {
+   "codes": [
+    152875,
+    152876
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal Nifty 500 Momentum 50 ETF": {
+   "codes": [
+    152874
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal Digital India Fund": {
+   "codes": [
+    152964,
+    152965,
+    152966,
+    152967
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal Nifty MidSmall India Consumption Index Fund": {
+   "codes": [
+    153024,
+    153025
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal Nifty MidSmall Healthcare Index Fund": {
+   "codes": [
+    153022,
+    153023
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal Nifty MidSmall IT and Telecom Index Fund": {
+   "codes": [
+    153028,
+    153029
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal Nifty Capital Market Index Fund": {
+   "codes": [
+    153137,
+    153138
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal Arbitrage Fund": {
+   "codes": [
+    153185,
+    153186,
+    153187,
+    153188
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal Innovation Opportunities Fund": {
+   "codes": [
+    153256,
+    153257,
+    153258,
+    153259
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal Active Momentum Fund": {
+   "codes": [
+    153364,
+    153365,
+    153366,
+    153367
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal Nifty Capital Market ETF": {
+   "codes": [
+    153406
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal Infrastructure Fund": {
+   "codes": [
+    153482,
+    153483,
+    153484,
+    153485
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal Nifty 50 Equal Weight ETF": {
+   "codes": [
+    153532
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal Nifty Next 50 ETF": {
+   "codes": [
+    153535
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal BSE India Infrastructure ETF": {
+   "codes": [
+    153564
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal Services Fund": {
+   "codes": [
+    153558,
+    153561,
+    153562,
+    153563
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal Nifty India Manufacturing ETF": {
+   "codes": [
+    153572
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal Nifty PSE ETF": {
+   "codes": [
+    153608
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal Nifty India Tourism ETF": {
+   "codes": [
+    153618
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal Nifty Midcap 150 Momentum 50 ETF": {
+   "codes": [
+    153694
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal Nifty Alpha 50 ETF": {
+   "codes": [
+    153724
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal BSE 1000 Index Fund": {
+   "codes": [
+    153596,
+    153597
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal Gold ETF": {
+   "codes": [
+    153780
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal Special Opportunities Fund": {
+   "codes": [
+    153749,
+    153750,
+    153751,
+    153752
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal Silver ETF": {
+   "codes": [
+    153820
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal Consumption Fund": {
+   "codes": [
+    153913,
+    153914,
+    153915,
+    153916
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal Nifty 100 ETF": {
+   "codes": [
+    153928
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal Nifty Energy ETF": {
+   "codes": [
+    153931
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal BSE Select IPO ETF": {
+   "codes": [
+    154003
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal Nifty Services Sector ETF": {
+   "codes": [
+    154033
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal Nifty MNC ETF": {
+   "codes": [
+    154062
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal Diversified Eq Flexicap Passive FOF": {
+   "codes": [
+    154112,
+    154113
+   ],
+   "how": "fuzzy",
+   "sheets": 1
+  },
+  "Motilal Oswal Financial Services Fund": {
+   "codes": [
+    154137,
+    154139,
+    154140,
+    154142
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal Multi Factor Passive Fund of Funds": {
+   "codes": [
+    154238,
+    154239
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal BSE Top 10 Banks ETF": {
+   "codes": [
+    154322
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "MOTILAL OSWAL CONTRA FUND": {
+   "codes": [
+    154336,
+    154337,
+    154338,
+    154339
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal BSE Clean Environment Index Fund": {
+   "codes": [
+    154364,
+    154365
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal BSE Midcap 150 Momentum 30 Index Fund": {
+   "codes": [
+    154377,
+    154378
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal Nifty Metal ETF": {
+   "codes": [
+    154551
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "Motilal Oswal Nifty Oil & Gas ETF": {
+   "codes": [
+    154552
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
+  "MOTILAL OSWAL QUALITY FUND": {
+   "codes": [
+    154667,
+    154668,
+    154669,
+    154670
    ],
    "how": "exact",
    "sheets": 1
@@ -13268,14 +14305,6 @@
    "how": "exact",
    "sheets": 1
   },
-  "Unifi Dynamic Asset Allocation Fund": {
-   "codes": [
-    153376,
-    153377
-   ],
-   "how": "exact",
-   "sheets": 2
-  },
   "Angel One Gold ETF": {
    "codes": [
     153826
@@ -17981,6 +19010,16 @@
    "how": "exact",
    "sheets": 1
   },
+  "Bandhan Value Fund": {
+   "codes": [
+    108908,
+    108909,
+    118480,
+    118481
+   ],
+   "how": "exact",
+   "sheets": 1
+  },
   "Bandhan Retirement Fund": {
    "codes": [
     152102,
@@ -18692,16 +19731,6 @@
    "codes": [
     153407,
     153408
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Bandhan Value Fund": {
-   "codes": [
-    108908,
-    108909,
-    118480,
-    118481
    ],
    "how": "exact",
    "sheets": 1
@@ -20217,682 +21246,26 @@
    "how": "exact",
    "sheets": 1
   },
-  "Motilal Oswal Nifty 50 ETF": {
+  "Unifi Dynamic Asset Allocation Fund": {
    "codes": [
-    113069
+    153376,
+    153377
    ],
    "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal Nifty Midcap 100 ETF": {
-   "codes": [
-    114456
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal Nasdaq 100 ETF": {
-   "codes": [
-    114984
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal Focused Fund": {
-   "codes": [
-    122387,
-    122388,
-    122389,
-    122390
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal Ultra Short Term Fund": {
-   "codes": [
-    124233,
-    124234,
-    124303,
-    124305,
-    124306,
-    124308,
-    124310,
-    124311,
-    124312,
-    124313,
-    124315,
-    124316
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal Midcap Fund": {
-   "codes": [
-    127039,
-    127040,
-    127042,
-    127044
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal Flexicap Fund": {
-   "codes": [
-    129046,
-    129047,
-    129048,
-    129049
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal ELSS Tax Saver Fund": {
-   "codes": [
-    133383,
-    133384,
-    133385,
-    133386
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal Balanced Advantage Fund": {
-   "codes": [
-    139863,
-    139865,
-    139866,
-    139870,
-    139871,
-    139872
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal Nasdaq 100 Fund of Fund": {
-   "codes": [
-    145551,
-    145552
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal Liquid Fund": {
-   "codes": [
-    145834,
-    145946,
-    146218,
-    146220,
-    146222,
-    146223,
-    146224,
-    146226,
-    146227,
-    146228,
-    146229,
-    146230,
-    147441,
-    147442,
-    147443,
-    147444
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal Nifty Midcap 150 Index Fund": {
-   "codes": [
-    147621,
-    147622
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal Nifty Smallcap 250 Index Fund": {
-   "codes": [
-    147623,
-    147624
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal Nifty 500 Index Fund": {
-   "codes": [
-    147625,
-    147626
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal Nifty Bank Index Fund": {
-   "codes": [
-    147619,
-    147620
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal Large and Midcap Fund": {
-   "codes": [
-    147701,
-    147703,
-    147704,
-    147706
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal Nifty 50 Index Fund": {
-   "codes": [
-    147794,
-    147795
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal Nifty Next 50 Index Fund": {
-   "codes": [
-    147796,
-    147797
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal S&P 500 Index Fund": {
-   "codes": [
-    148381,
-    148382
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal Nifty 5 year Benchmark G-Sec ETF": {
-   "codes": [
-    148620
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal Multi Asset Passive Fund of Fund": {
-   "codes": [
-    148747,
-    148748
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal 5 Year G-Sec Fund of Fund": {
-   "codes": [
-    149240,
-    149241
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal Nasdaq Q50 ETF": {
-   "codes": [
-    149438
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal Nifty 200 Momentum 30 ETF": {
-   "codes": [
-    149801
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal Nifty 200 Momentum 30 Index Fund": {
-   "codes": [
-    149799,
-    149800
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal S&P BSE Financials ex Bank 30 Index Fund": {
-   "codes": [
-    150443,
-    150444
-   ],
-   "how": "fuzzy",
-   "sheets": 1
-  },
-  "Motilal Oswal Gold and Silver Passive Fund of Funds": {
-   "codes": [
-    150641,
-    150642
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal Nifty Microcap 250 Index Fund": {
-   "codes": [
-    151814,
-    151815
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal Developed Market Ex US ETFs Overseas Equity Passive FOF": {
-   "codes": [
-    152090,
-    152091
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal Nifty 500 ETF": {
-   "codes": [
-    152106
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "MOTILAL OSWAL SMALL CAP FUND": {
-   "codes": [
-    152232,
-    152234,
-    152235,
-    152237
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "MOTILAL OSWAL LARGE CAP FUND": {
-   "codes": [
-    152351,
-    152352,
-    152353,
-    152354
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal Nifty Realty ETF": {
-   "codes": [
-    152541
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal Nifty Smallcap 250 ETF": {
-   "codes": [
-    152546
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal Quant Fund": {
-   "codes": [
-    152692,
-    152693,
-    152694,
-    152695
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal Multi Cap Fund": {
-   "codes": [
-    152649,
-    152650,
-    152651,
-    152652
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal Nifty India Defence Index Fund": {
-   "codes": [
-    152711,
-    152712
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal Manufacturing Fund": {
-   "codes": [
-    152760,
-    152761,
-    152762,
-    152763
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal Business Cycle Fund": {
-   "codes": [
-    152794,
-    152795,
-    152796,
-    152797
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal Nifty India Defence ETF": {
-   "codes": [
-    152846
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal Nifty 500 Momentum 50 Index Fund": {
-   "codes": [
-    152875,
-    152876
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal Nifty 500 Momentum 50 ETF": {
-   "codes": [
-    152874
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal Digital India Fund": {
-   "codes": [
-    152964,
-    152965,
-    152966,
-    152967
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal Nifty MidSmall India Consumption Index Fund": {
-   "codes": [
-    153024,
-    153025
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal Nifty MidSmall Healthcare Index Fund": {
-   "codes": [
-    153022,
-    153023
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal Nifty MidSmall IT and Telecom Index Fund": {
-   "codes": [
-    153028,
-    153029
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal Nifty Capital Market Index Fund": {
-   "codes": [
-    153137,
-    153138
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal Arbitrage Fund": {
-   "codes": [
-    153185,
-    153186,
-    153187,
-    153188
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal Innovation Opportunities Fund": {
-   "codes": [
-    153256,
-    153257,
-    153258,
-    153259
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal Active Momentum Fund": {
-   "codes": [
-    153364,
-    153365,
-    153366,
-    153367
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal Nifty Capital Market ETF": {
-   "codes": [
-    153406
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal Infrastructure Fund": {
-   "codes": [
-    153482,
-    153483,
-    153484,
-    153485
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal Nifty 50 Equal Weight ETF": {
-   "codes": [
-    153532
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal Nifty Next 50 ETF": {
-   "codes": [
-    153535
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal BSE India Infrastructure ETF": {
-   "codes": [
-    153564
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal Services Fund": {
-   "codes": [
-    153558,
-    153561,
-    153562,
-    153563
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal Nifty India Manufacturing ETF": {
-   "codes": [
-    153572
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal Nifty PSE ETF": {
-   "codes": [
-    153608
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal Nifty India Tourism ETF": {
-   "codes": [
-    153618
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal Nifty Midcap 150 Momentum 50 ETF": {
-   "codes": [
-    153694
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal Nifty Alpha 50 ETF": {
-   "codes": [
-    153724
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal BSE 1000 Index Fund": {
-   "codes": [
-    153596,
-    153597
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal Gold ETF": {
-   "codes": [
-    153780
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal Special Opportunities Fund": {
-   "codes": [
-    153749,
-    153750,
-    153751,
-    153752
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal Silver ETF": {
-   "codes": [
-    153820
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal Consumption Fund": {
-   "codes": [
-    153913,
-    153914,
-    153915,
-    153916
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal Nifty 100 ETF": {
-   "codes": [
-    153928
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal Nifty Energy ETF": {
-   "codes": [
-    153931
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal BSE Select IPO ETF": {
-   "codes": [
-    154003
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal Nifty Services Sector ETF": {
-   "codes": [
-    154033
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal Nifty MNC ETF": {
-   "codes": [
-    154062
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal Diversified Eq Flexicap Passive FOF": {
-   "codes": [
-    154112,
-    154113
-   ],
-   "how": "fuzzy",
-   "sheets": 1
-  },
-  "Motilal Oswal Financial Services Fund": {
-   "codes": [
-    154137,
-    154139,
-    154140,
-    154142
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal Multi Factor Passive Fund of Funds": {
-   "codes": [
-    154238,
-    154239
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal BSE Top 10 Banks ETF": {
-   "codes": [
-    154322
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "MOTILAL OSWAL CONTRA FUND": {
-   "codes": [
-    154336,
-    154337,
-    154338,
-    154339
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal BSE Clean Environment Index Fund": {
-   "codes": [
-    154364,
-    154365
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Motilal Oswal BSE Midcap 150 Momentum 30 Index Fund": {
-   "codes": [
-    154377,
-    154378
-   ],
-   "how": "exact",
-   "sheets": 1
+   "sheets": 2
   },
-  "Motilal Oswal Nifty Metal ETF": {
+  "Unifi Flexi Cap Fund": {
    "codes": [
-    154551
+    153542,
+    153543
    ],
    "how": "exact",
    "sheets": 1
   },
-  "Motilal Oswal Nifty Oil & Gas ETF": {
+  "Unifi Liquid Fund": {
    "codes": [
-    154552
+    153570,
+    153571
    ],
    "how": "exact",
    "sheets": 1
@@ -20977,82 +21350,6 @@
    "codes": [
     154010,
     154011
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "LIC MF AGGRESSIVE HYBRID FUND": {
-   "codes": [
-    100321,
-    100323,
-    120260,
-    120261
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "LIC MF BSE SENSEX ETF": {
-   "codes": [
-    135672
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "LIC MF FLEXI CAP FUND": {
-   "codes": [
-    100312,
-    100313,
-    120263,
-    120264
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "LIC MF GOLD ETF FUND OF FUND": {
-   "codes": [
-    151973,
-    151974
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "LIC MF LARGE CAP FUND": {
-   "codes": [
-    100332,
-    106871,
-    120267,
-    120268
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "LIC MF NIFTY 100 ETF": {
-   "codes": [
-    136473
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "LIC MF NIFTY 50 ETF": {
-   "codes": [
-    135607
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "LIC MF NIFTY 50 INDEX FUND": {
-   "codes": [
-    101200,
-    101201,
-    120307,
-    120309
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "LIC MF NIFTY MIDCAP 100 ETF": {
-   "codes": [
-    152404
    ],
    "how": "exact",
    "sheets": 1
@@ -21432,22 +21729,6 @@
    ],
    "how": "exact",
    "sheets": 1
-  },
-  "Unifi Flexi Cap Fund": {
-   "codes": [
-    153542,
-    153543
-   ],
-   "how": "exact",
-   "sheets": 1
-  },
-  "Unifi Liquid Fund": {
-   "codes": [
-    153570,
-    153571
-   ],
-   "how": "exact",
-   "sheets": 1
   }
  },
  "unmatched": {
@@ -21461,6 +21742,9 @@
   "NY PSU BD PL SDL IDX Fund-2027": 1,
   "Kotak Gilt Fund Provident Fund and Trust Plan Quarterly IDCW": 1,
   "Common Notes to Portfolio": 1,
+  "LIC MF UNIT LINKED INSURANCE SCHEME": 1,
+  "Motilal Oswal Asset Allocation Passive Fund of Fund - Conservative": 1,
+  "Motilal Oswal Nifty MidSmall Fin Servs Index Fund": 1,
   "Nippon India Conservative Hybrid Fund": 1,
   "Nippon India Aggressive Hybrid Fund": 1,
   "Nippon India Quarterly Interval Fund-Series 2": 1,
@@ -21555,15 +21839,6 @@
   "Wealth Company Liquid Fund": 1,
   "Wealth Company Mid cap fund": 1,
   "WEALTH COMPANY MULTIASSET ALLOC FUND": 1,
-  "Motilal Oswal Asset Allocation Passive Fund of Fund - Conservative": 1,
-  "Motilal Oswal S&P BSE Low Volatility ETF": 1,
-  "Motilal Oswal S & P BSE low Volatility Index Fund": 1,
-  "Motilal Oswal S&P BSE Healthcare ETF": 1,
-  "Motilal Oswal S&P BSE Enhanced Value ETF": 1,
-  "Motilal Oswal S&P BSE Enhanced Value Index Fund": 1,
-  "Motilal Oswal S&P BSE Quality ETF": 1,
-  "Motilal Oswal S&P BSE Quality Index Fund": 1,
-  "Motilal Oswal Nifty MidSmall Fin Servs Index Fund": 1,
   "Nippon India Index Fund": 1
  }
 }

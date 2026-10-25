@@ -61,7 +61,7 @@
    "source": "nse",
    "tri_kind": "published",
    "how": "exact",
-   "schemes": 3,
+   "schemes": 4,
    "has_series": true
   },
   "Nifty 500 TRI": {
@@ -69,7 +69,7 @@
    "source": "nse",
    "tri_kind": "published",
    "how": "exact",
-   "schemes": 60,
+   "schemes": 63,
    "has_series": true
   },
   "Nifty MNC TRI": {
@@ -93,7 +93,7 @@
    "source": "nse",
    "tri_kind": "published",
    "how": "exact",
-   "schemes": 12,
+   "schemes": 11,
    "has_series": true
   },
   "Nifty Midcap 150 TRI": {
@@ -101,7 +101,7 @@
    "source": "nse",
    "tri_kind": "published",
    "how": "exact",
-   "schemes": 18,
+   "schemes": 19,
    "has_series": true
   },
   "NIFTY India Consumption TRI": {
@@ -117,7 +117,7 @@
    "source": "nse",
    "tri_kind": "published",
    "how": "exact",
-   "schemes": 4,
+   "schemes": 5,
    "has_series": true
   },
   "BSE 250 SmallCap TRI": {
@@ -133,7 +133,7 @@
    "source": "nse",
    "tri_kind": "published",
    "how": "exact",
-   "schemes": 13,
+   "schemes": 14,
    "has_series": false
   },
   "Nifty Financial Services TRI": {
@@ -141,7 +141,7 @@
    "source": "nse",
    "tri_kind": "published",
    "how": "exact",
-   "schemes": 8,
+   "schemes": 9,
    "has_series": true
   },
   "Nifty India Manufacturing TRI": {
@@ -229,7 +229,7 @@
    "source": "nse",
    "tri_kind": "published",
    "how": "exact",
-   "schemes": 63,
+   "schemes": 64,
    "has_series": true
   },
   "NIFTY BANK TRI": {
@@ -773,7 +773,7 @@
    "source": "nse",
    "tri_kind": "published",
    "how": "exact",
-   "schemes": 11,
+   "schemes": 12,
    "has_series": true
   },
   "BSE Top 10 Banks Index TRI": {
@@ -1952,6 +1952,46 @@
    "schemes": 2,
    "has_series": true
   },
+  "BSE Health Care TRI": {
+   "index": "BSE Healthcare",
+   "source": "bse",
+   "tri_kind": "reconstructed",
+   "how": "exact",
+   "schemes": 1,
+   "has_series": true
+  },
+  "i.e NIFTY 100 TRI": {
+   "index": "NIFTY 100",
+   "source": "nse",
+   "tri_kind": "published",
+   "how": "exact",
+   "schemes": 1,
+   "has_series": true
+  },
+  "Riskometer i.e. Nifty India Manufacturing Index (TRI)": {
+   "index": "NIFTY INDIA MANUFACTURING",
+   "source": "nse",
+   "tri_kind": "published",
+   "how": "exact",
+   "schemes": 1,
+   "has_series": true
+  },
+  "Riskometer i.e. Nifty India Consumption Total Return Index (TRI)": {
+   "index": "NIFTY INDIA CONSUMPTION",
+   "source": "nse",
+   "tri_kind": "published",
+   "how": "exact",
+   "schemes": 1,
+   "has_series": true
+  },
+  "Riskometer i.e. BSE TECK (TRI)": {
+   "index": "BSE TECK",
+   "source": "bse",
+   "tri_kind": "reconstructed",
+   "how": "exact",
+   "schemes": 1,
+   "has_series": true
+  },
   "NIFTY 8-13 YR G-SEC": {
    "index": "NIFTY 8-13 YR G-SEC",
    "source": "nse",
@@ -1980,6 +2020,414 @@
    "index": "BSE 250 SmallCap Index",
    "source": "bse",
    "tri_kind": "reconstructed",
+   "how": "exact",
+   "schemes": 1,
+   "has_series": true
+  },
+  "NIFTY MIDCAP 100 - TRI": {
+   "index": "NIFTY MIDCAP 100",
+   "source": "nse",
+   "tri_kind": "published",
+   "how": "exact",
+   "schemes": 1,
+   "has_series": true
+  },
+  "NIFTY 500 - TRI": {
+   "index": "NIFTY 500",
+   "source": "nse",
+   "tri_kind": "published",
+   "how": "exact",
+   "schemes": 4,
+   "has_series": true
+  },
+  "NIFTY MIDCAP 150 INDEX - TRI": {
+   "index": "NIFTY MIDCAP 150",
+   "source": "nse",
+   "tri_kind": "published",
+   "how": "exact",
+   "schemes": 2,
+   "has_series": true
+  },
+  "NIFTY SMALLCAP 250 INDEX- TRI": {
+   "index": "NIFTY SMALLCAP 250",
+   "source": "nse",
+   "tri_kind": "published",
+   "how": "exact",
+   "schemes": 1,
+   "has_series": true
+  },
+  "NIFTY BANK INDEX- TRI": {
+   "index": "NIFTY BANK",
+   "source": "nse",
+   "tri_kind": "published",
+   "how": "exact",
+   "schemes": 1,
+   "has_series": true
+  },
+  "NIFTY LARGEMIDCAP 250 INDEX - TRI": {
+   "index": "NIFTY LARGEMIDCAP 250",
+   "source": "nse",
+   "tri_kind": "published",
+   "how": "exact",
+   "schemes": 1,
+   "has_series": true
+  },
+  "NIFTY NEXT 50 INDEX- TRI": {
+   "index": "NIFTY NEXT 50",
+   "source": "nse",
+   "tri_kind": "published",
+   "how": "exact",
+   "schemes": 1,
+   "has_series": true
+  },
+  "NIFTY 5 YR BENCHMARK G-SEC INDEX": {
+   "index": "NIFTY 5YR BENCHMARK G-SEC",
+   "source": "nse",
+   "tri_kind": "published",
+   "how": "exact",
+   "schemes": 3,
+   "has_series": false
+  },
+  "NIFTY 200 MOMENTUM 30 TRI": {
+   "index": "NIFTY200 MOMENTUM 30",
+   "source": "nse",
+   "tri_kind": "published",
+   "how": "exact",
+   "schemes": 3,
+   "has_series": true
+  },
+  "BSE LOW VOLATILITY TOTAL RETURN INDEX": {
+   "index": "BSE Low Volatility Index",
+   "source": "bse",
+   "tri_kind": "reconstructed",
+   "how": "exact",
+   "schemes": 2,
+   "has_series": true
+  },
+  "BSE FINANCIALS EX BANK 30 - TRI": {
+   "index": "BSE Financials Ex-Banks 30 Index",
+   "source": "bse",
+   "tri_kind": "reconstructed",
+   "how": "fuzzy",
+   "schemes": 1,
+   "has_series": true
+  },
+  "BSE HEALTHCARE - TRI": {
+   "index": "BSE Healthcare",
+   "source": "bse",
+   "tri_kind": "reconstructed",
+   "how": "exact",
+   "schemes": 1,
+   "has_series": true
+  },
+  "BSE ENHANCED VALUE - TRI": {
+   "index": "BSE Enhanced Value Index",
+   "source": "bse",
+   "tri_kind": "reconstructed",
+   "how": "exact",
+   "schemes": 2,
+   "has_series": true
+  },
+  "BSE QUALITY - TRI": {
+   "index": "BSE Quality Index",
+   "source": "bse",
+   "tri_kind": "reconstructed",
+   "how": "exact",
+   "schemes": 2,
+   "has_series": true
+  },
+  "NIFTY MICROCAP 250 TOTAL RETURN INDEX": {
+   "index": "NIFTY MICROCAP 250",
+   "source": "nse",
+   "tri_kind": "published",
+   "how": "exact",
+   "schemes": 1,
+   "has_series": true
+  },
+  "NIFTY 500 TOTAL RETURN INDEX": {
+   "index": "NIFTY 500",
+   "source": "nse",
+   "tri_kind": "published",
+   "how": "exact",
+   "schemes": 8,
+   "has_series": true
+  },
+  "NIFTY 100 TRI INDEX": {
+   "index": "NIFTY 100",
+   "source": "nse",
+   "tri_kind": "published",
+   "how": "exact",
+   "schemes": 1,
+   "has_series": true
+  },
+  "NIFTY REALTY TR INDEX": {
+   "index": "NIFTY REALTY",
+   "source": "nse",
+   "tri_kind": "published",
+   "how": "exact",
+   "schemes": 1,
+   "has_series": true
+  },
+  "NIFTY SMALLCAP 250 TR INDEX": {
+   "index": "NIFTY SMALLCAP 250",
+   "source": "nse",
+   "tri_kind": "published",
+   "how": "exact",
+   "schemes": 1,
+   "has_series": true
+  },
+  "NIFTY 200 INDEX TR": {
+   "index": "NIFTY 200",
+   "source": "nse",
+   "tri_kind": "published",
+   "how": "exact",
+   "schemes": 1,
+   "has_series": true
+  },
+  "NIFTY 500 MULTICAP 50:25:25 INDEX TR": {
+   "index": "NIFTY500 MULTICAP 50:25:25",
+   "source": "nse",
+   "tri_kind": "published",
+   "how": "exact",
+   "schemes": 1,
+   "has_series": true
+  },
+  "NIFTY INDIA DEFENCE TOTAL RETURN INDEX": {
+   "index": "NIFTY INDIA DEFENCE",
+   "source": "nse",
+   "tri_kind": "published",
+   "how": "exact",
+   "schemes": 2,
+   "has_series": true
+  },
+  "NIFTY INDIA MANUFACTURING TOTAL RETURN INDEX": {
+   "index": "NIFTY INDIA MANUFACTURING",
+   "source": "nse",
+   "tri_kind": "published",
+   "how": "exact",
+   "schemes": 2,
+   "has_series": true
+  },
+  "NIFTY 500 MOMENTUM 50 TOTAL RETURN INDEX": {
+   "index": "NIFTY500 MOMENTUM 50",
+   "source": "nse",
+   "tri_kind": "published",
+   "how": "exact",
+   "schemes": 2,
+   "has_series": true
+  },
+  "BSE TECK TRI": {
+   "index": "BSE TECK",
+   "source": "bse",
+   "tri_kind": "reconstructed",
+   "how": "exact",
+   "schemes": 2,
+   "has_series": true
+  },
+  "NIFTY MIDSMALL FINANCIAL SERVICES TOTAL RETURN INDEX": {
+   "index": "NIFTY MIDSMALL FINANCIAL SERVICES",
+   "source": "nse",
+   "tri_kind": "published",
+   "how": "exact",
+   "schemes": 1,
+   "has_series": true
+  },
+  "NIFTY MIDSMALL INDIA CONSUMPTION TOTAL RETURN INDEX": {
+   "index": "NIFTY MIDSMALL INDIA CONSUMPTION",
+   "source": "nse",
+   "tri_kind": "published",
+   "how": "exact",
+   "schemes": 1,
+   "has_series": true
+  },
+  "NIFTY MIDSMALL HEALTHCARE TOTAL RETURN INDEX": {
+   "index": "NIFTY MIDSMALL HEALTHCARE",
+   "source": "nse",
+   "tri_kind": "published",
+   "how": "exact",
+   "schemes": 1,
+   "has_series": true
+  },
+  "NIFTY MIDSMALL IT AND TELECOM TOTAL RETURN INDEX": {
+   "index": "NIFTY MIDSMALL IT & TELECOM",
+   "source": "nse",
+   "tri_kind": "published",
+   "how": "fuzzy",
+   "schemes": 1,
+   "has_series": true
+  },
+  "NIFTY CAPITAL MARKET TOTAL RETURN INDEX": {
+   "index": "NIFTY CAPITAL MARKETS",
+   "source": "nse",
+   "tri_kind": "published",
+   "how": "fuzzy",
+   "schemes": 2,
+   "has_series": true
+  },
+  "NIFTY 50 ARBITRAGE INDEX TOTAL RETURN INDEX": {
+   "index": "NIFTY 50 ARBITRAGE",
+   "source": "nse",
+   "tri_kind": "published",
+   "how": "exact",
+   "schemes": 1,
+   "has_series": false
+  },
+  "NIFTY INFRASTRUCTURE TOTAL RETURN INDEX": {
+   "index": "NIFTY INFRASTRUCTURE",
+   "source": "nse",
+   "tri_kind": "published",
+   "how": "exact",
+   "schemes": 1,
+   "has_series": true
+  },
+  "NIFTY 50 EQUAL WEIGHT TOTAL RETURN INDEX": {
+   "index": "NIFTY50 EQUAL WEIGHT",
+   "source": "nse",
+   "tri_kind": "published",
+   "how": "exact",
+   "schemes": 1,
+   "has_series": true
+  },
+  "NIFTY NEXT 50 TOTAL RETURN INDEX": {
+   "index": "NIFTY NEXT 50",
+   "source": "nse",
+   "tri_kind": "published",
+   "how": "exact",
+   "schemes": 1,
+   "has_series": true
+  },
+  "BSE INDIA INFRASTRUCTURE TOTAL RETURN INDEX": {
+   "index": "BSE India Infrastructure Index",
+   "source": "bse",
+   "tri_kind": "reconstructed",
+   "how": "exact",
+   "schemes": 1,
+   "has_series": true
+  },
+  "NIFTY SERVICES SECTOR TOTAL RETURN INDEX": {
+   "index": "NIFTY SERVICES SECTOR",
+   "source": "nse",
+   "tri_kind": "published",
+   "how": "exact",
+   "schemes": 2,
+   "has_series": true
+  },
+  "NIFTY PSE TOTAL RETURN INDEX": {
+   "index": "NIFTY PSE",
+   "source": "nse",
+   "tri_kind": "published",
+   "how": "exact",
+   "schemes": 1,
+   "has_series": true
+  },
+  "NIFTY INDIA TOURISM TOTAL RETURN INDEX": {
+   "index": "NIFTY INDIA TOURISM",
+   "source": "nse",
+   "tri_kind": "published",
+   "how": "exact",
+   "schemes": 1,
+   "has_series": true
+  },
+  "NIFTY MIDCAP 150 MOMENTUM 50 TOTAL RETURN INDEX": {
+   "index": "NIFTY MIDCAP150 MOMENTUM 50",
+   "source": "nse",
+   "tri_kind": "published",
+   "how": "exact",
+   "schemes": 1,
+   "has_series": true
+  },
+  "NIFTY ALPHA 50 TOTAL RETURN INDEX": {
+   "index": "NIFTY ALPHA 50",
+   "source": "nse",
+   "tri_kind": "published",
+   "how": "exact",
+   "schemes": 1,
+   "has_series": true
+  },
+  "BSE 1000 TOTAL RETURN INDEX": {
+   "index": "BSE 1000",
+   "source": "bse",
+   "tri_kind": "reconstructed",
+   "how": "exact",
+   "schemes": 1,
+   "has_series": true
+  },
+  "NIFTY 100 TOTAL RETURN INDEX": {
+   "index": "NIFTY 100",
+   "source": "nse",
+   "tri_kind": "published",
+   "how": "exact",
+   "schemes": 1,
+   "has_series": true
+  },
+  "NIFTY ENERGY TOTAL RETURN INDEX": {
+   "index": "NIFTY ENERGY",
+   "source": "nse",
+   "tri_kind": "published",
+   "how": "exact",
+   "schemes": 1,
+   "has_series": true
+  },
+  "BSE SELECT IPO TOTAL RETURN INDEX": {
+   "index": "BSE SELECT IPO",
+   "source": "bse",
+   "tri_kind": "reconstructed",
+   "how": "exact",
+   "schemes": 1,
+   "has_series": true
+  },
+  "NIFTY MNC TOTAL RETURN INDEX": {
+   "index": "NIFTY MNC",
+   "source": "nse",
+   "tri_kind": "published",
+   "how": "exact",
+   "schemes": 1,
+   "has_series": true
+  },
+  "NIFTY FINANCIAL SERVICES TOTAL RETURN INDEX": {
+   "index": "NIFTY FINANCIAL SERVICES",
+   "source": "nse",
+   "tri_kind": "published",
+   "how": "exact",
+   "schemes": 1,
+   "has_series": true
+  },
+  "BSE TOP 10 BANKS - TRI": {
+   "index": "BSE Top 10 Banks",
+   "source": "bse",
+   "tri_kind": "reconstructed",
+   "how": "exact",
+   "schemes": 1,
+   "has_series": true
+  },
+  "BSE CLEAN ENVIRONMENT TOTAL RETURN INDEX": {
+   "index": "BSE Clean Environment",
+   "source": "bse",
+   "tri_kind": "reconstructed",
+   "how": "exact",
+   "schemes": 1,
+   "has_series": true
+  },
+  "BSE MIDCAP 150 MOMENTUM 30 - TRI": {
+   "index": "BSE Midcap 150 Momentum 30",
+   "source": "bse",
+   "tri_kind": "reconstructed",
+   "how": "exact",
+   "schemes": 1,
+   "has_series": true
+  },
+  "NIFTY METAL - TRI": {
+   "index": "NIFTY METAL",
+   "source": "nse",
+   "tri_kind": "published",
+   "how": "exact",
+   "schemes": 1,
+   "has_series": true
+  },
+  "NIFTY OIL & GAS - TRI": {
+   "index": "NIFTY OIL & GAS",
+   "source": "nse",
+   "tri_kind": "published",
    "how": "exact",
    "schemes": 1,
    "has_series": true
@@ -2071,14 +2519,6 @@
    "how": "exact",
    "schemes": 2,
    "has_series": true
-  },
-  "NIFTY 5 YR BENCHMARK G-SEC INDEX": {
-   "index": "NIFTY 5YR BENCHMARK G-SEC",
-   "source": "nse",
-   "tri_kind": "published",
-   "how": "exact",
-   "schemes": 3,
-   "has_series": false
   },
   "NIFTY PHARMA TRI": {
    "index": "NIFTY PHARMA",
@@ -2256,14 +2696,6 @@
    "schemes": 1,
    "has_series": true
   },
-  "BSE TECK TRI": {
-   "index": "BSE TECK",
-   "source": "bse",
-   "tri_kind": "reconstructed",
-   "how": "exact",
-   "schemes": 2,
-   "has_series": true
-  },
   "NIFTY 10 YR BENCHMARK G-SEC": {
    "index": "NIFTY 10 YR BENCHMARK G-SEC (CLEAN PRICE)",
    "source": "nse",
@@ -2326,14 +2758,6 @@
    "tri_kind": "reconstructed",
    "how": "exact",
    "schemes": 2,
-   "has_series": true
-  },
-  "NIFTY 200 MOMENTUM 30 TRI": {
-   "index": "NIFTY200 MOMENTUM 30",
-   "source": "nse",
-   "tri_kind": "published",
-   "how": "exact",
-   "schemes": 3,
    "has_series": true
   },
   "NIFTY 100 LOW VOLATILITY 30 TRI": {
@@ -3968,390 +4392,6 @@
    "schemes": 1,
    "has_series": true
   },
-  "NIFTY MIDCAP 100 - TRI": {
-   "index": "NIFTY MIDCAP 100",
-   "source": "nse",
-   "tri_kind": "published",
-   "how": "exact",
-   "schemes": 1,
-   "has_series": true
-  },
-  "NIFTY 500 - TRI": {
-   "index": "NIFTY 500",
-   "source": "nse",
-   "tri_kind": "published",
-   "how": "exact",
-   "schemes": 4,
-   "has_series": true
-  },
-  "NIFTY MIDCAP 150 INDEX - TRI": {
-   "index": "NIFTY MIDCAP 150",
-   "source": "nse",
-   "tri_kind": "published",
-   "how": "exact",
-   "schemes": 2,
-   "has_series": true
-  },
-  "NIFTY SMALLCAP 250 INDEX- TRI": {
-   "index": "NIFTY SMALLCAP 250",
-   "source": "nse",
-   "tri_kind": "published",
-   "how": "exact",
-   "schemes": 1,
-   "has_series": true
-  },
-  "NIFTY BANK INDEX- TRI": {
-   "index": "NIFTY BANK",
-   "source": "nse",
-   "tri_kind": "published",
-   "how": "exact",
-   "schemes": 1,
-   "has_series": true
-  },
-  "NIFTY LARGEMIDCAP 250 INDEX - TRI": {
-   "index": "NIFTY LARGEMIDCAP 250",
-   "source": "nse",
-   "tri_kind": "published",
-   "how": "exact",
-   "schemes": 1,
-   "has_series": true
-  },
-  "NIFTY NEXT 50 INDEX- TRI": {
-   "index": "NIFTY NEXT 50",
-   "source": "nse",
-   "tri_kind": "published",
-   "how": "exact",
-   "schemes": 1,
-   "has_series": true
-  },
-  "BSE LOW VOLATILITY TOTAL RETURN INDEX": {
-   "index": "BSE Low Volatility Index",
-   "source": "bse",
-   "tri_kind": "reconstructed",
-   "how": "exact",
-   "schemes": 2,
-   "has_series": true
-  },
-  "BSE FINANCIALS EX BANK 30 - TRI": {
-   "index": "BSE Financials Ex-Banks 30 Index",
-   "source": "bse",
-   "tri_kind": "reconstructed",
-   "how": "fuzzy",
-   "schemes": 1,
-   "has_series": true
-  },
-  "BSE HEALTHCARE - TRI": {
-   "index": "BSE Healthcare",
-   "source": "bse",
-   "tri_kind": "reconstructed",
-   "how": "exact",
-   "schemes": 1,
-   "has_series": true
-  },
-  "BSE ENHANCED VALUE - TRI": {
-   "index": "BSE Enhanced Value Index",
-   "source": "bse",
-   "tri_kind": "reconstructed",
-   "how": "exact",
-   "schemes": 2,
-   "has_series": true
-  },
-  "BSE QUALITY - TRI": {
-   "index": "BSE Quality Index",
-   "source": "bse",
-   "tri_kind": "reconstructed",
-   "how": "exact",
-   "schemes": 2,
-   "has_series": true
-  },
-  "NIFTY MICROCAP 250 TOTAL RETURN INDEX": {
-   "index": "NIFTY MICROCAP 250",
-   "source": "nse",
-   "tri_kind": "published",
-   "how": "exact",
-   "schemes": 1,
-   "has_series": true
-  },
-  "NIFTY 500 TOTAL RETURN INDEX": {
-   "index": "NIFTY 500",
-   "source": "nse",
-   "tri_kind": "published",
-   "how": "exact",
-   "schemes": 7,
-   "has_series": true
-  },
-  "NIFTY 100 TRI INDEX": {
-   "index": "NIFTY 100",
-   "source": "nse",
-   "tri_kind": "published",
-   "how": "exact",
-   "schemes": 1,
-   "has_series": true
-  },
-  "NIFTY REALTY TR INDEX": {
-   "index": "NIFTY REALTY",
-   "source": "nse",
-   "tri_kind": "published",
-   "how": "exact",
-   "schemes": 1,
-   "has_series": true
-  },
-  "NIFTY SMALLCAP 250 TR INDEX": {
-   "index": "NIFTY SMALLCAP 250",
-   "source": "nse",
-   "tri_kind": "published",
-   "how": "exact",
-   "schemes": 1,
-   "has_series": true
-  },
-  "NIFTY 200 INDEX TR": {
-   "index": "NIFTY 200",
-   "source": "nse",
-   "tri_kind": "published",
-   "how": "exact",
-   "schemes": 1,
-   "has_series": true
-  },
-  "NIFTY 500 MULTICAP 50:25:25 INDEX TR": {
-   "index": "NIFTY500 MULTICAP 50:25:25",
-   "source": "nse",
-   "tri_kind": "published",
-   "how": "exact",
-   "schemes": 1,
-   "has_series": true
-  },
-  "NIFTY INDIA DEFENCE TOTAL RETURN INDEX": {
-   "index": "NIFTY INDIA DEFENCE",
-   "source": "nse",
-   "tri_kind": "published",
-   "how": "exact",
-   "schemes": 2,
-   "has_series": true
-  },
-  "NIFTY INDIA MANUFACTURING TOTAL RETURN INDEX": {
-   "index": "NIFTY INDIA MANUFACTURING",
-   "source": "nse",
-   "tri_kind": "published",
-   "how": "exact",
-   "schemes": 2,
-   "has_series": true
-  },
-  "NIFTY 500 MOMENTUM 50 TOTAL RETURN INDEX": {
-   "index": "NIFTY500 MOMENTUM 50",
-   "source": "nse",
-   "tri_kind": "published",
-   "how": "exact",
-   "schemes": 2,
-   "has_series": true
-  },
-  "NIFTY MIDSMALL FINANCIAL SERVICES TOTAL RETURN INDEX": {
-   "index": "NIFTY MIDSMALL FINANCIAL SERVICES",
-   "source": "nse",
-   "tri_kind": "published",
-   "how": "exact",
-   "schemes": 1,
-   "has_series": true
-  },
-  "NIFTY MIDSMALL INDIA CONSUMPTION TOTAL RETURN INDEX": {
-   "index": "NIFTY MIDSMALL INDIA CONSUMPTION",
-   "source": "nse",
-   "tri_kind": "published",
-   "how": "exact",
-   "schemes": 1,
-   "has_series": true
-  },
-  "NIFTY MIDSMALL HEALTHCARE TOTAL RETURN INDEX": {
-   "index": "NIFTY MIDSMALL HEALTHCARE",
-   "source": "nse",
-   "tri_kind": "published",
-   "how": "exact",
-   "schemes": 1,
-   "has_series": true
-  },
-  "NIFTY MIDSMALL IT AND TELECOM TOTAL RETURN INDEX": {
-   "index": "NIFTY MIDSMALL IT & TELECOM",
-   "source": "nse",
-   "tri_kind": "published",
-   "how": "fuzzy",
-   "schemes": 1,
-   "has_series": true
-  },
-  "NIFTY CAPITAL MARKET TOTAL RETURN INDEX": {
-   "index": "NIFTY CAPITAL MARKETS",
-   "source": "nse",
-   "tri_kind": "published",
-   "how": "fuzzy",
-   "schemes": 2,
-   "has_series": true
-  },
-  "NIFTY 50 ARBITRAGE INDEX TOTAL RETURN INDEX": {
-   "index": "NIFTY 50 ARBITRAGE",
-   "source": "nse",
-   "tri_kind": "published",
-   "how": "exact",
-   "schemes": 1,
-   "has_series": false
-  },
-  "NIFTY INFRASTRUCTURE TOTAL RETURN INDEX": {
-   "index": "NIFTY INFRASTRUCTURE",
-   "source": "nse",
-   "tri_kind": "published",
-   "how": "exact",
-   "schemes": 1,
-   "has_series": true
-  },
-  "NIFTY 50 EQUAL WEIGHT TOTAL RETURN INDEX": {
-   "index": "NIFTY50 EQUAL WEIGHT",
-   "source": "nse",
-   "tri_kind": "published",
-   "how": "exact",
-   "schemes": 1,
-   "has_series": true
-  },
-  "NIFTY NEXT 50 TOTAL RETURN INDEX": {
-   "index": "NIFTY NEXT 50",
-   "source": "nse",
-   "tri_kind": "published",
-   "how": "exact",
-   "schemes": 1,
-   "has_series": true
-  },
-  "BSE INDIA INFRASTRUCTURE TOTAL RETURN INDEX": {
-   "index": "BSE India Infrastructure Index",
-   "source": "bse",
-   "tri_kind": "reconstructed",
-   "how": "exact",
-   "schemes": 1,
-   "has_series": true
-  },
-  "NIFTY SERVICES SECTOR TOTAL RETURN INDEX": {
-   "index": "NIFTY SERVICES SECTOR",
-   "source": "nse",
-   "tri_kind": "published",
-   "how": "exact",
-   "schemes": 2,
-   "has_series": true
-  },
-  "NIFTY PSE TOTAL RETURN INDEX": {
-   "index": "NIFTY PSE",
-   "source": "nse",
-   "tri_kind": "published",
-   "how": "exact",
-   "schemes": 1,
-   "has_series": true
-  },
-  "NIFTY INDIA TOURISM TOTAL RETURN INDEX": {
-   "index": "NIFTY INDIA TOURISM",
-   "source": "nse",
-   "tri_kind": "published",
-   "how": "exact",
-   "schemes": 1,
-   "has_series": true
-  },
-  "NIFTY MIDCAP 150 MOMENTUM 50 TOTAL RETURN INDEX": {
-   "index": "NIFTY MIDCAP150 MOMENTUM 50",
-   "source": "nse",
-   "tri_kind": "published",
-   "how": "exact",
-   "schemes": 1,
-   "has_series": true
-  },
-  "NIFTY ALPHA 50 TOTAL RETURN INDEX": {
-   "index": "NIFTY ALPHA 50",
-   "source": "nse",
-   "tri_kind": "published",
-   "how": "exact",
-   "schemes": 1,
-   "has_series": true
-  },
-  "BSE 1000 TOTAL RETURN INDEX": {
-   "index": "BSE 1000",
-   "source": "bse",
-   "tri_kind": "reconstructed",
-   "how": "exact",
-   "schemes": 1,
-   "has_series": true
-  },
-  "NIFTY 100 TOTAL RETURN INDEX": {
-   "index": "NIFTY 100",
-   "source": "nse",
-   "tri_kind": "published",
-   "how": "exact",
-   "schemes": 1,
-   "has_series": true
-  },
-  "NIFTY ENERGY TOTAL RETURN INDEX": {
-   "index": "NIFTY ENERGY",
-   "source": "nse",
-   "tri_kind": "published",
-   "how": "exact",
-   "schemes": 1,
-   "has_series": true
-  },
-  "BSE SELECT IPO TOTAL RETURN INDEX": {
-   "index": "BSE SELECT IPO",
-   "source": "bse",
-   "tri_kind": "reconstructed",
-   "how": "exact",
-   "schemes": 1,
-   "has_series": true
-  },
-  "NIFTY MNC TOTAL RETURN INDEX": {
-   "index": "NIFTY MNC",
-   "source": "nse",
-   "tri_kind": "published",
-   "how": "exact",
-   "schemes": 1,
-   "has_series": true
-  },
-  "NIFTY FINANCIAL SERVICES TOTAL RETURN INDEX": {
-   "index": "NIFTY FINANCIAL SERVICES",
-   "source": "nse",
-   "tri_kind": "published",
-   "how": "exact",
-   "schemes": 1,
-   "has_series": true
-  },
-  "BSE TOP 10 BANKS TOTAL RETURN INDEX": {
-   "index": "BSE Top 10 Banks",
-   "source": "bse",
-   "tri_kind": "reconstructed",
-   "how": "exact",
-   "schemes": 1,
-   "has_series": true
-  },
-  "BSE CLEAN ENVIRONMENT TOTAL RETURN INDEX": {
-   "index": "BSE Clean Environment",
-   "source": "bse",
-   "tri_kind": "reconstructed",
-   "how": "exact",
-   "schemes": 1,
-   "has_series": true
-  },
-  "BSE MIDCAP 150 MOMENTUM 30 TOTAL RETURN INDEX": {
-   "index": "BSE Midcap 150 Momentum 30",
-   "source": "bse",
-   "tri_kind": "reconstructed",
-   "how": "exact",
-   "schemes": 1,
-   "has_series": true
-  },
-  "NIFTY METAL TOTAL RETURN INDEX": {
-   "index": "NIFTY METAL",
-   "source": "nse",
-   "tri_kind": "published",
-   "how": "exact",
-   "schemes": 1,
-   "has_series": true
-  },
-  "NIFTY OIL & GAS TOTAL RETURN INDEX": {
-   "index": "NIFTY OIL & GAS",
-   "source": "nse",
-   "tri_kind": "published",
-   "how": "exact",
-   "schemes": 1,
-   "has_series": true
-  },
   "BSE 250 Large & Mid Cap TRI": {
    "index": "BSE 250 LargeMidCap Index",
    "source": "bse",
@@ -4556,11 +4596,11 @@
  "unresolved": {
   "changed from NIFTY Banking": 1,
   "NIFTY 50 Midcap Index TRI": 1,
+  "S&P DEVELOPED EX-U.S. BMI TOTAL RETURN INDEX": 1,
   "NIFTY 500_TRI": 1,
   "NIFTY Banking and PSU Debt Index A-II": 1,
   "Nifty Banking and PSU Debt Index A-II": 1,
   "CRSP US Total Market Index": 1,
-  "S&P DEVELOPED EX-U.S. BMI TOTAL RETURN INDEX": 1,
   "Nifty Conglomerate 50 Total": 1,
   "Domestic Price of Physical": 1,
   "NIFTY SDL": 1,
@@ -4575,12 +4615,12 @@
   "NIFTY SmallCap 250 index (TRI))Riskometer": 1
  },
  "buckets": {
-  "MAPPED bse exact": 220,
-  "MAPPED nse exact": 1031,
-  "composite blend (synthesise from legs)": 86,
+  "MAPPED bse exact": 222,
+  "MAPPED nse exact": 1044,
+  "composite blend (synthesise from legs)": 87,
   "commodity price (not an index)": 81,
   "international index": 61,
-  "CRISIL (licensed)": 332,
+  "CRISIL (licensed)": 333,
   "NIFTY debt/ES tier (absent from NSE catalogue)": 170,
   "MAPPED nse fuzzy": 13,
   "BSE family (no match in the BSE catalogue)": 5,
