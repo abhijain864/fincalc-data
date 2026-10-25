@@ -8,7 +8,13 @@ name: Refresh portfolio tables
 # AMCs file with SEBI, plus AMFI for expense ratios and NSE for benchmark series.
 #
 # MONTHLY, not weekly: SEBI's deadline is 10 days after month end, so anything
-# more frequent just re-reads the same filing. Runs on the 12th for buffer.
+# more frequent just re-reads the same filing. Runs on the 17th, not the 12th:
+# the AMCs file on time (PPFAS 7 Oct, LIC 9 Oct) but Advisorkhoj -- still our
+# only source for ICICI, SBI, Kotak, Axis, DSP, UTI and others -- had August for
+# ~25 AMCs on 14 Oct and September by the 18th.
+#
+# Anything a run cannot fetch is carried from the last published table with its
+# own month (build_portfolios.py --previous), so a missed AMC is stale, not gone.
 #
 # Pack URLs are month-specific, so discovery is step 1 of every run -- a
 # committed registry is stale the moment a new month is filed.
@@ -30,7 +36,7 @@ name: Refresh portfolio tables
 
 on:
   schedule:
-    - cron: "0 5 12 * *"        # 12th, 05:00 UTC -- after the 10-day SEBI deadline
+    - cron: "0 5 17 * *"        # 17th, 05:00 UTC -- a week past the 10-day SEBI deadline
   workflow_dispatch:
     inputs:
       limit:
@@ -272,7 +278,8 @@ jobs:
           [ "$LIMIT" != "0" ] && ARGS="--limit $LIMIT"
           uv run --with-editable . --with openpyxl --with xlrd \
             python scripts/build_portfolios.py $ARGS \
-            --archive-dir "$GITHUB_WORKSPACE/archive"
+            --archive-dir "$GITHUB_WORKSPACE/archive" \
+            --previous "$GITHUB_WORKSPACE/portfolios.min.json.gz"
 
       # Supplementary tables: neither may sink a good portfolio build. AMFI and
       # NSE both refuse connections from some runner IPs, and a single flaky
